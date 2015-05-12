@@ -1,0 +1,214 @@
+/*
+Template Design I 2015
+Author: Michael Edelstone
+edelstone@txstate.edu or michael.edelstone@gmail.com
+*/
+
+/* (Default) */
+
+html {font-size: 100%; position: relative; min-height: 100%;}
+body {height: auto; min-height: 100%;}
+h1 {font-size: 2.2rem; line-height: 45px; padding: 20px 15px 10px 18px;}
+h2 {margin: .5rem auto; color: #363534;}
+.column {padding-left: 1rem; padding-right: 1rem;}
+.float_left {float: left;}
+.float_right {float: right;}
+.header, .header_2 {min-height: 80px; padding: 1rem 0;}
+.dept_name, .title {position: relative;}
+.hide, .header_bg, .bg_overlay, .bg_video, .bg_image, .bg_image_2, .messaging, .main_nav, .gallery_link {display: none;}
+.condensed_nav a {padding: 1rem; width: 100%; text-align: center;}
+.menu_title {margin: auto 8px; text-transform: uppercase;}
+.global_footer_main {padding: 1rem 0;}
+.txst_logo {margin: 2rem auto 3rem auto;}
+.align_1 {text-align: right; border-right: 1px solid #636363; padding: 0 0.6rem 0 0.2rem;}
+.align_2 {text-align: right; border-left: none; padding: 0 1rem 0 0.2rem;}
+.align_3 {text-align: left; border-left: 1px solid #636363; padding: 0 0.2rem 0 1rem;}
+.tsus_logo {margin: 1.5rem auto auto auto;}
+.footer_logo.third, .footer_links.third {width: 100% !important;}
+.side_nav {margin: -1rem -1rem 1.5rem -1rem;}
+.side_nav_list a, .side_nav_header {margin-bottom: 0; padding: 0.5rem 0.7rem; font-size: 95%;}
+ 
+ /* (Handheld) */
+
+@media handheld {
+.bg_video {display: none !important;}
+}
+@media handheld and (min-width: 64rem) {
+.bg_image, .bg_image_2 {display: block !important;}
+}
+
+/* (640px and up) */
+
+@media (min-width: 40rem) {
+html {font-size: 110%;}
+.column {float: left;}
+.column.full {width: 100%;}
+.column.two-thirds {width: 66.7%;}
+.column.half {width: 50%;}
+.column.third {width: 33.3%;}
+.column.fourth {width: 25%;}
+.column.flow-opposite {float: right;}
+.header {min-height: 350px; padding: 0;}
+.header_2 {min-height: 250px; padding: 0;}
+h1 {line-height: 60px; padding: 15px 15px 5px 18px;}
+h2 {margin-top: 1rem;}
+.dept_name, .title {position: absolute;}
+.condensed_nav {display: none;}
+.main_nav {margin: auto; display: block;}
+.main_nav a {padding: 1rem; margin: auto; width: auto; border: none; text-align: center; min-width: 20%;}
+.bg_overlay, .bg_image, .bg_image_2 {display: block;}
+.messaging {display: block;}
+.messaging_title {padding: 4.5rem 1rem 2rem 1rem; font-size: 4.5rem;}
+.side_nav {margin: auto; margin-top: 1.3rem;}
+.side_nav_list a, .side_nav_header {margin-bottom: 8px; padding: 0.3rem 0.7rem; font-size: 85%;}
+.main_text, .main_nav {font-size: 95%;}
+}
+
+/* (800px and up) */
+
+@media (min-width: 50rem) {
+h1 {font-size: 2.4rem;}
+.hide {display: block;}
+.global_footer_main {padding: 3rem 0 0 0;}
+.txst_logo {margin: 1.5rem auto auto auto;}
+.align_2 {text-align: left; border-left: 1px solid #646363; padding: 0 0.2rem 0 0.6rem;}
+.align_3 {padding: 0 0.2rem 0 0.6rem;}
+.tsus_logo {margin: 0.5rem auto auto auto;}
+.footer_logo.third, .footer_links.third {width: 33% !important;}
+.main_nav a {margin: auto 0; text-align: left; min-width: 0;}
+}
+
+/* (1024px and up) */
+
+@media (min-width: 64rem) {
+html {font-size: 120%;}
+.header {min-height: 400px;}
+.bg_image {display: none;}
+.bg_video {display: inline-block; margin-top: -125px;}
+.align_1, .align_2, .align_3 {padding: 0 1rem;}
+.messaging_title {padding: 5.4rem 1rem 2.2rem 1rem; font-size: 5rem;}
+.side_nav {margin-left: 0;}
+}
+
+/* (1280px and up) */
+
+@media (min-width: 80rem) {
+}
+
+/* (1440px and up) */
+
+@media (min-width: 90rem) {
+}
+
+/* General */
+
+*, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.clearfix:before, .clearfix:after {content: " "; display: table;}
+.clearfix:after {clear: both;}
+.clearfix {*zoom: 1;}
+body {font-family: 'Univers W01'; font-weight: 100; text-rendering: optimizeLegibility;}
+a, a:link, a:visited {color: #501214; text-decoration: none;}
+a:hover, a:active {text-decoration: none;}
+a, li, .std_transition {transition: all 0.1s ease-in-out; -webkit-transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; -o-transition: all 0.1s ease-in-out;}
+.fast_transition, a:after, a:before {transition: all 0.1s ease-in-out; -webkit-transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; -o-transition: all 0.1s ease-in-out;}
+.no_transition {transition: none; -webkit-transition: none; -moz-transition: none; -o-transition: none;}
+h1, .office_name {font-family: 'Adobe Garamond W01'; font-weight: 400; letter-spacing: 1px;}
+h1 a {color: #FFFFFF !important;}
+h2 {font-size: 2rem; letter-spacing: 0.05rem; text-transform: uppercase; font-weight: 500;}
+.tight_header {margin-bottom: 0;}
+p, ul, ol, table {line-height: 1.5rem;}
+.medium_em {font-weight: 400;}
+.bold_em {font-weight: 700;}
+.slant_em {font-style: italic;}
+.caps {text-transform: uppercase;}
+.kern_1 {margin-right: -2px;}
+img, img:hover {-moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; backface-visibility: hidden; transform: translate3d(0px,0px,0px);}
+
+/* Header */
+
+.banner {background: #C1B69A; background-repeat: repeat-x; text-align: center; height: 66px; position: relative; overflow: hidden;}
+.bg_container {background: #501214; position: absolute; z-index: 0; width: 100%; height: 100%;}
+.bg_image {opacity: 0; position: absolute; margin-top: -50px; height: 150%; width: 100%; background: #501214 url("../images/poster_shepard.jpg") no-repeat 50% 0; background-size: cover;}
+.bg_image_2 {opacity: 0; position: absolute; margin-top: -50px;height: 150%; width: 100%; background: #501214 url("../images/work_5.jpg") no-repeat 50% 55%; background-size: cover;}
+.bg_video_container {position: absolute; height: 100%; width: 100%;}
+.bg_video {opacity: 0; position: absolute; left: 0; top: 0; min-height: 100%; width: 100%; height: auto; z-index: -1;}
+.overlay {position: absolute; height: 100%; width: 100%;}
+.bg_overlay {background: #501214; position: absolute; width: 100%; height: 100%; opacity: .5;}
+.messaging {font-weight: 200; color: #FFFFFF; position: relative; max-width: 1000px; min-height: 100%; text-align: center; text-transform: uppercase; margin: auto;}
+.messaging_title {opacity: 0; margin: 0; position: relative; top: .5rem; letter-spacing: 10px;}
+.messaging_btn {font-size: 2rem; opacity: 0;}
+.messaging_btn a {color: #FFFFFF; letter-spacing: 5px; border: 2px solid #FFFFFF; padding: 13px 10px 10px 20px;}
+.messaging_btn a:hover {background: #6B5631;}
+.play {font-size: 65%; margin-left: 7px; vertical-align: top;} 
+.header, .header_2 {position: relative; overflow: hidden !important; background: #501214;}
+.title {min-height: 80px; width: 100%; bottom: 0; margin: auto;}
+.dept_name {left: 0; bottom: 0; right: 0;}
+h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; background: #501214; background: rgba(80, 18, 20, 0.9);}
+
+/* Top Navigation */
+
+.main_nav, .condensed_nav {max-width: 1000px; background: #E8E3DB;}
+.main_nav a, .condensed_nav a {color: #222222; display: inline-block; font-weight: 300; font-size: 95%; border-right: 1px solid #DDD5C9; border-left: 1px solid #F4F1ED;}
+.main_nav a:first-child, .condensed_nav a:first-child {border-left: none;}
+.main_nav a:last-child, .condensed_nav a:last-child {border-right: none;}
+.main_nav a:hover, .condensed_nav a:hover {color: #6B5631; -moz-box-shadow: inset 0 -6px 0 0 #6B5631; -webkit-box-shadow: inset 0 -6px 0 0 #6B5631; box-shadow: inset 0 -6px 0 0 #6B5631; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;}
+.main_nav .fa-caret-down {color: #222222; position: relative; left: 3px; font-size: 80%;}
+.main_nav a:hover .fa-caret-down {color: #6B5631;}
+
+/* Side Navigation */
+
+.side_nav_list {list-style-type: none; padding-left: 0; margin: 0;}
+.side_nav_header {color: #FFFFFF; background-color: #6B5631; margin-top: 0; font-weight: 100; line-height: 1.5rem;}
+.side_nav_list a {display: block;}
+.side_nav_list a {color: #222222; background-color: #F0F0F0; border-bottom: 1px solid #E0E0E0;}
+.side_nav_list a:hover {color: #6B5631;}
+.side_nav_list a:before, .selected_side:before {font-family: FontAwesome; content: "\f105"; color: #6B5631; opacity: 0; margin-left: -0.7rem; margin-top: .05rem; float: left;}
+.side_nav_list a:hover:before, .selected_side:before {opacity: 1 !important;}
+.selected_side {color: #6B5631 !important;}
+
+/* Body */
+
+.page_content {max-width: 1000px; margin: auto; padding: 1rem 0 1.5rem 0; overflow: hidden; min-height: 32rem;}
+.main_text {padding-bottom: .5rem;}
+.main_text a {padding: 1px 3px; margin: -1px -3px; color: #015E8F; text-decoration: underline;}
+.main_text a:hover {background: #E8E3DB;}
+.top_services {margin: 0; font-weight: 200; font-size: 2rem; letter-spacing: 0.13rem; text-transform: uppercase; line-height: 2rem;}
+.top_services div {margin: 1.2rem 0;}
+.top_services a {color: #FFFFFF; padding: 2.5rem 1rem 2.1rem 1rem; background: #6B5631; display: block; text-align: center; border-radius: 4px; border-bottom: 3px solid #715C3B;}
+.top_services a:hover {background: #7A6742; background: rgba(107, 86, 49, 0.85);}
+.service_1 {background: url('../images/pencils.jpg') no-repeat; background-size: cover; border-radius: 4px;}
+.service_2 {background: url('../images/camera.jpg') no-repeat; background-size: cover; border-radius: 4px;}
+.service_3 {background: url('../images/bobcat.jpg') no-repeat; background-size: cover; background-position: 100% 60%; border-radius: 4px;}
+
+/* Footer */
+
+.footer {background: #363534; width: 100%; color: #CCCCCC;}
+.footer_row {max-width: 1000px; margin: auto;}
+.footer a {color: #CCCCCC;}
+.footer a:hover {color: #FFFFFF;}
+.dept_footer {border-bottom: 1px solid #0F0F0F; color: #DDDDDD;}
+.dept_footer_content {text-align: center; padding: .8rem; letter-spacing: 1px;}
+.dept_footer_content a {text-decoration: none; color: #DDDDDD;}
+.dept_footer_content a:hover {text-decoration: underline; color: #DDDDDD;}
+.office_name {font-size: 1.3rem; margin-bottom: 0;}
+.office_details {font-size: .7rem; margin: .5rem auto 1.5rem auto; line-height: 1rem; list-style: none; padding: 0; max-width: 480px;}
+.global_footer {border-top: 1px solid #4A4A4A; padding-bottom: 2rem; margin: auto; position: relative; z-index: 1; background: #2E2A26; background: rgba(13, 8, 2, 0.5);}
+.global_footer:after {background: url('../images/panorama.jpg'); background-repeat: no-repeat; background-size: cover; opacity: 0.15; top: 0; bottom: 0; left: 0; right: 0; position: absolute; z-index: -1; content: ""; background-position: 80% 0;}
+.global_footer_main {max-width: 1440px;}
+.footer_logo {text-align: center;}
+.footer_logo a {opacity: .8; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;}
+.footer_logo a:hover {opacity: 1;}
+.txst_logo {max-width: 260px;}
+.txst_logo img {width: 100%; height: auto;}
+.tsus_logo {max-width: 360px; padding: 0 1rem;}
+.tsus_logo img {width: 100%; height: auto;}
+.link_group {float: left; width: 50%; letter-spacing: 1px; font-size: .7rem; line-height: 1.4rem;}
+.footer_links ul {list-style: none; margin: 0; padding: 0; line-height: 1.4rem;}
+.list_header {text-transform: uppercase; font-weight: 400; margin-bottom: 0.5rem; color: #E7E7E7; font-size: 0.7rem; margin-top: 0; letter-spacing: 2px;}
+.footer_links a {padding: 5px; margin: -5px;}
+.footer_links a:hover, ul.font_icons a:hover {background: #111111; background: rgba(0, 0, 0, 0.4);}
+.global_footer_lower {padding: 2rem 0;}
+.footer_social {text-align: center; padding: 0 2rem;}
+.font_icons {display: inline-block; list-style-type: none; padding: 0; margin: 0; text-align: center; font-size: 1rem; line-height: 2rem;}
+.font_icons li {display: inline-block; margin: 0 0.45rem;}
+.font_icons a {padding: 8px; margin: -8px; border-radius: 8px;}

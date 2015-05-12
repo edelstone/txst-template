@@ -20,7 +20,7 @@
 <script src="js/lightbox.js"></script>
 </head>
 
-<body class="umktg_primary">
+<body class="umktg_secondary">
 
 <div class="container">
 
@@ -30,17 +30,15 @@
 		
 	</div> -->
 
-	<div class="header">
+	<div class="header_2">
 
 		<div class="bg_container">
 		
-			<div class="bg_image"></div>
-			
+			<div class="bg_image_2"></div>
+						
 			<script type='text/javascript'>
 				$(window).load(function(){
-					$(".bg_video, .bg_image").delay(1200).animate({opacity: "1"}, 1200);
-					$(".messaging_title").animate({opacity: "1", top: "0"}, 1000);
-					$(".messaging_btn").delay(1200).animate({opacity: "1"}, 1200);
+					$(".bg_image_2").delay(0).animate({opacity: "1"}, 500);
 				});
 	
 				$(window).scroll(function(e){
@@ -48,28 +46,13 @@
 				});
 				function parallax(){
 					var scrolled = $(window).scrollTop();
-					$(".bg_video, .bg_image").css("top",(scrolled*.6)+"px");
+					$(".bg_image_2").css("top",(scrolled*.6)+"px");
 				}
-				$(document).ready(function(){
-					$('a').nivoLightbox();
-				});
 			</script>
-			
-			<div class="bg_video_container">
-				<video muted autoplay loop poster="images/poster_shepard.jpg" class="bg_video">
-				<source src="video/shepard.webm" type="video/webm">
-				<source src="video/shepard.mp4" type="video/mp4">
-				</video>
-			</div>
 			
 			<div class="overlay">
 			
 				<div class="bg_overlay"></div>
-				
-				<div class="messaging">
-					<p class="messaging_title">Telling Our Stories</p>
-					<p class="messaging_btn"><a href="https://www.youtube.com/watch?v=YcJsavwvIwo" data-lightbox-gallery="gallery1" class="primary_link">Play Video <i class="fa fa-play play"></i></a><a href="https://www.youtube.com/watch?v=87FnwtlpctU" data-lightbox-gallery="gallery1" class="gallery_link"></a><a href="http://vimeo.com/114181945" data-lightbox-gallery="gallery1" class="gallery_link"></a></p>
-				</div>
 				
 			</div>
 			
@@ -79,7 +62,7 @@
 		
 			<div class="header_bg"></div>
 			<div class="dept_name">
-				<h1><a href="#nowhere">Office of <span class="kern_1">U</span>niversity Marketing</a></h1>
+				<h1><a href="home-2.html">Office of <span class="kern_1">U</span>niversity Marketing</a></h1>
 			</div>
 			
 		</div>
@@ -92,35 +75,47 @@
 			<a href="#nowhere"><i class="fa fa-bars fa-lg"></i> <span class="menu_title medium_em">Menu</span></a>
 		</nav>
 		<nav class="main_nav">
-			<a href="#nowhere">About Us <i class="fa fa-caret-down"></i></a><a href="secondary-2.html">Services <i class="fa fa-caret-down"></i></a><a href="#nowhere">Our Brand <i class="fa fa-caret-down"></i></a><a href="#nowhere">Resources <i class="fa fa-caret-down"></i></a><a href="#nowhere">Contact</a>
+			<a href="#nowhere">About Us <i class="fa fa-caret-down std_transition"></i></a><a href="#nowhere">Services <i class="fa fa-caret-down std_transition"></i></a><a href="#nowhere">Our Brand <i class="fa fa-caret-down std_transition"></i></a><a href="#nowhere">Resources <i class="fa fa-caret-down std_transition"></i></a><a href="#nowhere">Contact</a>
 		</nav>
 		
 	</div> <!-- end top_navigation -->
 	
 	<div class="page_content">
+		
+		<div class="side_nav column third">
+			
+			<h3 class="side_nav_header">Services</h3>
+			<ul class="side_nav_list">
+				<li><a href="#nowhere" class="fast_transition">Graphic Design</a></li>
+				<li><a href="#nowhere" class="fast_transition">Photography</a></li>
+				<li><a href="#nowhere" class="fast_transition selected_side">Writing &amp; Editing</a></li>
+				<li><a href="#nowhere" class="fast_transition">Web &amp; Print Review</a></li>
+				<li><a href="#nowhere" class="fast_transition">Request Our Services</a></li>
+			</ul>
+		
+		</div>
 	
-		<div class="column full">
+		<div class="column two-thirds flow-opposite">
 		
-			<h2>Our Brand and Stuff</h2>
+			<h2 class="tight_header">Writing &amp; Editing</h2>
 			
 		</div>
 		
-		<div class="column two-thirds main_text">
+		<div class="column two-thirds flow-opposite main_text">
 					
-			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis <b>parturient montes</b>, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
 			
-			<p><span class="slant_em">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu</span>. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
+			<ul>
+				<li><a href="#nowhere">Graphic Design</a></li>
+				<li><a href="#nowhere">Photography</a></li>
+				<li><a href="#nowhere">Writing and Editing</a></li>
+				<li><a href="#nowhere">Web and Print Review</a></li>
+			</ul>
 			
-			<p><span class="medium_em">Aenean leo ligula</span>, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
+			<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
 			
-			<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. <a href="#nowhere">Nullam dictum felis eu pede mollis pretium</a>. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.</p>
+			<p>Aenean porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet at 512.555.1555 or <a href="#nowhere">umktg@txstate.edu</a>.</p>
 			
-		</div>
-		
-		<div class="column third top_services">
-			<div class="service_1"><a href="#nowhere">Creative Services Request</a></div>
-			<div class="service_2"><a href="#nowhere">Photo Services Request</a></div>
-			<div class="service_3"><a href="#nowhere">Texas State Logos</a></div>
 		</div>
 
 		<div class="clearfix"></div>
