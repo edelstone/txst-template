@@ -55,7 +55,7 @@ h2 {margin-top: 1rem;}
 .dept_name, .title {position: absolute;}
 .condensed_nav {display: none;}
 .main_nav {margin: auto; display: block;}
-.main_nav a {padding: 1rem; margin: auto; width: auto; border: none; text-align: center; min-width: 20%;}
+.main_nav a {padding: .81rem; margin: auto; width: auto; border: none; text-align: center; min-width: 20%;}
 .bg_overlay, .bg_image, .bg_image_2 {display: block;}
 .messaging {display: block;}
 .messaging_title {padding: 4.5rem 1rem 2rem 1rem; font-size: 4.5rem;}
@@ -147,13 +147,15 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 
 /* Top Navigation */
 
-.main_nav, .condensed_nav {max-width: 1000px; background: #E8E3DB;}
+.main_nav, .condensed_nav {max-width: 1000px; background: #E8E3DB; border-bottom: 1px solid #DDD5C9; border-left: 1px solid #DDD5C9; border-right: 1px solid #DDD5C9;}
 .main_nav a, .condensed_nav a {color: #222222; display: inline-block; font-weight: 300; font-size: 95%; border-right: 1px solid #DDD5C9; border-left: 1px solid #F4F1ED;}
 .main_nav a:first-child, .condensed_nav a:first-child {border-left: none;}
 .main_nav a:last-child, .condensed_nav a:last-child {border-right: none;}
 .main_nav a:hover, .condensed_nav a:hover {color: #6B5631; -moz-box-shadow: inset 0 -6px 0 0 #6B5631; -webkit-box-shadow: inset 0 -6px 0 0 #6B5631; box-shadow: inset 0 -6px 0 0 #6B5631; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;}
 .main_nav .fa-caret-down {color: #222222; position: relative; left: 3px; font-size: 80%;}
 .main_nav a:hover .fa-caret-down {color: #6B5631;}
+.top_nav.scroll-to-fixed-fixed {background: #E8E3DB; border-bottom: 2px solid #6B5631;}
+.scroll-to-fixed-fixed .main_nav {border-color: #E8E3DB; border-bottom: none;}
 
 /* Side Navigation */
 

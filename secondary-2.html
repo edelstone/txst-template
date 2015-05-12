@@ -14,6 +14,7 @@
 <link rel="stylesheet" type="text/css" href="css/lightbox.css">
 <link rel="stylesheet" type="text/css" href="css/template-2.css">
 <script src="//code.jquery.com/jquery-latest.min.js"></script>
+<script src="//bigspotteddog.github.io/ScrollToFixed/jquery-scrolltofixed-min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
 <script src="//api.html5media.info/1.1.8/html5media.min.js"></script>
@@ -48,6 +49,9 @@
 					var scrolled = $(window).scrollTop();
 					$(".bg_image_2").css("top",(scrolled*.6)+"px");
 				}
+				$(document).ready(function() {
+  					$('.top_nav').scrollToFixed();
+				});
 			</script>
 			
 			<div class="overlay">
