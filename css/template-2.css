@@ -1,5 +1,5 @@
 /*
-Template Design I 2015
+Template Design II 2015
 Author: Michael Edelstone
 edelstone@txstate.edu or michael.edelstone@gmail.com
 */
@@ -151,14 +151,13 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 
 .top_nav {background: #E8E3DB; border-bottom: 1px solid #BBAB92;}
 .nav, .condensed_nav {max-width: 1000px; background: #E8E3DB;}
-.top_nav.scroll-to-fixed-fixed {background: #E8E3DB; border-bottom: 2px solid #6B5631; -moz-box-shadow: 0px 5px 20px -8px #363534; -webkit-box-shadow: 0px 5px 20px -8px #363534; box-shadow: 0px 5px 20px -8px #363534;}
-.scroll-to-fixed-fixed .nav {border-color: #E8E3DB; border-bottom: none;}
+.top_nav.scroll-to-fixed-fixed {background: #E8E3DB; border-bottom: 2px solid #6B5631;}
 .primary_nav {margin: 0; padding: 0; display: flex;}
-.primary_nav li {color: red;position: relative; list-style-type: none; border-right: 1px solid #DDD5C9; border-left: 1px solid #F4F1ED;}
+.primary_nav li {position: relative; list-style-type: none; border-right: 1px solid #DDD5C9; border-left: 1px solid #F4F1ED;}
 .primary_nav a, .secondary_nav a, .condensed_nav a {color: #222222; display: flex; font-weight: 300; font-size: 95%;}
 .primary_nav li:first-child, .condensed_nav a:first-child {border-left: none;}
 .primary_nav li:last-child, .condensed_nav a:last-child {border-right: none;}
-.primary_nav li:hover, .condensed_nav a:hover {color: #FFFFFF; background: #6B5631; /*-moz-box-shadow: inset 0 -6px 0 0 #6B5631; -webkit-box-shadow: inset 0 -6px 0 0 #6B5631; box-shadow: inset 0 -6px 0 0 #6B5631;*/}
+.primary_nav li:hover, .condensed_nav a:hover {color: #FFFFFF; background: #6B5631;}
 .primary_nav li:hover a {color: #FFFFFF;}
 .primary_nav .fa-caret-down {color: #222222; position: relative; left: 3px; font-size: 80%; display: none;}
 .primary_nav a:hover .fa-caret-down {color: #6B5631;}
@@ -167,14 +166,14 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 
 .primary_nav li:hover .secondary_nav {display: block; opacity: 1; visibility: visible;}
 .scroll-to-fixed-fixed .secondary_nav {border: 2px solid #6B5631;}
-.secondary_nav {border: 1px solid #BBAB92; padding: 2px 0; position: absolute; top: 100%; left: 0; width: 100%; min-width: 200px; display: none; opacity: 0; visibility: hidden; background: #E8E3DB;}
+.secondary_nav {border: 1px solid #BBAB92; padding: 0; position: absolute; top: 100%; left: 0; width: 100%; min-width: 220px; display: none; opacity: 0; visibility: hidden; background: #E8E3DB;}
 .secondary_nav li {border: none;}
-.secondary_nav a {padding: .4rem .7rem; color: #222222 !important; line-height: 1.4rem; border-bottom: 1px solid #DDD5C9; border-top: 1px solid #F4F1ED;}
+.secondary_nav a {padding: .4rem .65rem; color: #222222 !important; line-height: 1.4rem; border-bottom: 1px solid #DDD5C9; border-top: 1px solid #F4F1ED;}
 .secondary_nav li:first-child a {border-top: none;}
 .secondary_nav li:last-child a {border-bottom: none;}
 .secondary_nav li:hover {background: none; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;}
 .secondary_nav li:hover a {color: #222222;}
-.secondary_nav a:hover {background: none; text-decoration: underline; color: #6B5631 !important;}
+.secondary_nav a:hover {background: #DDD5C9;}
 
 /* Side Navigation */
 
