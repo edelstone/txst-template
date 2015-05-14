@@ -149,11 +149,25 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 
 /* Primary */
 
-.top_nav {background: #E8E3DB; border-bottom: 1px solid #BBAB92;}
-.nav, .condensed_nav {max-width: 1000px; background: #E8E3DB;}
-.top_nav.scroll-to-fixed-fixed {background: #E8E3DB; border-bottom: 2px solid #6B5631;}
+.top_nav {background: #e8e3db;
+background: -moz-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #e8e3db), color-stop(100%, #d1c7b7));
+background: -webkit-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%);
+background: -o-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%);
+background: -ms-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%);
+background: linear-gradient(to bottom, #e8e3db 0%, #d1c7b7 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e3db', endColorstr='#d1c7b7', GradientType=0 ); border-bottom: 1px solid #BBAB92;}
+.nav, .condensed_nav {max-width: 1000px; background: #e8e3db;
+background: -moz-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #e8e3db), color-stop(100%, #d1c7b7));
+background: -webkit-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%);
+background: -o-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%);
+background: -ms-linear-gradient(top, #e8e3db 0%, #d1c7b7 100%);
+background: linear-gradient(to bottom, #e8e3db 0%, #d1c7b7 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e3db', endColorstr='#d1c7b7', GradientType=0 );}
+.top_nav.scroll-to-fixed-fixed {border-bottom: 2px solid #6B5631;}
 .primary_nav {margin: 0; padding: 0; display: flex;}
-.primary_nav li {position: relative; list-style-type: none; border-right: 1px solid #DDD5C9; border-left: 1px solid #F4F1ED;}
+.primary_nav li {position: relative; list-style-type: none; border-left: 1px solid #BBAB92; /* border-right: 1px solid #DDD5C9; border-left: 1px solid #F4F1ED; */}
 .primary_nav a, .secondary_nav a, .condensed_nav a {color: #222222; display: flex; font-weight: 300; font-size: 95%;}
 .primary_nav li:first-child, .condensed_nav a:first-child {border-left: none;}
 .primary_nav li:last-child, .condensed_nav a:last-child {border-right: none;}
@@ -174,7 +188,7 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 .secondary_nav li:last-child a {border-bottom: none;}
 .secondary_nav li:hover {background: none; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;}
 .secondary_nav li:hover a {color: #222222;}
-.secondary_nav a:hover, .selected-internal {background: #DDD5C9; text-decoration: underline;}
+.secondary_nav a:hover, .selected-internal {background: #d1c7b7; text-decoration: underline;}
 
 /* Side Navigation */
 
