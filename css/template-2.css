@@ -126,7 +126,7 @@ img, img:hover {-moz-backface-visibility: hidden; -webkit-backface-visibility: h
 
 /* Header */
 
-.banner {background: #C1B69A; background-repeat: repeat-x; text-align: center; height: 66px; position: relative; overflow: hidden;}
+.banner {background: #BBAB92; border-bottom: 3px solid #6B5631; background-repeat: repeat-x; text-align: center; height: 66px; position: relative; overflow: hidden;}
 .bg_container {background: #501214; position: absolute; z-index: 0; width: 100%; height: 100%;}
 .bg_image {opacity: 0; position: absolute; margin-top: -50px; height: 150%; width: 100%; background: #501214 url("../images/poster_shepard.jpg") no-repeat 50% 0; background-size: cover;}
 .bg_image_2 {opacity: 0; position: absolute; margin-top: -50px;height: 150%; width: 100%; background: #501214 url("../images/work_5.jpg") no-repeat 50% 55%; background-size: cover;}
@@ -161,6 +161,7 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 .primary_nav li:hover a {color: #FFFFFF;}
 .primary_nav .fa-caret-down {color: #222222; position: relative; left: 3px; font-size: 80%; display: none;}
 .primary_nav a:hover .fa-caret-down {color: #6B5631;}
+.selected-top {-moz-box-shadow: inset 0 -5px 0 0 #6B5631; -webkit-box-shadow: inset 0 -5px 0 0 #6B5631; box-shadow: inset 0 -5px 0 0 #6B5631;}
 
 /* Secondary */
 
@@ -173,7 +174,7 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 .secondary_nav li:last-child a {border-bottom: none;}
 .secondary_nav li:hover {background: none; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;}
 .secondary_nav li:hover a {color: #222222;}
-.secondary_nav a:hover {background: #DDD5C9;}
+.secondary_nav a:hover, .selected-internal {background: #DDD5C9; text-decoration: underline;}
 
 /* Side Navigation */
 
