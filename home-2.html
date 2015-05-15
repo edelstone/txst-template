@@ -29,39 +29,31 @@
 	
 		<div class="banner_content">
 			
-			<div class="header_logo"></div>
+			<div class="banner_logo"></div>
 			
 		</div>
 		
 	</div>
-
-	<div class="header">
+	
+	<div class="header_3">
 
 		<div class="bg_container">
 		
-			<div class="bg_image"></div>
+			<div class="bg_image_3"></div>
 			
-			<script type='text/javascript'>
-				$(window).load(function(){
-					$(".bg_video, .bg_image").delay(1200).animate({opacity: "1"}, 1200);
-					$(".messaging_title").animate({opacity: "1", top: "0"}, 1000);
-					$(".messaging_btn").delay(1200).animate({opacity: "1"}, 1200);
-				});
-	
-				$(window).scroll(function(e){
-					parallax();
-				});
-				function parallax(){
-					var scrolled = $(window).scrollTop();
-					$(".bg_video, .bg_image").css("top",(scrolled*.6)+"px");
-				}
-				$(document).ready(function(){
-					$('a').nivoLightbox();
-				});
-				$(document).ready(function() {
-  					$('.top_nav').scrollToFixed();
-				});
-			</script>
+			<div class="overlay">
+			
+				<div class="bg_overlay"></div>
+				
+			</div>
+			
+		</div>
+
+	<!-- <div class="header">
+
+		<div class="bg_container">
+		
+			<div class="bg_image"><img src="images/poster_shepard.jpg"></div>
 			
 			<div class="bg_video_container">
 				<video muted autoplay loop poster="images/poster_shepard.jpg" class="bg_video">
@@ -81,7 +73,7 @@
 				
 			</div>
 			
-		</div>
+		</div> -->
 
 		<div class="title">
 		
@@ -292,6 +284,49 @@
 
 </div> <!-- end container -->
 
+<!--
+
+<script type='text/javascript'>
+	$(window).load(function(){
+		$(".bg_video, .bg_image").delay(1200).animate({opacity: "1"}, 1200);
+		$(".messaging_title").animate({opacity: "1", top: "0"}, 1000);
+		$(".messaging_btn").delay(1200).animate({opacity: "1"}, 1200);
+	});
+
+	$(window).scroll(function(e){
+		parallax();
+	});
+	function parallax(){
+		var scrolled = $(window).scrollTop();
+		$(".bg_video, .bg_image").css("top",(scrolled*.6)+"px");
+	}
+	$(document).ready(function(){
+		$('a').nivoLightbox();
+	});
+	$(document).ready(function() {
+		$('.top_nav').scrollToFixed();
+	});
+</script>
+
+-->
+
+<script type='text/javascript'>
+	$(window).load(function(){
+		$(".bg_image_3").delay(400).animate({opacity: "1"}, 800);
+	});
+
+	$(window).scroll(function(e){
+		parallax();
+	});
+	function parallax(){
+		var scrolled = $(window).scrollTop();
+		$(".bg_image_3").css("top",(scrolled*.6)+"px");
+	}
+	$(document).ready(function() {
+		$('.top_nav').scrollToFixed();
+	});
+</script>
+			
 </body>
 
 </html>

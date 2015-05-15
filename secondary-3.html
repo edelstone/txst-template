@@ -35,12 +35,10 @@
 		
 	</div>
 
-	<div class="header_2">
+	<div class="header_4">
 
 		<div class="bg_container">
-		
-			<div class="bg_image_3"></div>
-			
+					
 			<div class="overlay">
 			
 				<div class="bg_overlay"></div>
@@ -271,17 +269,6 @@
 </div> <!-- end container -->
 
 <script type='text/javascript'>
-	$(window).load(function(){
-		$(".bg_image_3").delay(0).animate({opacity: "1"}, 600);
-	});
-
-	$(window).scroll(function(e){
-		parallax();
-	});
-	function parallax(){
-		var scrolled = $(window).scrollTop();
-		$(".bg_image_3").css("top",(scrolled*.6)+"px");
-	}
 	$(document).ready(function() {
 		$('.top_nav').scrollToFixed();
 	});
