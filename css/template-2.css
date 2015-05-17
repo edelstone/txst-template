@@ -28,7 +28,9 @@ h2 {margin: .5rem auto; color: #363534;}
 .footer_logo.third, .footer_links.third {width: 100% !important;}
 .side_nav {margin: -1rem -1rem 1.5rem -1rem;}
 .side_nav_list a, .side_nav_header {margin-bottom: 0; padding: 0.5rem 0.7rem; font-size: 95%;}
-.banner {padding: 0 1rem; width: 100% !important;}
+.banner {padding: 0 1rem; width: 100% !important; height: 60px;}
+.banner_logo {width: 180px;}
+.banner_logo img {max-width: 100%; margin-top: 12px;}
  
  /* (Handheld) */
 
@@ -81,6 +83,9 @@ h1 {font-size: 2.2rem;}
 .tsus_logo {margin: 0.5rem auto auto auto;}
 .footer_logo.third, .footer_links.third {width: 33% !important;}
 .nav a {padding: .4rem .5rem; margin: auto 0; text-align: left; min-width: 0; font-size: 70%;}
+.banner {height: 75px;}
+.banner_logo {width: 220px;}
+.banner_logo img {max-width: 100%; margin-top: 16px;}
 }
 
 /* (960px and up) */
@@ -142,11 +147,9 @@ p, ul, ol, table {line-height: 1.5rem;}
 
 .banner {background: #D1C7B7; background: -moz-linear-gradient(top, #D1C7B7 0%, #BBAB92 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, #D1C7B7), color-stop(100%, #BBAB92)); background: -webkit-linear-gradient(top, #D1C7B7 0%, #BBAB92 100%); background: -o-linear-gradient(top, #D1C7B7 0%, #BBAB92 100%); background: -ms-linear-gradient(top, #D1C7B7 0%, #BBAB92 100%); background: linear-gradient(to bottom, #D1C7B7 0%, #BBAB92 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D1C7B7', endColorstr='#BBAB92', GradientType=0 ); border-bottom: 3px solid #6A5638; height: 75px;}
-.banner_content {max-width: 1000px; margin: auto; height: 75px;}
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D1C7B7', endColorstr='#BBAB92', GradientType=0 ); border-bottom: 3px solid #6A5638;}
+.banner_content {max-width: 1000px; margin: auto;}
 .banner_logo {float: left;}
-.banner_logo {width: 220px;}
-.banner_logo img {max-width: 100%; margin-top: 16px;}
 .txst_search {float: right; margin-top: 18px; position: relative;}
 .search_bar .search{position: absolute; right: 0; width: 280px; height: 30px; background: #FFFFFF; border: 2px solid #6A5638; font-size: .75rem; padding-left: 10px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
 .search_bar .search::-webkit-input-placeholder {color: #777777;}
