@@ -8,14 +8,15 @@ edelstone@txstate.edu or michael.edelstone@gmail.com
 
 html {font-size: 100%; position: relative; min-height: 100%;}
 body {height: auto; min-height: 100%;}
-h1 {font-size: 2.2rem; line-height: 45px; padding: 20px 15px 15px 15px;}
+h1 {font-size: 2rem; line-height: 45px; padding: 20px 15px 15px 15px;}
 h2 {margin: .5rem auto; color: #363534;}
 .column {padding-left: 1rem; padding-right: 1rem;}
 .float_left {float: left;}
 .float_right {float: right;}
-.header, .header_2, .header_3, .header_4 {min-height: 80px; padding: 1rem 0;}
+.header, .header_2, .header_3, .header_4 {min-height: 80px; padding: .5rem 0;}
 .dept_name, .title {position: relative;}
-.hide, .header_bg, .bg_overlay, .bg_video, .bg_image, .bg_image_2,.bg_image_3, .messaging, .nav, .gallery_link {display: none;}
+.hide, .header_bg, .bg_overlay, .bg_video, .bg_image, .bg_image_2,.bg_image_3, .messaging, .nav, .gallery_link, .top_nav, .super_user, .txst_search {display: none;}
+.nav a {padding: .4rem .5rem;}
 .condensed_nav a {padding: 1rem; width: 100%; text-align: center;}
 .menu_title {margin: auto 8px; text-transform: uppercase;}
 .global_footer_main {padding: 1rem 0;}
@@ -27,7 +28,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .footer_logo.third, .footer_links.third {width: 100% !important;}
 .side_nav {margin: -1rem -1rem 1.5rem -1rem;}
 .side_nav_list a, .side_nav_header {margin-bottom: 0; padding: 0.5rem 0.7rem; font-size: 95%;}
-.banner, .super-user {padding: 0 1rem;}
+.banner {padding: 0 1rem;}
  
  /* (Handheld) */
 
@@ -58,7 +59,8 @@ h2 {margin-top: 1rem;}
 .dept_name, .title {position: absolute;}
 .condensed_nav {display: none;}
 .nav {margin: auto; display: block;}
-.nav a {padding: .4rem .6rem; margin: auto; width: auto; border: none; text-align: center; min-width: 20%;}
+.nav a {margin: auto; width: auto; border: none;}
+.primary_nav a, .secondary_nav a {font-size: 75%;}
 .bg_overlay, .bg_image, .bg_image_2, .bg_image_3 {display: block;}
 .messaging {display: block;}
 .messaging_title {padding: 4.5rem 1rem 2rem 1rem; font-size: 4.5rem;}
@@ -70,27 +72,35 @@ h2 {margin-top: 1rem;}
 /* (800px and up) */
 
 @media (min-width: 50rem) {
-h1 {font-size: 2.4rem;}
-.hide {display: block;}
+h1 {font-size: 2.2rem;}
+.hide, .top_nav, .super_user, .txst_search {display: block;}
 .global_footer_main {padding: 3rem 0 0 0;}
 .txst_logo {margin: 1.5rem auto auto auto;}
 .align_2 {text-align: left; border-left: 1px solid #646363; padding: 0 0.2rem 0 0.6rem;}
 .align_3 {padding: 0 0.2rem 0 0.6rem;}
 .tsus_logo {margin: 0.5rem auto auto auto;}
 .footer_logo.third, .footer_links.third {width: 33% !important;}
-.nav a {margin: auto 0; text-align: left; min-width: 0;}
+.nav a {padding: .4rem .5rem; margin: auto 0; text-align: left; min-width: 0; font-size: 70%;}
+}
+
+/* (960px and up) */
+
+@media (min-width: 60rem) {
+.primary_nav a, .seconday_nav a {font-size: 80%;}
 }
 
 /* (1024px and up) */
 
 @media (min-width: 64rem) {
 html {font-size: 120%;}
+h1 {font-size: 2.4rem;}
 .header, .header_3 {min-height: 320px;}
 .bg_image {display: none;}
 .bg_video {display: inline-block; margin-top: -125px;}
 .align_1, .align_2, .align_3 {padding: 0 1rem;}
 .messaging_title {padding: 5.4rem 1rem 2.2rem 1rem; font-size: 5rem;}
 .side_nav {margin-left: 0;}
+.nav a {padding: .4rem .6rem;}
 }
 
 /* (1280px and up) */
@@ -145,11 +155,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D1C7B7', end
 .search_bar .search:-ms-input-placeholder {color: #777777;}
 .search_bar .icon {-webkit-border-top-right-radius: 3px; -webkit-border-bottom-right-radius: 3px; -moz-border-radius-topright: 3px; -moz-border-radius-bottomright: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border: none; background: #6A5638; height: 36px; width: 40px; color: #FFFFFF; font-size: .9rem; position: absolute; right: 0;}
 .search_bar .icon:hover {background: #79674C;}
-.super-user {height: 35px; background: #6A5638;}
-.super-list {margin: 0 auto; padding: 0; max-width: 1000px; height: 100%; text-align: right;}
-.super-list li {display: inline-block; margin-left: 20px; margin-top: 1px;}
-.super-list a {color: #FFFFFF; text-transform: uppercase; font-size: 55%; font-weight: 400; letter-spacing: 1px;}
-.super-list a:hover {text-decoration: underline;}
+.super_user {background: #6A5638;}
+.super_list {font-size: 0; margin: 0 auto; padding: 0; max-width: 1000px; text-align: right;}
+.super_list li {display: inline-block; font-size: 1rem;}
+.super_list a {border-right: 1px solid #79674C; color: #FFFFFF; text-transform: uppercase; font-size: 55%; font-weight: 400; letter-spacing: 1px; display: block; padding: 4px 12px 3px 12px;}
+.super_list a:hover {background: #79674C;}
 
 /* Header */
 
@@ -161,8 +171,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D1C7B7', end
 .bg_video_container {position: absolute; height: 100%; width: 100%;}
 .bg_video {opacity: 0; position: absolute; left: 0; top: 0; min-height: 100%; width: 100%; height: auto; z-index: -1;}
 .overlay {position: absolute; height: 100%; width: 100%;}
-.bg_overlay {background: #501214; position: absolute; width: 100%; height: 100%; opacity: .6;}
-.header_2 .bg_overlay {opacity: .7;}
+.bg_overlay {background: #501214; position: absolute; width: 100%; height: 100%; opacity: .5;}
 .messaging {font-weight: 200; color: #FFFFFF; position: relative; max-width: 1000px; min-height: 100%; text-align: center; text-transform: uppercase; margin: auto;}
 .messaging_title {opacity: 0; margin: 0; position: relative; top: .5rem; letter-spacing: 10px;}
 .messaging_btn {font-size: 2rem; opacity: 0;}
@@ -183,8 +192,8 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .nav, .condensed_nav {max-width: 1000px; background: #E8E3DB; background: -moz-linear-gradient(top, #E8E3DB 0%, #D1C7B7 100%); background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), color-stop(100%, #D1C7B7)); background: -webkit-linear-gradient(top, #E8E3DB 0%, #D1C7B7 100%); background: -o-linear-gradient(top, #E8E3DB 0%, #D1C7B7 100%); background: -ms-linear-gradient(top, #E8E3DB 0%, #D1C7B7 100%); background: linear-gradient(to bottom, #E8E3DB 0%, #D1C7B7 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E8E3DB', endColorstr='#D1C7B7', GradientType=0 );}
 .top_nav.scroll-to-fixed-fixed {border-bottom: 2px solid #6A5638;}
 .primary_nav {margin: 0; padding: 0; display: flex;}
-.primary_nav li {position: relative; list-style-type: none; border-left: 1px solid #C6B9A4; /* border-right: 1px solid #DDD5C9; border-left: 1px solid #F4F1ED; */}
-.primary_nav a, .secondary_nav a {color: #222222; display: flex; font-weight: 400; font-size: 80%;}
+.primary_nav li {position: relative; list-style-type: none; border-left: 1px solid #BBAB92; /* border-right: 1px solid #DDD5C9; border-left: 1px solid #F4F1ED; */}
+.primary_nav a, .secondary_nav a {color: #222222; display: flex; font-weight: 400;}
 .primary_nav li:first-child {border-left: none;}
 .primary_nav li:hover {color: #FFFFFF; background: #6A5638;}
 .primary_nav li:hover a {color: #FFFFFF;}
