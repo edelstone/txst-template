@@ -137,14 +137,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D1C7B7', end
 .banner_logo {float: left;}
 .banner_logo {width: 220px;}
 .banner_logo img {max-width: 100%; margin-top: 16px;}
-.txst_search {float: right; margin-top: 20px; position: relative;}
-.search_bar .search{position: absolute; right: 0; width: 280px; height: 30px; background: #FFFFFF; border: none; font-size: .75rem; padding-left: 10px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+.txst_search {float: right; margin-top: 18px; position: relative;}
+.search_bar .search{position: absolute; right: 0; width: 280px; height: 30px; background: #FFFFFF; border: 2px solid #6A5638; font-size: .75rem; padding-left: 10px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
 .search_bar .search::-webkit-input-placeholder {color: #777777;}
 .search_bar .search:-moz-placeholder {color: #777777;}
 .search_bar .search::-moz-placeholder {color: #777777;}
 .search_bar .search:-ms-input-placeholder {color: #777777;}
-.search_bar .icon {-webkit-border-top-right-radius: 3px; -webkit-border-bottom-right-radius: 3px; -moz-border-radius-topright: 3px; -moz-border-radius-bottomright: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border: none; background: #501214; height: 32px; width: 40px; color: #FFFFFF; font-size: .9rem; position: absolute; right: 0;}
-.search_bar .icon:hover {background: #622A2B;}
+.search_bar .icon {-webkit-border-top-right-radius: 3px; -webkit-border-bottom-right-radius: 3px; -moz-border-radius-topright: 3px; -moz-border-radius-bottomright: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border: none; background: #6A5638; height: 36px; width: 40px; color: #FFFFFF; font-size: .9rem; position: absolute; right: 0;}
+.search_bar .icon:hover {background: #79674C;}
 .super-user {height: 35px; background: #6A5638;}
 .super-list {margin: 0 auto; padding: 0; max-width: 1000px; height: 100%; text-align: right;}
 .super-list li {display: inline-block; margin-left: 20px; margin-top: 1px;}
