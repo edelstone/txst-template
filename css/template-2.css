@@ -29,8 +29,8 @@ h2 {margin: .5rem auto; color: #363534;}
 .side_nav {margin: -1rem -1rem 1.5rem -1rem;}
 .side_nav_list a, .side_nav_header {margin-bottom: 0; padding: 0.5rem 0.7rem; font-size: 95%;}
 .banner {padding: 0 1rem; width: 100% !important; height: 60px;}
-.banner_logo {width: 180px;}
-.banner_logo img {max-width: 100%; margin-top: 12px;}
+.banner_logo {width: 200px;}
+.banner_logo img {max-width: 100%; margin-top: 10px;}
  
  /* (Handheld) */
 
