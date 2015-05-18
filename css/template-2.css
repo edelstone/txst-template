@@ -8,7 +8,7 @@ edelstone@txstate.edu or michael.edelstone@gmail.com
 
 html {font-size: 100%; position: relative; min-height: 100%;}
 body {height: auto; min-height: 100%;}
-h1 {font-size: 2rem; line-height: 45px; padding: 1rem;}
+h1 {font-size: 2rem; line-height: 42px; padding: 1rem;}
 h2 {margin: .5rem auto; color: #363534;}
 .column {padding-left: 1rem; padding-right: 1rem;}
 .float_left {float: left;}
@@ -165,7 +165,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D1C7B7', end
 .super_list li {display: inline-block; font-size: 1rem;}
 .super_list a {border-right: 1px solid #79674C; color: #FFFFFF; text-transform: uppercase; font-size: 55%; font-weight: 400; letter-spacing: 1px; display: block; padding: 4px 12px 3px 12px;}
 .super_list a:hover {background: #79674C;}
-.hamburger {float: right; margin-top: 15px; overflow: auto; font-size: 22px !important;}
+.hamburger {float: right; margin-top: 15px; overflow: auto; font-size: 20px !important;}
 .hamburger a {color: #222222;}
 
 /* Header */
