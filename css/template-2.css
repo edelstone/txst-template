@@ -32,6 +32,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .banner {padding: 0 1rem; width: 100% !important; height: 60px;}
 .banner_logo {width: 190px;}
 .banner_logo img {max-width: 100%; margin-top: 11px;}
+.breadcrumbs {text-align: left; font-weight: 400; font-size: 10px; margin: -10px auto 15px auto; line-height: 16px;}
  
  /* (Handheld) */
 
@@ -70,6 +71,7 @@ h2 {margin-top: 1rem;}
 .side_nav {margin: auto; margin-top: 1.3rem;}
 .side_nav_list a, .side_nav_header {margin-bottom: 8px; padding: 0.3rem 0.7rem; font-size: 85%;}
 .main_text, .nav {font-size: 95%;}
+.breadcrumbs {text-align: right; font-size: 12px; margin: 0 auto;}
 }
 
 /* (800px and up) */
@@ -237,6 +239,9 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 /* Body */
 
 .page_content {max-width: 1000px; margin: auto; padding: 1rem 0 1.5rem 0; overflow: hidden; min-height: 32rem;}
+.breadcrumbs a {color: #015E8F; text-decoration: none;}
+.breadcrumbs a:hover {text-decoration: underline;}
+.breadcrumbs .separator {margin: auto 5px;}
 .main_text {padding-bottom: .5rem;}
 .main_text a {padding: 1px 3px; margin: -1px -3px; color: #015E8F; text-decoration: underline;}
 .main_text a:hover {background: #E8E3DB;}
