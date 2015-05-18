@@ -13,7 +13,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .column {padding-left: 1rem; padding-right: 1rem;}
 .float_left {float: left;}
 .float_right {float: right;}
-.header, .header_2, .header_3, .header_4 {min-height: 80px; padding: 0;}
+.header, .header_2, .header_3, .header_4 {min-height: 70px; padding: 0;}
 .dept_name, .title {position: relative;}
 .hide, .header_bg, .bg_overlay, .bg_video, .bg_image, .bg_image_2,.bg_image_3, .messaging, .nav, .gallery_link, .top_nav, .super_user, .txst_search {display: none;}
 .hamburger {display: block;}
@@ -29,9 +29,9 @@ h2 {margin: .5rem auto; color: #363534;}
 .footer_logo.third, .footer_links.third {width: 100% !important;}
 .side_nav {margin: -1rem -1rem 1.5rem -1rem;}
 .side_nav_list a, .side_nav_header {margin-bottom: 0; padding: 0.5rem 0.7rem; font-size: 95%;}
-.banner {padding: 0 1rem; width: 100% !important; height: 65px;}
+.banner {padding: 0 1rem; width: 100% !important; height: 60px;}
 .banner_logo {width: 200px;}
-.banner_logo img {max-width: 100%; margin-top: 13px;}
+.banner_logo img {max-width: 100%; margin-top: 10px;}
  
  /* (Handheld) */
 
@@ -165,7 +165,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D1C7B7', end
 .super_list li {display: inline-block; font-size: 1rem;}
 .super_list a {border-right: 1px solid #79674C; color: #FFFFFF; text-transform: uppercase; font-size: 55%; font-weight: 400; letter-spacing: 1px; display: block; padding: 4px 12px 3px 12px;}
 .super_list a:hover {background: #79674C;}
-.hamburger {float: right; margin-top: 15px; overflow: auto; font-size: 20px !important;}
+.hamburger {float: right; margin-top: 13px; overflow: auto; font-size: 20px !important;}
 .hamburger a {color: #222222;}
 
 /* Header */
@@ -186,7 +186,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D1C7B7', end
 .messaging_btn a:hover {background: #6A5638;}
 .play {font-size: 65%; margin-left: 7px; vertical-align: top;} 
 .header, .header_2, .header_3, .header_4 {position: relative; overflow: hidden !important; background: #501214;}
-.title {min-height: 80px; width: 100%; bottom: 0; margin: auto;}
+.title {min-height: 70px; width: 100%; bottom: 0; margin: auto;}
 .dept_name {left: 0; bottom: 0; right: 0;}
 h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; background: #501214; background: rgba(80, 18, 20, 0.9);}
 
