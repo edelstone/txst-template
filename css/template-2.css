@@ -8,12 +8,12 @@ edelstone@txstate.edu or michael.edelstone@gmail.com
 
 html {font-size: 100%; position: relative; min-height: 100%;}
 body {height: auto; min-height: 100%;}
-h1 {font-size: 2rem; line-height: 45px; padding: 20px 15px 15px 15px;}
+h1 {font-size: 2rem; line-height: 45px; padding: 1rem;}
 h2 {margin: .5rem auto; color: #363534;}
 .column {padding-left: 1rem; padding-right: 1rem;}
 .float_left {float: left;}
 .float_right {float: right;}
-.header, .header_2, .header_3, .header_4 {min-height: 80px; padding: .5rem 0;}
+.header, .header_2, .header_3, .header_4 {min-height: 80px; padding: 0;}
 .dept_name, .title {position: relative;}
 .hide, .header_bg, .bg_overlay, .bg_video, .bg_image, .bg_image_2,.bg_image_3, .messaging, .nav, .gallery_link, .top_nav, .super_user, .txst_search {display: none;}
 .hamburger {display: block;}
