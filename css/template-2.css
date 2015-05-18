@@ -16,9 +16,10 @@ h2 {margin: .5rem auto; color: #363534;}
 .header, .header_2, .header_3, .header_4 {min-height: 80px; padding: .5rem 0;}
 .dept_name, .title {position: relative;}
 .hide, .header_bg, .bg_overlay, .bg_video, .bg_image, .bg_image_2,.bg_image_3, .messaging, .nav, .gallery_link, .top_nav, .super_user, .txst_search {display: none;}
+.hamburger {display: block;}
 .nav a {padding: .4rem .5rem;}
 .condensed_nav a {padding: 1rem; width: 100%; text-align: center;}
-.menu_title {margin: auto 8px; text-transform: uppercase;}
+.menu_title {margin: auto 8px; text-transform: uppercase; vertical-align: middle;}
 .global_footer_main {padding: 1rem 0;}
 .txst_logo {margin: 2rem auto 3rem auto;}
 .align_1 {text-align: right; border-right: 1px solid #636363; padding: 0 0.6rem 0 0.2rem;}
@@ -76,6 +77,7 @@ h2 {margin-top: 1rem;}
 @media (min-width: 50rem) {
 h1 {font-size: 2.2rem;}
 .hide, .top_nav, .super_user, .txst_search {display: block;}
+.hamburger {display: none;}
 .global_footer_main {padding: 3rem 0 0 0;}
 .txst_logo {margin: 1.5rem auto auto auto;}
 .align_2 {text-align: left; border-left: 1px solid #646363; padding: 0 0.2rem 0 0.6rem;}
@@ -163,6 +165,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D1C7B7', end
 .super_list li {display: inline-block; font-size: 1rem;}
 .super_list a {border-right: 1px solid #79674C; color: #FFFFFF; text-transform: uppercase; font-size: 55%; font-weight: 400; letter-spacing: 1px; display: block; padding: 4px 12px 3px 12px;}
 .super_list a:hover {background: #79674C;}
+.hamburger {float: right; margin-top: 15px; overflow: auto; font-size: 22px !important;}
+.hamburger a {color: #222222;}
 
 /* Header */
 
