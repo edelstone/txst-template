@@ -86,8 +86,6 @@ h1 {font-size: 2.2rem;}
 .global_footer_main {padding: 3rem 0 0 0;}
 .global_footer:after {background: url('../images/panorama.jpg');}
 .txst_logo {margin: 1.5rem auto auto auto;}
-.align_2 {text-align: left; border-left: 1px solid #646363; padding: 0 0.2rem 0 0.6rem;}
-.align_3 {padding: 0 0.2rem 0 0.6rem;}
 .tsus_logo {margin: 0.5rem auto auto auto;}
 .footer_logo.third, .footer_links.third {width: 33% !important;}
 .nav a {padding: .4rem .5rem; margin: auto 0; text-align: left; min-width: 0; font-size: 70%;}
@@ -96,8 +94,7 @@ h1 {font-size: 2.2rem;}
 .banner_logo img {max-width: 100%; margin-top: 16px;}
 .footer_logo_mobile {display: none;}
 .align_1 {text-align: right; border-right: 1px solid #636363; padding: 0 0.6rem 0 0.2rem;}
-.align_2 {text-align: right; border-left: none; padding: 0 1rem 0 0.2rem;}
-.align_3 {text-align: left; border-left: 1px solid #636363; padding: 0 0.2rem 0 1rem;}
+.align_2 {text-align: left; border-left: 1px solid #646363; padding: 0 0.2rem 0 0.6rem;}
 .link_group {width: 50%; margin-bottom: 0; padding-bottom: 0; border-bottom: none; font-size: .7rem;}
 .footer_links ul {line-height: 1.4rem;}
 .list_header {margin-bottom: .5rem; font-size: .7rem;}
@@ -118,7 +115,7 @@ h1 {font-size: 2.4rem;}
 .header, .header_3 {min-height: 320px;}
 .bg_image {display: none;}
 .bg_video {display: inline-block; margin-top: -125px;}
-.align_1, .align_2, .align_3 {padding: 0 1rem;}
+.align_1, .align_2 {padding: 0 1rem;}
 .messaging_title {padding: 5.4rem 1rem 2.2rem 1rem; font-size: 5rem;}
 .side_nav {margin-left: 0;}
 .nav a {padding: .4rem .6rem;}
