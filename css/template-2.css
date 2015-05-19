@@ -33,7 +33,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .banner_logo {width: 190px;}
 .banner_logo img {max-width: 100%; margin-top: 11px;}
 .breadcrumbs {text-align: left; font-weight: 400; font-size: 11px; margin: -5px auto 15px auto; line-height: 16px;}
-.return a, .return a:hover {position: relative; bottom: -10px; padding-bottom: 8px;}
+.return a, .return a:hover {bottom: -8px; padding-bottom: 9px;}
  
  /* (Handheld) */
 
@@ -111,8 +111,8 @@ h1 {font-size: 2.4rem;}
 .messaging_title {padding: 5.4rem 1rem 2.2rem 1rem; font-size: 5rem;}
 .side_nav {margin-left: 0;}
 .nav a {padding: .4rem .6rem;}
-.return a {bottom: -14px; padding-bottom: 5px;}
-.return a:hover {bottom: -12px; padding-bottom: 7px;}
+.return a {bottom: -13px; padding-bottom: 5px;}
+.return a:hover {bottom: -10px; padding-bottom: 9px;}
 }
 
 /* (1280px and up) */
@@ -244,7 +244,7 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .page_content {max-width: 1000px; margin: auto; padding: 1rem 0 1.5rem 0; overflow: hidden; min-height: 32rem;}
 .breadcrumbs a {color: #015E8F; text-decoration: none;}
 .breadcrumbs a:hover {text-decoration: underline;}
-.breadcrumbs .separator {margin: auto 5px;}
+.breadcrumbs .separator {margin: auto 5px auto 7px;}
 .main_text {padding-bottom: .5rem;}
 .main_text a {padding: 1px 3px; margin: -1px -3px; color: #015E8F; text-decoration: underline;}
 .main_text a:hover {background: #E8E3DB;}
@@ -262,8 +262,8 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .footer_row {max-width: 1000px; margin: auto;}
 .footer a {color: #CCCCCC;}
 .footer a:hover {color: #FFFFFF;}
-.return a {background-color: #20201F; text-transform: uppercase; font-size: 0.75rem; padding-top: 10px; padding-right: 30px; padding-left: 25px; border-radius: 5px 5px 0 0;}
-.return a:hover {text-decoration: none !important;}
+.return a {position: relative; background-color: #262524; text-transform: uppercase; font-size: 0.75rem; padding-top: 12px; padding-right: 30px; padding-left: 25px; border-radius: 5px 5px 0 0;}
+.return a:hover {text-decoration: none !important; background-color: #20201F;}
 .return .fa-chevron-up {vertical-align: text-top; margin-right: 3px;}
 .dept_footer {border-bottom: 1px solid #0F0F0F; color: #DDDDDD;}
 .dept_footer_content {text-align: center; padding: .8rem; letter-spacing: 1px;}
