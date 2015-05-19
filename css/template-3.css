@@ -23,7 +23,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .global_footer_main {padding: 1rem 0;}
 .global_footer:after {background: none;}
 .txst_logo {margin: 2rem auto 3rem auto;}
-.link_group {width: 100%; margin-bottom: 1rem; padding-bottom: 1rem; border-bottom: 2px solid #4A4A4A; font-size: .8rem;}
+.link_group {width: 100%; margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 2px solid #4A4A4A; font-size: .8rem;}
 .footer_links ul {line-height: 1.6rem;}
 .tsus_logo {margin: 1.5rem auto auto auto;}
 .footer_logo.third, .footer_links.third {width: 100% !important;}
@@ -36,7 +36,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .return a, .return a:hover {bottom: -6px; padding-bottom: 10px;}
 .list_header {margin-bottom: .8rem; font-size: .8rem;}
 .global_footer_lower {padding: 0 0 1.5rem 0;}
-.font_icons {font-size: 1.5rem; line-height: 3.5rem;}
+.font_icons {font-size: 1.4rem; line-height: 3rem;}
  
  /* (Handheld) */
 
