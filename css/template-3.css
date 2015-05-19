@@ -37,6 +37,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .list_header {margin-bottom: .8rem; font-size: .9rem;}
 .global_footer_lower {padding: 0 0 1.5rem 0;}
 .font_icons {font-size: 1.2rem; line-height: 3rem;}
+.global_footer_main {left: 0; padding: 1rem}
  
  /* (Handheld) */
 
@@ -84,7 +85,7 @@ h2 {margin-top: 1rem;}
 h1 {font-size: 2.2rem;}
 .hide, .top_nav, .super_user, .txst_search {display: block;}
 .hamburger {display: none;}
-.global_footer_main {padding: 3rem 0 0 0;}
+.global_footer_main {padding: 3rem 0 0 0; left: 8px;}
 .global_footer:after {background: url('../images/panorama.jpg');}
 .txst_logo {margin: 1.5rem auto auto auto;}
 .tsus_logo {margin: 0.5rem auto auto auto;}
@@ -285,7 +286,7 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .office_details a:hover {text-decoration: underline;}
 .global_footer {border-top: 1px solid #4A4A4A; padding-bottom: 2rem; margin: auto; position: relative; z-index: 1; background: #2E2A26; background: rgba(13, 8, 2, 0.5);}
 .global_footer:after {background-repeat: no-repeat; background-size: cover; opacity: 0.15; top: 0; bottom: 0; left: 0; right: 0; position: absolute; z-index: -1; content: ""; background-position: 50% 0;}
-.global_footer_main {max-width: 1440px;}
+.global_footer_main {max-width: 1440px; position: relative;}
 .footer_logo {text-align: center;}
 .footer_logo a {opacity: .8; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;}
 .footer_logo a:hover {opacity: 1;}
