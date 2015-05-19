@@ -33,7 +33,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .banner_logo {width: 190px;}
 .banner_logo img {max-width: 100%; margin-top: 11px;}
 .breadcrumbs {text-align: left; font-weight: 400; font-size: 11px; margin: -5px auto 15px auto; line-height: 16px;}
-.return a, .return a:hover {bottom: -8px; padding-bottom: 9px;}
+.return a, .return a:hover {bottom: -8px; padding-bottom: 10px;}
  
  /* (Handheld) */
 
@@ -111,8 +111,8 @@ h1 {font-size: 2.4rem;}
 .messaging_title {padding: 5.4rem 1rem 2.2rem 1rem; font-size: 5rem;}
 .side_nav {margin-left: 0;}
 .nav a {padding: .4rem .6rem;}
-.return a {bottom: -14px; padding-bottom: 5px;}
-.return a:hover {bottom: -11px; padding-bottom: 8px;}
+.return a {bottom: -14px; padding-bottom: 6px;}
+.return a:hover {bottom: -11px; padding-bottom: 9px;}
 }
 
 /* (1280px and up) */
@@ -262,7 +262,7 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .footer_row {max-width: 1000px; margin: auto;}
 .footer a {color: #CCCCCC;}
 .footer a:hover {color: #FFFFFF;}
-.return a {position: relative; background-color: #2B2A2A; text-transform: uppercase; font-size: 0.75rem; padding-top: 12px; padding-right: 30px; padding-left: 25px; border-radius: 4px 4px 0 0; border-left: 1px solid #0F0F0F; border-right: 1px solid #0F0F0F; border-top: 1px solid #0F0F0F;}
+.return a {transition: all 0.1s ease-in-out; -webkit-transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; -o-transition: all 0.1s ease-in-out; position: relative; background-color: #2B2A2A; text-transform: uppercase; font-size: 0.75rem; padding-top: 12px; padding-right: 30px; padding-left: 25px; border-radius: 4px 4px 0 0; border-left: 1px solid #0F0F0F; border-right: 1px solid #0F0F0F; border-top: 1px solid #0F0F0F;}
 .return a:hover {text-decoration: none !important; background-color: #262524;}
 .return i {vertical-align: text-top; margin-right: 5px;}
 .dept_footer {border-bottom: 1px solid #0F0F0F; color: #DDDDDD;}
@@ -270,7 +270,9 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .dept_footer_content a {text-decoration: none; color: #DDDDDD;}
 .dept_footer_content a:hover {text-decoration: underline; color: #DDDDDD;}
 .office_name {font-size: 1.3rem; margin-bottom: 0;}
-.office_details {font-size: .7rem; margin: .5rem auto 1.5rem auto; line-height: 1rem; list-style: none; padding: 0; max-width: 480px;}
+.office_details {font-size: .7rem; margin: .5rem auto 1.6rem auto; line-height: 1rem; list-style: none; padding: 0; max-width: 480px;}
+.office_details a {text-decoration: none;}
+.office_details a:hover {text-decoration: underline;}
 .global_footer {border-top: 1px solid #4A4A4A; padding-bottom: 2rem; margin: auto; position: relative; z-index: 1; background: #2E2A26; background: rgba(13, 8, 2, 0.5);}
 .global_footer:after {background: url('../images/panorama.jpg'); background-repeat: no-repeat; background-size: cover; opacity: 0.15; top: 0; bottom: 0; left: 0; right: 0; position: absolute; z-index: -1; content: ""; background-position: 80% 0;}
 .global_footer_main {max-width: 1440px;}
