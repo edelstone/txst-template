@@ -23,8 +23,8 @@ h2 {margin: .5rem auto; color: #363534;}
 .global_footer_main {padding: 1rem 0;}
 .global_footer:after {background: none;}
 .txst_logo {margin: 2rem auto 3rem auto;}
-.link_group {width: 100%; margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 2px solid #4A4A4A; font-size: .8rem;}
-.footer_links ul {line-height: 1.6rem;}
+.link_group {width: 100%; margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 2px solid #4A4A4A; font-size: .9rem;}
+.footer_links ul {line-height: 1.9rem;}
 .tsus_logo {margin: 1.5rem auto auto auto;}
 .footer_logo.third, .footer_links.third {width: 100% !important;}
 .side_nav {margin: -1rem -1rem 1.5rem -1rem;}
@@ -34,7 +34,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .banner_logo img {max-width: 100%; margin-top: 11px;}
 .breadcrumbs {text-align: left; font-weight: 400; font-size: 11px; margin: -5px auto 15px auto; line-height: 16px;}
 .return a, .return a:hover {bottom: -6px; padding-bottom: 10px;}
-.list_header {margin-bottom: .8rem; font-size: .8rem;}
+.list_header {margin-bottom: .8rem; font-size: 1rem;}
 .global_footer_lower {padding: 0 0 1.5rem 0;}
 .font_icons {font-size: 1.4rem; line-height: 3rem;}
  
