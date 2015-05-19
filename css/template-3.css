@@ -36,6 +36,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .return a, .return a:hover {bottom: -6px; padding-bottom: 10px;}
 .list_header {margin-bottom: .8rem; font-size: .8rem;}
 .global_footer_lower {padding: 0 0 1.5rem 0;}
+.font_icons {font-size: 1.5rem; line-height: 3.5rem;}
  
  /* (Handheld) */
 
@@ -99,6 +100,7 @@ h1 {font-size: 2.2rem;}
 .footer_links ul {line-height: 1.4rem;}
 .list_header {margin-bottom: .5rem; font-size: .7rem;}
 .global_footer_lower {padding: 2rem 0;}
+.font_icons {font-size: 1rem; line-height: 2rem;}
 }
 
 /* (960px and up) */
@@ -297,6 +299,6 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .footer_links a {padding: 5px; margin: -5px;}
 .footer_links a:hover, ul.font_icons a:hover {background: #111111; background: rgba(0, 0, 0, 0.4);}
 .footer_social {text-align: center; padding: 0 1rem;}
-.font_icons {display: inline-block; list-style-type: none; padding: 0; margin: 0; text-align: center; font-size: 1rem; line-height: 2.2rem;}
+.font_icons {display: inline-block; list-style-type: none; padding: 0; margin: 0; text-align: center;}
 .font_icons li {display: inline-block; margin: 0 0.45rem;}
 .font_icons a {padding: 8px; margin: -8px; border-radius: 8px;}
