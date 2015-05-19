@@ -33,7 +33,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .banner_logo {width: 190px;}
 .banner_logo img {max-width: 100%; margin-top: 11px;}
 .breadcrumbs {text-align: left; font-weight: 400; font-size: 11px; margin: -5px auto 15px auto; line-height: 16px;}
-.return a, .return a:hover {bottom: -8px; padding-bottom: 10px;}
+.return a, .return a:hover {bottom: -6px; padding-bottom: 10px;}
  
  /* (Handheld) */
 
@@ -112,7 +112,7 @@ h1 {font-size: 2.4rem;}
 .side_nav {margin-left: 0;}
 .nav a {padding: .4rem .6rem;}
 .return a {bottom: -14px; padding-bottom: 6px;}
-.return a:hover {bottom: -10px; padding-bottom: 10px;}
+.return a:hover {bottom: -9px; padding-bottom: 10px;}
 }
 
 /* (1280px and up) */
