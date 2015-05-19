@@ -165,7 +165,7 @@
 	
 		<div class="column full">
 		
-			<p class="breadcrumbs"><a href="#nowhere">University Home</a> <span class="separator">&gt;</span>Office of University Marketing</p>
+			<p class="breadcrumbs"><a href="#nowhere">University Home</a> <span class="separator"><i class="fa fa-angle-right"></i></span>Office of University Marketing</p>
 			
 		</div>
 	
@@ -205,6 +205,10 @@
 			
 				<h3 class="office_name">Office of University Marketing</h3>
 				<p class="office_details">J.C. Kellam, Suite 860 - Phone: 512.245.1555 - Fax: 512.245.8153 - Email: <a href="mailto:umktg@txstate.edu">umktg@txstate.edu</a></p>
+				
+				<div class="return">
+					<a href="#nowhere" class="back_to_top"><i class="fa fa-chevron-up"></i> Back to Top</a>
+				</div>
 			
 			</div>
 			
@@ -340,23 +344,35 @@
 -->
 
 <script type='text/javascript'>
-	$(window).load(function(){
-		$(".bg_image_3").delay(400).animate({opacity: "1"}, 800);
-	});
+$(window).load(function() {
+    $(".bg_image_3").delay(400).animate({
+        opacity: "1"
+    }, 800);
+});
 
-	$(window).scroll(function(e){
-		parallax();
-	});
-	function parallax(){
-		var scrolled = $(window).scrollTop();
-		$(".bg_image_3").css("top",(scrolled*.6)+"px");
-	}
-	$(document).ready(function() {
-		$('.banner').scrollToFixed({ maxWidth: 799 });
-	});
-	$(document).ready(function() {
-		$('.top_nav').scrollToFixed();
-	});
+$(window).scroll(function(e) {
+    parallax();
+});
+
+function parallax() {
+    var scrolled = $(window).scrollTop();
+    $(".bg_image_3").css("top", (scrolled * .6) + "px");
+}
+
+$(document).ready(function() {
+    $('.banner').scrollToFixed({
+        maxWidth: 799
+    });
+});
+
+$(document).ready(function() {
+    $('.top_nav').scrollToFixed();
+});
+
+$('.back_to_top').on("click",function(){
+    $('html,body').animate({ scrollTop: 0 },800)
+});
+
 </script>
 			
 </body>

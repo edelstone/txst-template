@@ -32,7 +32,8 @@ h2 {margin: .5rem auto; color: #363534;}
 .banner {padding: 0 1rem; width: 100% !important; height: 60px;}
 .banner_logo {width: 190px;}
 .banner_logo img {max-width: 100%; margin-top: 11px;}
-.breadcrumbs {text-align: left; font-weight: 400; font-size: 10px; margin: -10px auto 15px auto; line-height: 16px;}
+.breadcrumbs {text-align: left; font-weight: 400; font-size: 11px; margin: -5px auto 15px auto; line-height: 16px;}
+.return a, .return a:hover {position: relative; bottom: -10px; padding-bottom: 8px;}
  
  /* (Handheld) */
 
@@ -110,6 +111,8 @@ h1 {font-size: 2.4rem;}
 .messaging_title {padding: 5.4rem 1rem 2.2rem 1rem; font-size: 5rem;}
 .side_nav {margin-left: 0;}
 .nav a {padding: .4rem .6rem;}
+.return a {bottom: -14px; padding-bottom: 5px;}
+.return a:hover {bottom: -12px; padding-bottom: 7px;}
 }
 
 /* (1280px and up) */
@@ -175,7 +178,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D1C7B7', end
 .bg_container {background: #501214; position: absolute; z-index: 0; width: 100%; height: 100%;}
 .bg_image {opacity: 0; position: absolute; margin-top: -50px; height: 150%; width: 100%; background: #501214 url("../images/poster_shepard.jpg") no-repeat 50% 0; background-size: cover;}
 .bg_image_2 {opacity: 0; position: absolute; margin-top: -50px;height: 150%; width: 100%; background: #501214 url("../images/work_5.jpg") no-repeat 50% 55%; background-size: cover;}
-.bg_image_3 {opacity: 0; position: absolute; margin-top: -50px; height: 150%; width: 100%; background: #501214 url("../images/arch.jpg") no-repeat 50% 70%; background-size: cover;}
+.bg_image_3 {opacity: 0; position: absolute; margin-top: -70px; height: 150%; width: 100%; background: #501214 url("../images/arch.jpg") no-repeat 50% 67%; background-size: cover;}
 .bg_image_4 {opacity: 0; position: absolute; margin-top: -50px; height: 150%; width: 100%; background: #501214 url("../images/old-main-night.jpg") no-repeat 50% 40%; background-size: cover;}
 .bg_video_container {position: absolute; height: 100%; width: 100%;}
 .bg_video {opacity: 0; position: absolute; left: 0; top: 0; min-height: 100%; width: 100%; height: auto; z-index: -1;}
@@ -259,6 +262,9 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .footer_row {max-width: 1000px; margin: auto;}
 .footer a {color: #CCCCCC;}
 .footer a:hover {color: #FFFFFF;}
+.return a {background-color: #20201F; text-transform: uppercase; font-size: 0.75rem; padding-top: 10px; padding-right: 30px; padding-left: 25px; border-radius: 5px 5px 0 0;}
+.return a:hover {text-decoration: none !important;}
+.return .fa-chevron-up {vertical-align: text-top; margin-right: 3px;}
 .dept_footer {border-bottom: 1px solid #0F0F0F; color: #DDDDDD;}
 .dept_footer_content {text-align: center; padding: .8rem; letter-spacing: 1px;}
 .dept_footer_content a {text-decoration: none; color: #DDDDDD;}
