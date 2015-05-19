@@ -112,7 +112,7 @@ h1 {font-size: 2.4rem;}
 .side_nav {margin-left: 0;}
 .nav a {padding: .4rem .6rem;}
 .return a {bottom: -14px; padding-bottom: 6px;}
-.return a:hover {bottom: -9px; padding-bottom: 10px;}
+.return a:hover {bottom: -9px; padding-bottom: 11px;}
 }
 
 /* (1280px and up) */
