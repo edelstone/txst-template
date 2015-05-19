@@ -21,7 +21,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .condensed_nav a {padding: 1rem; width: 100%; text-align: center;}
 .menu_title {margin: auto 8px; text-transform: uppercase; vertical-align: middle;}
 .global_footer_main {padding: 1rem 0;}
-.global_footer:after {background: url('../images/old-main-footer.jpg');}
+.global_footer:after {background: url('../images/old-main-footer-2.jpg');}
 .txst_logo {margin: 2rem auto 3rem auto;}
 .link_group {width: 100%; margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 2px solid #4A4A4A; font-size: .9rem;}
 .footer_links ul {line-height: 1.9rem;}
@@ -284,7 +284,7 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .office_details a {text-decoration: none;}
 .office_details a:hover {text-decoration: underline;}
 .global_footer {border-top: 1px solid #4A4A4A; padding-bottom: 2rem; margin: auto; position: relative; z-index: 1; background: #2E2A26; background: rgba(13, 8, 2, 0.5);}
-.global_footer:after {background-repeat: no-repeat; background-size: cover; opacity: 0.15; top: 0; bottom: 0; left: 0; right: 0; position: absolute; z-index: -1; content: ""; background-position: 80% 0;}
+.global_footer:after {background-repeat: no-repeat; background-size: cover; opacity: 0.15; top: 0; bottom: 0; left: 0; right: 0; position: absolute; z-index: -1; content: ""; background-position: 50% 0;}
 .global_footer_main {max-width: 1440px;}
 .footer_logo {text-align: center;}
 .footer_logo a {opacity: .8; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;}
