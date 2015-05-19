@@ -21,7 +21,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .condensed_nav a {padding: 1rem; width: 100%; text-align: center;}
 .menu_title {margin: auto 8px; text-transform: uppercase; vertical-align: middle;}
 .global_footer_main {padding: 1rem 0;}
-.global_footer:after {background: none;}
+.global_footer:after {background: url('../images/panorama.jpg');}
 .txst_logo {margin: 2rem auto 3rem auto;}
 .link_group {width: 100%; margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 2px solid #4A4A4A; font-size: .9rem;}
 .footer_links ul {line-height: 1.9rem;}
