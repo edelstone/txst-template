@@ -12,7 +12,7 @@
 <link rel="stylesheet" type="text/css" href="//fast.fonts.net/cssapi/959b8b5d-6e60-4d5a-bd8f-497d6e2a1825.css">
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="css/lightbox.css">
-<link rel="stylesheet" type="text/css" href="css/template-2.css">
+<link rel="stylesheet" type="text/css" href="css/template-3.css">
 <script src="//code.jquery.com/jquery-latest.min.js"></script>
 <script src="//bigspotteddog.github.io/ScrollToFixed/jquery-scrolltofixed-min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -43,9 +43,13 @@
 			
 			<div class="banner_logo"><a href="#nowhere"><img src="images/txst-secondary.png"></a></div>
 			
+			<div class="hamburger">
+				<a href="#nowhere"><i class="fa fa-bars fa-lg"></i></a>
+			</div>
+			
 			<div class="txst_search">
   				<div class="search_bar">
-    				<input type="search" class="search" placeholder="Search for people and pages" />
+    				<input type="search" class="search" placeholder="Type a keyword..." />
    				 <button class="icon"><i class="fa fa-search"></i></button>
   				</div>
 			</div>
@@ -54,10 +58,12 @@
 		
 	</div>
 
-	<div class="header_4">
+	<div class="header_2">
 
 		<div class="bg_container">
-					
+		
+			<div class="bg_image_3"></div>
+			
 			<div class="overlay">
 			
 				<div class="bg_overlay"></div>
@@ -70,7 +76,7 @@
 		
 			<div class="header_bg"></div>
 			<div class="dept_name">
-				<h1><a href="home-2.html">Office of <span class="kern_1">U</span>niversity Marketing</a></h1>
+				<h1><a href="home-3.html">Office of University Marketing</a></h1>
 			</div>
 			
 		</div>
@@ -91,11 +97,11 @@
 					  	<li><a href="#nowhere">Contact Us</a></li>
 					</ul>
 				</li>
-				<li><a class="selected-top" href="secondary-2.html">Services <i class="fa fa-caret-down"></i></a>
+				<li><a class="selected-top" href="#nowhere">Services <i class="fa fa-caret-down"></i></a>
 					<ul class="secondary_nav">
 						<li><a href="#nowhere">Graphic Design</a></li>
 						<li><a href="#nowhere">Photography</a></li>
-					  	<li class="selected-internal"><a href="#nowhere">Writing & Editing</a></li>
+					  	<li class="selected-internal"><a href="secondary-3.html">Writing & Editing</a></li>
 					  	<li><a href="#nowhere">Web & Publication Review and Other Stuff</a></li>
 					  	<li><a href="#nowhere">Request Our Services</a></li>
 					</ul>
@@ -130,6 +136,12 @@
 	</div> <!-- end top_navigation -->
 	
 	<div class="page_content">
+		
+		<div class="column full">
+		
+			<p class="breadcrumbs"><a href="#nowhere">University Home</a><span class="separator"><i class="fa fa-angle-right"></i></span><a href="#nowhere">Office of University Marketing</a><span class="separator"><i class="fa fa-angle-right"></i></span><a href="#nowhere">Services</a><span class="separator"><i class="fa fa-angle-right"></i></span>Writing & Editing</p>
+			
+		</div>
 		
 		<div class="side_nav column third">
 			
@@ -180,6 +192,10 @@
 				<h3 class="office_name">Office of University Marketing</h3>
 				<p class="office_details">J.C. Kellam, Suite 860 - Phone: 512.245.1555 - Fax: 512.245.8153 - Email: <a href="mailto:umktg@txstate.edu">umktg@txstate.edu</a></p>
 			
+				<div class="return">
+					<a href="#nowhere" class="back_to_top"><i class="fa fa-arrow-up"></i> Back to Top</a>
+				</div>
+				
 			</div>
 			
 		</div> <!-- end dept_footer -->
@@ -188,7 +204,13 @@
 		
 			<div class="global_footer_main footer_row">
 		
-				<div class="footer_links column third hide">
+				<div class="footer_logo footer_logo_mobile column third">
+					<div class="txst_logo">
+						<a href="#nowhere"><img alt="Texas State University - The Rising Star of Texas" src="images/txst_logo.svg"></a>
+					</div>
+				</div>
+		
+				<div class="footer_links column third">
 				
 					<div class="link_group align_1">
 						<h3 class="list_header">Students</h3>
@@ -215,7 +237,7 @@
 					
 				</div>
 		
-				<div class="footer_logo column third">
+				<div class="footer_logo column third hide">
 					<div class="txst_logo">
 						<a href="#nowhere"><img alt="Texas State University - The Rising Star of Texas" src="images/txst_logo.svg"></a>
 					</div>
@@ -234,7 +256,7 @@
 						</ul>
 					</div>
 					
-					<div class="link_group align_3">
+					<div class="link_group align_2">
 						<h3 class="list_header">Location</h3>
 						<ul>
 							<li>Texas State University</li>
@@ -288,9 +310,36 @@
 </div> <!-- end container -->
 
 <script type='text/javascript'>
-	$(document).ready(function() {
-		$('.top_nav').scrollToFixed();
-	});
+
+$(window).load(function() {
+    $(".bg_image_3").delay(0).animate({
+        opacity: "1"
+    }, 300);
+});
+
+$(window).scroll(function(e) {
+    parallax();
+});
+
+function parallax() {
+    var scrolled = $(window).scrollTop();
+    $(".bg_image_3").css("top", (scrolled * .6) + "px");
+}
+
+$(document).ready(function() {
+    $('.banner').scrollToFixed({
+        maxWidth: 799
+    });
+});
+
+$(document).ready(function() {
+    $('.top_nav').scrollToFixed();
+});
+
+$('.back_to_top').on("click",function(){
+    $('html,body').animate({ scrollTop: 0 },500)
+});
+
 </script>
 
 </body>

@@ -23,7 +23,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .global_footer_main {padding: 1rem 0;}
 .global_footer:after {background: url('../images/old-main-footer-2.jpg');}
 .txst_logo {margin: 2rem auto 3rem auto;}
-.link_group {width: 100%; margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 2px solid #CCCCCC; font-size: .9rem;}
+.link_group {width: 100%; margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid #636363; font-size: .9rem;}
 .footer_links ul {line-height: 1.9rem;}
 .tsus_logo {margin: 1.5rem auto auto auto;}
 .footer_logo.third, .footer_links.third {width: 100% !important;}
@@ -95,7 +95,7 @@ h1 {font-size: 2.2rem;}
 .banner_logo img {max-width: 100%; margin-top: 16px;}
 .footer_logo_mobile {display: none;}
 .align_1 {text-align: right; border-right: 1px solid #636363; padding: 0 0.6rem 0 0.2rem;}
-.align_2 {text-align: left; border-left: 1px solid #646363; padding: 0 0.2rem 0 0.6rem;}
+.align_2 {text-align: left; border-left: 1px solid #636363; padding: 0 0.2rem 0 0.6rem;}
 .link_group {width: 50%; margin-bottom: 0; padding-bottom: 0; border-bottom: none; font-size: .7rem;}
 .footer_links ul {line-height: 1.4rem;}
 .list_header {margin-bottom: .5rem; font-size: .7rem;}
