@@ -23,7 +23,39 @@
 
 <body class="umktg_primary">
 
-<div class="container">
+<nav id="menu">
+  <header>
+    <ul class="">
+			<li><a href="#nowhere">Bobcat Mail</a></li>
+			<li><a href="#nowhere">Catsweb</a></li>
+			<li><a href="#nowhere">TRACS</a></li>
+			<li><a href="#nowhere">Catalogs</a></li>
+			<li><a href="#nowhere">Pay Tuition</a></li>
+			<li><a href="#nowhere">Library</a></li>
+			<li><a href="#nowhere">Maps</a></li><li><a href="#nowhere">Bobcat Mail</a></li>
+			<li><a href="#nowhere">Catsweb</a></li>
+			<li><a href="#nowhere">TRACS</a></li>
+			<li><a href="#nowhere">Catalogs</a></li>
+			<li><a href="#nowhere">Pay Tuition</a></li>
+			<li><a href="#nowhere">Library</a></li>
+			<li><a href="#nowhere">Maps</a></li><li><a href="#nowhere">Bobcat Mail</a></li>
+			<li><a href="#nowhere">Catsweb</a></li>
+			<li><a href="#nowhere">TRACS</a></li>
+			<li><a href="#nowhere">Catalogs</a></li>
+			<li><a href="#nowhere">Pay Tuition</a></li>
+			<li><a href="#nowhere">Library</a></li>
+			<li><a href="#nowhere">Maps</a></li><li><a href="#nowhere">Bobcat Mail</a></li>
+			<li><a href="#nowhere">Catsweb</a></li>
+			<li><a href="#nowhere">TRACS</a></li>
+			<li><a href="#nowhere">Catalogs</a></li>
+			<li><a href="#nowhere">Pay Tuition</a></li>
+			<li><a href="#nowhere">Library</a></li>
+			<li><a href="#nowhere">Maps</a></li>
+		</ul>
+  </header>
+</nav>
+
+<div class="container" id="panel">
 
 	<div class="super_user">
 		<ul class="super_list">
@@ -43,9 +75,11 @@
 			
 			<div class="banner_logo"><a href="#nowhere"><img src="images/txst-secondary.png"></a></div>
 			
-			<div class="hamburger">
+			<button class="toggle-button">☰</button>
+			
+			<!-- <div class="hamburger">
 				<a href="#nowhere"><i class="fa fa-bars fa-lg"></i></a>
-			</div>
+			</div> -->
 			
 			<div class="txst_search">
   				<div class="search_bar">
@@ -381,6 +415,20 @@ $('.back_to_top').on("click",function(){
 });
 
 </script>
+
+<script src="js/slideout.min.js"></script>
+    <script>
+      var slideout = new Slideout({
+        'panel': document.getElementById('panel'),
+        'menu': document.getElementById('menu'),
+        'padding': 256,
+        'tolerance': 70
+      });
+
+      $('.toggle-button').on('click', function() {
+    	slideout.toggle();
+		});
+    </script>
 			
 </body>
 

@@ -30,7 +30,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .side_nav {margin: -1rem -1rem 1.5rem -1rem;}
 .side_nav_list a, .side_nav_header {margin-bottom: 0; padding: 0.5rem 0.7rem; font-size: 95%;}
 .banner {padding: 0 1rem; width: 100% !important; height: 60px;}
-.banner_logo {width: 190px;}
+.banner_logo {width: 190px; float: right;}
 .banner_logo img {max-width: 100%; margin-top: 11px;}
 .breadcrumbs {text-align: left; font-weight: 400; font-size: 11px; margin: -5px auto 15px auto; line-height: 16px;}
 .return a, .return a:hover {bottom: -6px; padding-bottom: 10px;}
@@ -92,7 +92,7 @@ h1 {font-size: 2.2rem;}
 .footer_logo.third, .footer_links.third {width: 33% !important;}
 .nav a {padding: .4rem .5rem; margin: auto 0; text-align: left; min-width: 0; font-size: 70%;}
 .banner {height: 75px;}
-.banner_logo {width: 220px;}
+.banner_logo {width: 220px; float: left;}
 .banner_logo img {max-width: 100%; margin-top: 16px;}
 .footer_logo_mobile {display: none;}
 .align_1 {text-align: right; border-right: 1px solid #636363; padding: 0 0.6rem 0 0.2rem;}
@@ -102,6 +102,8 @@ h1 {font-size: 2.2rem;}
 .list_header {margin-bottom: .5rem; font-size: .7rem;}
 .global_footer_lower {padding: 2rem 0;}
 .font_icons {font-size: 1rem; line-height: 2rem;}
+.toggle-button {display: none;}
+
 }
 
 /* (960px and up) */
@@ -161,13 +163,55 @@ p, ul, ol, table {line-height: 1.5rem;}
 .kern_1 {margin-right: -2px;}
 /* img, img:hover {-moz-backface-visibility: hidden; -webkit-backface-visibility: hidden; backface-visibility: hidden; transform: translate3d(0px,0px,0px);} */
 
+/* Mobile Navigation */
+
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.slideout-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  width: 256px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  display: none;
+}
+
+.slideout-panel {
+  position: relative;
+  z-index: 1;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+  overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+  display: block;
+}
+
+.toggle-button {
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+  margin-top: 3px;
+  margin-left: -8px;
+  }
+
 /* Banner */
 
 .banner {background: #D1C7B7; background: -moz-linear-gradient(top, #D1C7B7 0%, #BBAB92 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, #D1C7B7), color-stop(100%, #BBAB92)); background: -webkit-linear-gradient(top, #D1C7B7 0%, #BBAB92 100%); background: -o-linear-gradient(top, #D1C7B7 0%, #BBAB92 100%); background: -ms-linear-gradient(top, #D1C7B7 0%, #BBAB92 100%); background: linear-gradient(to bottom, #D1C7B7 0%, #BBAB92 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D1C7B7', endColorstr='#BBAB92', GradientType=0 ); border-bottom: 3px solid #6A5638;}
 .banner_content {max-width: 1000px; margin: auto;}
-.banner_logo {float: left;}
 .txst_search {float: right; margin-top: 18px; position: relative;}
 .search_bar .search{position: absolute; right: 0; width: 280px; height: 30px; background: #FFFFFF; border: 2px solid #6A5638; font-size: .75rem; padding-left: 10px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
 .search_bar .search::-webkit-input-placeholder {color: #777777;}
@@ -181,7 +225,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D1C7B7', end
 .super_list li {display: inline-block; font-size: 1rem;}
 .super_list a {border-right: 1px solid #79674C; color: #FFFFFF; text-transform: uppercase; font-size: 55%; font-weight: 400; letter-spacing: 1px; display: block; padding: 4px 12px 3px 12px;}
 .super_list a:hover {background: #79674C;}
-.hamburger {float: right; margin-top: 13px; overflow: auto; font-size: 20px !important;}
+.hamburger {float: left; margin-top: 13px; overflow: auto; font-size: 20px !important;}
 .hamburger a {color: #222222;}
 
 /* Header */
@@ -252,7 +296,7 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 
 /* Body */
 
-.page_content {max-width: 1000px; margin: auto; padding: 1rem 0 1.5rem 0; overflow: hidden; min-height: 32rem;}
+.page_content {max-width: 1000px; margin: auto; padding: 1rem 0 1.5rem 0; overflow: hidden; min-height: 32rem; background-color: #FFFFFF;}
 .breadcrumbs a {color: #015E8F; text-decoration: none;}
 .breadcrumbs a:hover {text-decoration: underline;}
 .breadcrumbs .separator {margin: auto 5px auto 7px;}
