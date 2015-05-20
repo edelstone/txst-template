@@ -23,8 +23,6 @@ h2 {margin: .5rem auto; color: #363534;}
 .global_footer_main {padding: 1rem 0;}
 .global_footer:after {background: url('../images/old-main-footer-2.jpg');}
 .txst_logo {margin: 2rem auto 3rem auto;}
-.link_group {width: 100%; margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid #636363; font-size: .9rem;}
-.footer_links ul {line-height: 1.9rem;}
 .tsus_logo {margin: 1.5rem auto auto auto;}
 .footer_logo.third, .footer_links.third {width: 100% !important;}
 .side_nav {margin: -1rem -1rem 1.5rem -1rem;}
@@ -36,9 +34,10 @@ h2 {margin: .5rem auto; color: #363534;}
 .return a, .return a:hover {bottom: -6px; padding-bottom: 10px;}
 .list_header {margin-bottom: .8rem; font-size: .9rem;}
 .global_footer_lower {padding: 0 0 1.5rem 0;}
-.font_icons {font-size: 1.2rem; line-height: 3rem;}
 .global_footer_main {left: 0; padding: 1rem}
- 
+.mobile_right {text-align: left; border-left: 1px solid #636363; padding: 0 0.2rem 0 0.6rem;}
+.mobile_left {text-align: right; padding: 0 0.6rem 0 0.2rem;}
+
  /* (Handheld) */
 
 @media handheld {
@@ -85,7 +84,7 @@ h2 {margin-top: 1rem;}
 h1 {font-size: 2.2rem;}
 .hide, .top_nav, .super_user, .txst_search {display: block;}
 .hamburger {display: none;}
-.global_footer_main {padding: 3rem 0 0 0; left: 8px;}
+.global_footer_main {padding: 3rem 0 0 0;}
 .global_footer:after {background: url('../images/panorama.jpg');}
 .txst_logo {margin: 1.5rem auto auto auto;}
 .tsus_logo {margin: 0.5rem auto auto auto;}
@@ -95,13 +94,9 @@ h1 {font-size: 2.2rem;}
 .banner_logo {width: 220px;}
 .banner_logo img {max-width: 100%; margin-top: 16px;}
 .footer_logo_mobile {display: none;}
-.align_1 {text-align: right; border-right: 1px solid #636363; padding: 0 0.6rem 0 0.2rem;}
-.align_2 {text-align: left; border-left: 1px solid #636363; padding: 0 0.2rem 0 0.6rem;}
-.link_group {width: 50%; margin-bottom: 0; padding-bottom: 0; border-bottom: none; font-size: .7rem;}
-.footer_links ul {line-height: 1.4rem;}
-.list_header {margin-bottom: .5rem; font-size: .7rem;}
-.global_footer_lower {padding: 2rem 0;}
-.font_icons {font-size: 1rem; line-height: 2rem;}
+.global_footer_main {padding-left: 15px;}
+.align_1 {border-left: none; border-right: 1px solid #636363; text-align: right; padding: 0 0.6rem 0 0.2rem;}
+.align_2 {border-left: 1px solid #636363; border-right: none; text-align: left; padding: 0 0.2rem 0 0.6rem;}
 }
 
 /* (960px and up) */
@@ -118,7 +113,7 @@ h1 {font-size: 2.4rem;}
 .header, .header_3 {min-height: 320px;}
 .bg_image {display: none;}
 .bg_video {display: inline-block; margin-top: -125px;}
-.align_1, .align_2 {padding: 0 1rem;}
+.align_1, .align_2, .align_3 {padding: 0 1rem;}
 .messaging_title {padding: 5.4rem 1rem 2.2rem 1rem; font-size: 5rem;}
 .side_nav {margin-left: 0;}
 .nav a {padding: .4rem .6rem;}
@@ -281,12 +276,13 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .dept_footer_content a {text-decoration: none; color: #DDDDDD;}
 .dept_footer_content a:hover {text-decoration: underline; color: #DDDDDD;}
 .office_name {font-size: 1.3rem; margin-bottom: 0;}
-.office_details {margin: .5rem auto 1.7rem auto; font-size: 13px; line-height: 20px; list-style: none; padding: 0; max-width: 480px;}
+.office_details {font-size: .7rem; margin: .5rem auto 1.7rem auto; line-height: 1.1rem; list-style: none; padding: 0; max-width: 480px;}
 .office_details a {text-decoration: none;}
 .office_details a:hover {text-decoration: underline;}
 .global_footer {border-top: 1px solid #4A4A4A; padding-bottom: 2rem; margin: auto; position: relative; z-index: 1; background: #2E2A26; background: rgba(13, 8, 2, 0.5);}
-.global_footer:after {background-repeat: no-repeat; background-size: cover; opacity: 0.15; top: 0; bottom: 0; left: 0; right: 0; position: absolute; z-index: -1; content: ""; background-position: 50% 0;}
-.global_footer_main {max-width: 1440px; position: relative;}
+.global_footer:after {background-repeat: no-repeat; background-size: cover; opacity: 0.15; top: 0; bottom: 0; left: 0; right: 0; position: absolute; z-index: -1; content: ""; background-position: 80% 0;}
+.global_footer_main {max-width: 1440px;}
+.global_footer_lower {padding-bottom: 2rem;}
 .footer_logo {text-align: center;}
 .footer_logo a {opacity: .8; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;}
 .footer_logo a:hover {opacity: 1;}
@@ -294,12 +290,13 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .txst_logo img {width: 100%; height: auto;}
 .tsus_logo {max-width: 360px; padding: 0 1rem;}
 .tsus_logo img {width: 100%; height: auto;}
-.link_group {float: left; letter-spacing: 1px; line-height: 1.4rem;}
-.footer_links ul {list-style: none; margin: 0; padding: 0;}
-.list_header {text-transform: uppercase; font-weight: 400; color: #E7E7E7; margin-top: 0; letter-spacing: 2px;}
+.link_group {float: left; width: 50%; letter-spacing: 1px; font-size: .7rem; line-height: 1.4rem;}
+.footer_links {margin-bottom: 2rem; overflow: hidden;}
+.footer_links ul {list-style: none; margin: 0; padding: 0; line-height: 1.4rem;}
+.list_header {text-transform: uppercase; font-weight: 400; margin-bottom: 0.5rem; color: #E7E7E7; font-size: 0.7rem; margin-top: 0; letter-spacing: 2px;}
 .footer_links a {padding: 5px; margin: -5px;}
 .footer_links a:hover, ul.font_icons a:hover {background: #111111; background: rgba(0, 0, 0, 0.4);}
 .footer_social {text-align: center; padding: 0 1rem;}
-.font_icons {display: inline-block; list-style-type: none; padding: 0; margin: 0; text-align: center;}
+.font_icons {font-size: 1rem; line-height: 2.2rem; display: inline-block; list-style-type: none; padding: 0; margin: 0; text-align: center;}
 .font_icons li {display: inline-block; margin: 0 0.45rem;}
 .font_icons a {padding: 8px; margin: -8px; border-radius: 8px;}
