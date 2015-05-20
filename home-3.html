@@ -23,39 +23,7 @@
 
 <body class="umktg_primary">
 
-<nav id="menu">
-  <header>
-    <ul class="">
-			<li><a href="#nowhere">Bobcat Mail</a></li>
-			<li><a href="#nowhere">Catsweb</a></li>
-			<li><a href="#nowhere">TRACS</a></li>
-			<li><a href="#nowhere">Catalogs</a></li>
-			<li><a href="#nowhere">Pay Tuition</a></li>
-			<li><a href="#nowhere">Library</a></li>
-			<li><a href="#nowhere">Maps</a></li><li><a href="#nowhere">Bobcat Mail</a></li>
-			<li><a href="#nowhere">Catsweb</a></li>
-			<li><a href="#nowhere">TRACS</a></li>
-			<li><a href="#nowhere">Catalogs</a></li>
-			<li><a href="#nowhere">Pay Tuition</a></li>
-			<li><a href="#nowhere">Library</a></li>
-			<li><a href="#nowhere">Maps</a></li><li><a href="#nowhere">Bobcat Mail</a></li>
-			<li><a href="#nowhere">Catsweb</a></li>
-			<li><a href="#nowhere">TRACS</a></li>
-			<li><a href="#nowhere">Catalogs</a></li>
-			<li><a href="#nowhere">Pay Tuition</a></li>
-			<li><a href="#nowhere">Library</a></li>
-			<li><a href="#nowhere">Maps</a></li><li><a href="#nowhere">Bobcat Mail</a></li>
-			<li><a href="#nowhere">Catsweb</a></li>
-			<li><a href="#nowhere">TRACS</a></li>
-			<li><a href="#nowhere">Catalogs</a></li>
-			<li><a href="#nowhere">Pay Tuition</a></li>
-			<li><a href="#nowhere">Library</a></li>
-			<li><a href="#nowhere">Maps</a></li>
-		</ul>
-  </header>
-</nav>
-
-<div class="container" id="panel">
+<div class="container">
 
 	<div class="super_user">
 		<ul class="super_list">
@@ -75,11 +43,9 @@
 			
 			<div class="banner_logo"><a href="#nowhere"><img src="images/txst-secondary.png"></a></div>
 			
-			<button class="toggle-button">☰</button>
-			
-			<!-- <div class="hamburger">
+			<div class="hamburger">
 				<a href="#nowhere"><i class="fa fa-bars fa-lg"></i></a>
-			</div> -->
+			</div>
 			
 			<div class="txst_search">
   				<div class="search_bar">
@@ -399,13 +365,12 @@ function parallax() {
     var scrolled = $(window).scrollTop();
     $(".bg_image_3").css("top", (scrolled * .6) + "px");
 }
-/*
+
 $(document).ready(function() {
     $('.banner').scrollToFixed({
         maxWidth: 799
     });
 });
-*/
 
 $(document).ready(function() {
     $('.top_nav').scrollToFixed();
@@ -417,20 +382,6 @@ $('.back_to_top').on("click",function(){
 
 </script>
 
-<script src="js/slideout.min.js"></script>
-    <script>
-      var slideout = new Slideout({
-        'panel': document.getElementById('panel'),
-        'menu': document.getElementById('menu'),
-        'padding': 256,
-        'tolerance': 70
-      });
-
-      $('.toggle-button').on('click', function() {
-    	slideout.toggle();
-		});
-    </script>
-			
 </body>
 
 </html>
