@@ -292,13 +292,13 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .txst_logo img {width: 100%; height: auto;}
 .tsus_logo {max-width: 360px; padding: 0 1rem;}
 .tsus_logo img {width: 100%; height: auto;}
-.txst_address p {text-align: center; font-size: 65%; font-weight: 400; letter-spacing: 1px; line-height: 1.35rem;}
+.txst_address p {text-align: center; font-size: 65%; font-weight: 400; letter-spacing: 1px; line-height: 1.2rem;}
 .link_group {float: left; width: 50%; letter-spacing: 1px; font-size: .7rem; line-height: 1.4rem;}
 .footer_links {margin-bottom: 2rem; overflow: hidden;}
 .footer_links ul {list-style: none; margin: 0; padding: 0; line-height: 1.4rem;}
 .list_header {text-transform: uppercase; font-weight: 400; margin-bottom: 0.5rem; color: #E7E7E7; font-size: 0.7rem; margin-top: 0; letter-spacing: 2px;}
-.footer_links a, .txst_address a {padding: 5px; margin: -5px;}
-.footer_links a:hover, ul.font_icons a:hover, .txst_address a:hover {background: #111111; background: rgba(0, 0, 0, 0.4);}
+.footer_links a {padding: 5px; margin: -5px;}
+.footer_links a:hover, ul.font_icons a:hover {background: #111111; background: rgba(0, 0, 0, 0.4);}
 .footer_social {text-align: center; padding: 0 1rem;}
 .font_icons {font-size: 1rem; line-height: 2.2rem; display: inline-block; list-style-type: none; padding: 0; margin: 0; text-align: center;}
 .font_icons li {display: inline-block; margin: 0 0.45rem;}
