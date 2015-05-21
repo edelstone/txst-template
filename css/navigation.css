@@ -493,7 +493,6 @@
   -webkit-transform: translate3D(-270px, 0, 0);
       -ms-transform: translate3D(-270px, 0, 0);
           transform: translate3D(-270px, 0, 0);
-opacity: .4;
 }
 .fs-navigation-handle.fs-navigation-enabled {
   position: relative;
@@ -527,7 +526,3 @@ opacity: .4;
 .fs-navigation-lock {
   overflow: hidden !important;
 }
-
-body.umktg_primary.fs-navigation-lock {
-  background-color: #501214;
-  }
