@@ -416,6 +416,7 @@
   -webkit-transition: -webkit-transform 0.2s ease, visibility 0.001s ease;
           transition: transform 0.2s ease, visibility 0.001s ease;
   visibility: visible;
+  margin-top: 60px;
 }
 .fs-navigation-push-handle.fs-navigation-enabled,
 .fs-navigation-overlay-handle.fs-navigation-enabled {
@@ -518,11 +519,13 @@
   box-shadow: none;
   color: #000000;
   content: "\00d7";
-  font-size: 34px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 13px;
   text-align: center;
-}
+  right: 14px;
+  }
+  
 .fs-navigation-lock {
   overflow: hidden !important;
 }

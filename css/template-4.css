@@ -26,7 +26,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .footer_logo.third, .footer_links.third {width: 100% !important;}
 .side_nav {margin: -1rem -1rem 1.5rem -1rem;}
 .side_nav_list a, .side_nav_header {margin-bottom: 0; padding: 0.5rem 0.7rem; font-size: 95%;}
-.banner {padding: 0 1rem; width: 100% !important; height: 60px;}
+.banner {padding: 0 1rem; width: 100% !important; height: 60px; position: fixed; z-index: 3;}
 .banner_logo {width: 190px;}
 .banner_logo img {max-width: 100%; margin-top: 11px;}
 .breadcrumbs {text-align: left; font-weight: 400; font-size: 11px; margin: -5px auto 15px auto; line-height: 16px;}
@@ -91,7 +91,7 @@ h1 {font-size: 2.2rem;}
 .tsus_logo {margin: 0.5rem auto auto auto;}
 .footer_logo.third, .footer_links.third {width: 33% !important;}
 .nav a {padding: .4rem .5rem; margin: auto 0; text-align: left; min-width: 0; font-size: 70%;}
-.banner {height: 75px;}
+.banner {height: 75px; position: initial;}
 .banner_logo {width: 220px;}
 .banner_logo img {max-width: 100%; margin-top: 16px;}
 .footer_logo_mobile {display: none;}
