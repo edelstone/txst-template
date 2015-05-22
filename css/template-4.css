@@ -1,5 +1,5 @@
 /*
-Template Design II 2015
+Template Design IV 2015
 Author: Michael Edelstone
 edelstone@txstate.edu or michael.edelstone@gmail.com
 */
@@ -11,6 +11,7 @@ body {height: auto; min-height: 100%;}
 h1 {font-size: 2rem; line-height: 42px; padding: 1rem;}
 h2 {margin: .5rem auto; color: #363534;}
 .column {padding-left: 1rem; padding-right: 1rem;}
+.main_section {padding-bottom: 1rem;}
 .float_left {float: left;}
 .float_right {float: right;}
 .header, .header_2, .header_3, .header_4 {min-height: 70px; padding: 0;}
@@ -53,6 +54,7 @@ h2 {margin: .5rem auto; color: #363534;}
 @media (min-width: 48rem) {
 html {font-size: 110%;}
 .column {float: left;}
+.main_section {padding-bottom: 0;}
 .column.full {width: 100%;}
 .column.two-thirds {width: 66.7%;}
 .column.half {width: 50%;}
@@ -67,7 +69,6 @@ h1 {font-size: 2.2rem; line-height: 60px; padding: 15px 15px 5px 18px;}
 h2 {margin-top: 1rem;}
 .dept_name {margin-top: 0;}
 .dept_name, .title {position: absolute;}
-.condensed_nav {display: none;}
 .nav {margin: auto; display: block;}
 .nav a {width: auto; border: none; padding: .4rem .5rem; margin: auto 0; text-align: left; min-width: 0; font-size: 70%;}
 .primary_nav a, .secondary_nav a {font-size: 75%;}
@@ -76,7 +77,6 @@ h2 {margin-top: 1rem;}
 .messaging_title {padding: 4.5rem 1rem 2rem 1rem; font-size: 4.5rem;}
 .side_nav {margin: auto; margin-top: 1.3rem;}
 .side_nav_list a, .side_nav_header {margin-bottom: 8px; padding: 0.3rem 0.7rem; font-size: 85%;}
-.main_text, .nav {font-size: 95%;}
 .breadcrumbs {text-align: right; font-size: 12px; margin: 0 auto;}
 .hide, .top_nav, .super_user, .txst_search {display: block;}
 .hamburger, .mobile_nav {display: none;}
@@ -134,6 +134,8 @@ a:hover, a:active {text-decoration: none;}
 .top_services a {transition: all 0.1s ease-in-out; -webkit-transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; -o-transition: all 0.1s ease-in-out;}
 /* a, li, .std_transition, .fast_transition, a:after, a:before {transition: all 0.1s ease-in-out; -webkit-transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; -o-transition: all 0.1s ease-in-out;} */
 .no_transition {transition: none; -webkit-transition: none; -moz-transition: none; -o-transition: none;}
+hr {margin-bottom: 2em;}
+img {max-width: 100%;}
 h1, .office_name {font-family: 'Adobe Garamond W01'; font-weight: 400; letter-spacing: 1px;}
 h1 a {color: #FFFFFF !important;}
 h2 {font-size: 2rem; letter-spacing: 0.05rem; text-transform: uppercase; font-weight: 500;}
@@ -195,7 +197,7 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 
 .top_nav {background: #E8E3DB; background: -moz-linear-gradient(top, #E8E3DB 0%, #D1C7B7 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), color-stop(100%, #D1C7B7)); background: -webkit-linear-gradient(top, #E8E3DB 0%, #D1C7B7 100%); background: -o-linear-gradient(top, #E8E3DB 0%, #D1C7B7 100%); background: -ms-linear-gradient(top, #E8E3DB 0%, #D1C7B7 100%); background: linear-gradient(to bottom, #E8E3DB 0%, #D1C7B7 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E8E3DB', endColorstr='#D1C7B7', GradientType=0 ); border-bottom: 1px solid #BBAB92;}
-.nav, .condensed_nav {max-width: 1000px; background: #E8E3DB; background: -moz-linear-gradient(top, #E8E3DB 0%, #D1C7B7 100%); background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), color-stop(100%, #D1C7B7)); background: -webkit-linear-gradient(top, #E8E3DB 0%, #D1C7B7 100%); background: -o-linear-gradient(top, #E8E3DB 0%, #D1C7B7 100%); background: -ms-linear-gradient(top, #E8E3DB 0%, #D1C7B7 100%); background: linear-gradient(to bottom, #E8E3DB 0%, #D1C7B7 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E8E3DB', endColorstr='#D1C7B7', GradientType=0 );}
+.nav {font-size: .9rem; max-width: 1000px; background: #E8E3DB; background: -moz-linear-gradient(top, #E8E3DB 0%, #D1C7B7 100%); background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), color-stop(100%, #D1C7B7)); background: -webkit-linear-gradient(top, #E8E3DB 0%, #D1C7B7 100%); background: -o-linear-gradient(top, #E8E3DB 0%, #D1C7B7 100%); background: -ms-linear-gradient(top, #E8E3DB 0%, #D1C7B7 100%); background: linear-gradient(to bottom, #E8E3DB 0%, #D1C7B7 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E8E3DB', endColorstr='#D1C7B7', GradientType=0 );}
 .top_nav.scroll-to-fixed-fixed {border-bottom: 2px solid #6A5638;}
 .primary_nav {margin: 0; padding: 0; display: flex;}
 .primary_nav li {position: relative; list-style-type: none; border-left: 1px solid #BBAB92; /* border-right: 1px solid #DDD5C9; border-left: 1px solid #F4F1ED; */}
@@ -206,7 +208,6 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .primary_nav .fa-caret-down {color: #222222; position: relative; left: 3px; font-size: 80%; display: none;}
 .primary_nav a:hover .fa-caret-down {color: #6A5638;}
 .selected-top {-moz-box-shadow: inset 0 -4px 0 0 #6A5638; -webkit-box-shadow: inset 0 -4px 0 0 #6A5638; box-shadow: inset 0 -4px 0 0 #6A5638;}
-.condensed_nav a {color: #222222; font-weight: 400; font-size: 100%; display: inline-block;}
 
 /* Secondary */
 
@@ -235,20 +236,22 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 
 /* Body */
 
-.page_content {max-width: 1000px; margin: auto; padding: 1rem 0 1.5rem 0; overflow: hidden; min-height: 32rem; background-color: #FFFFFF;}
+.page_content {max-width: 1000px; margin: auto; padding: 1rem 0 1.5rem 0; overflow: hidden; min-height: 32rem; background-color: #FFFFFF; font-size: 95%;}
+.page_content .row {margin-bottom: 1.5rem;}
+.page_content a {padding: 1px 3px; margin: -1px -3px; color: #015E8F; text-decoration: underline;}
+.page_content a:hover {background: #E8E3DB;}
 .breadcrumbs a {color: #015E8F; text-decoration: none;}
-.breadcrumbs a:hover {text-decoration: underline;}
+.breadcrumbs a:hover {text-decoration: underline; background: transparent;}
 .breadcrumbs .separator {margin: auto 5px auto 7px;}
-.main_text {padding-bottom: .5rem;}
-.main_text a {padding: 1px 3px; margin: -1px -3px; color: #015E8F; text-decoration: underline;}
-.main_text a:hover {background: #E8E3DB;}
 .top_services {margin: 0; font-weight: 200; font-size: 2rem; letter-spacing: 0.13rem; text-transform: uppercase; line-height: 2rem;}
 .top_services div {margin: 1.2rem 0;}
-.top_services a {color: #FFFFFF; padding: 2.5rem 1rem 2.1rem 1rem; background: #6A5638; display: block; text-align: center; border-radius: 4px;}
+.top_services a {margin: auto; text-decoration: none; color: #FFFFFF; padding: 2.5rem 1rem 2.1rem 1rem; background: #6A5638; display: block; text-align: center; border-radius: 4px;}
 .top_services a:hover {background: #7A6742; background: rgba(107, 86, 49, 0.85);}
 .service_1 {background: url('../images/pencils.jpg') no-repeat; background-size: cover; border-radius: 4px;}
 .service_2 {background: url('../images/camera.jpg') no-repeat; background-size: cover; border-radius: 4px;}
 .service_3 {background: url('../images/bobcat.jpg') no-repeat; background-size: cover; background-position: 100% 60%; border-radius: 4px;}
+.display_icon {font-size: 5rem; color: #501214;}
+.infographic p {max-width: 250px; text-align: center; margin: 1rem auto;}
 
 /* Footer */
 
@@ -271,6 +274,6 @@ a.image_link:hover {background: transparent; opacity: 1;}
 .apply_now {text-decoration: none !important; text-transform: uppercase; font-weight: 400; padding: 0.7rem 2.4rem !important; border: 2px solid #DDD; border-radius: 3px; font-size: 0.75rem; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;}
 .apply_now:hover {background-color: #6A5638 !important;}
 .footer_btt {height: 0;}
-.btt {text-align: center; display: block; color: #ccc !important; text-transform: uppercase; font-weight: 400; font-size: .7rem; padding: 0 !important; margin: 0 auto !important; text-decoration: none !important; position: relative; top: -20px; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; max-width: 5rem;}
+.btt {text-align: center; display: block; color: #ccc !important; text-transform: uppercase; font-weight: 400; font-size: .7rem; padding: 0 !important; margin: 0 auto !important; text-decoration: none !important; position: relative; top: -15px; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; max-width: 5rem;}
 .btt:hover {color: #fff !important; background: transparent !important;}
 .btt i {font-size: 130%;}

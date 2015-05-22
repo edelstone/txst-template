@@ -2,7 +2,7 @@
 
 $(function() {
     $(".nav_mob").navigation({
-        maxWidth: "768px",
+        maxWidth: "767px",
         labels: false,
         gravity: "right",
         type: "push"
