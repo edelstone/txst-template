@@ -416,7 +416,6 @@
   -webkit-transition: -webkit-transform 0.2s ease, visibility 0.001s ease;
           transition: transform 0.2s ease, visibility 0.001s ease;
   visibility: visible;
-  margin-top: 60px;
 }
 .fs-navigation-push-handle.fs-navigation-enabled,
 .fs-navigation-overlay-handle.fs-navigation-enabled {
