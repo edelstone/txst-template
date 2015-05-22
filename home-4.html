@@ -29,17 +29,6 @@
 
 <body class="umktg_primary">
 
-<script>
-	$(function() {
-		$(".nav_mob").navigation({
-			maxWidth: "800px",
-			labels: false,
-			gravity: "right",
-			type: "push"
-		});
-	});
-</script>
-
 <div class="mobile_nav">
 
 	<nav data-navigation-handle="#handle" data-navigation-content="#content" class="nav_mob">
@@ -135,32 +124,6 @@
 			</div>
 			
 		</div>
-
-	<!-- <div class="header">
-
-		<div class="bg_container">
-		
-			<div class="bg_image"><img src="images/poster_shepard.jpg"></div>
-			
-			<div class="bg_video_container">
-				<video muted autoplay loop poster="images/poster_shepard.jpg" class="bg_video">
-				<source src="video/shepard.webm" type="video/webm">
-				<source src="video/shepard.mp4" type="video/mp4">
-				</video>
-			</div>
-			
-			<div class="overlay">
-			
-				<div class="bg_overlay"></div>
-				
-				<div class="messaging">
-					<p class="messaging_title">Telling Our Stories</p>
-					<p class="messaging_btn"><a href="https://www.youtube.com/watch?v=YcJsavwvIwo" data-lightbox-gallery="gallery1" class="primary_link">Play Video <i class="fa fa-play play"></i></a><a href="https://www.youtube.com/watch?v=87FnwtlpctU" data-lightbox-gallery="gallery1" class="gallery_link"></a><a href="http://vimeo.com/114181945" data-lightbox-gallery="gallery1" class="gallery_link"></a></p>
-				</div>
-				
-			</div>
-			
-		</div> -->
 
 		<div class="title">
 		
@@ -300,7 +263,6 @@
 				<div class="txst_logo">
 					<a class="image_link" href="#nowhere"><img alt="Texas State University - The Rising Star of Texas" src="images/txst_logo.svg"></a>
 				</div>
-				
 			
 			</div>
 			
@@ -324,33 +286,16 @@
 	
 </div> <!-- end container -->
 
-<!--
-
 <script type='text/javascript'>
-	$(window).load(function(){
-		$(".bg_video, .bg_image").delay(1200).animate({opacity: "1"}, 1200);
-		$(".messaging_title").animate({opacity: "1", top: "0"}, 1000);
-		$(".messaging_btn").delay(1200).animate({opacity: "1"}, 1200);
-	});
 
-	$(window).scroll(function(e){
-		parallax();
-	});
-	function parallax(){
-		var scrolled = $(window).scrollTop();
-		$(".bg_video, .bg_image").css("top",(scrolled*.6)+"px");
-	}
-	$(document).ready(function(){
-		$('a').nivoLightbox();
-	});
-	$(document).ready(function() {
-		$('.top_nav').scrollToFixed();
-	});
-</script>
-
--->
-
-<script type='text/javascript'>
+$(function() {
+    $(".nav_mob").navigation({
+        maxWidth: "768px",
+        labels: false,
+        gravity: "right",
+        type: "push"
+    });
+});
 
 $(window).load(function() {
     $(".bg_image_3").delay(200).animate({
@@ -358,14 +303,14 @@ $(window).load(function() {
     }, 500);
 });
 
-$(window).scroll(function(e) {
-    parallax();
-});
-
 function parallax() {
     var scrolled = $(window).scrollTop();
     $(".bg_image_3").css("top", (scrolled * .6) + "px");
 }
+
+$(window).scroll(function(e) {
+    parallax();
+});
 
 /*$(document).ready(function() {
     $('.banner').scrollToFixed({
@@ -377,8 +322,10 @@ $(document).ready(function() {
     $('.top_nav').scrollToFixed();
 });
 
-$('.btt').on("click",function(){
-    $('html,body').animate({ scrollTop: 0 },500)
+$('.btt').on("click", function() {
+    $('html,body').animate({
+        scrollTop: 0
+    }, 500)
 });
 
 </script>
