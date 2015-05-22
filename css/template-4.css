@@ -32,14 +32,12 @@ h2 {margin: .5rem auto; color: #363534;}
 .txst_address p {margin-top: 20px;}
 .mobile_nav {display: block;}
 .footer_column_1 {margin-top: 3rem; text-align: left;}
-.dept_info {margin-left: 1.2rem; padding-left: 0.6rem;}
 .foot_linkage {text-align: left; margin-bottom: 2rem;}
 .apply_now {display: block; text-align: center; margin: 1rem 0 !important; max-width: 200px;}
 .contact_us {font-size: 1.4rem;}
 .office_contact_2, .foot_linkage, .office_contact_2 p {font-size: .8rem; line-height: 1.5rem;}
 .apply_now {background: #6A5638;}
 .page_content {font-size: 100%;}
-.txst_logo {margin: 4rem 0;}
 
 /* (Handheld) */
 
@@ -96,7 +94,6 @@ h2 {margin-top: 1rem;}
 .office_contact_2 p {font-size: .65rem; line-height: 1.2rem;}
 .apply_now {background: #111111; background: rgba(0, 0, 0, 0.3);}
 .page_content {font-size: 95%;}
-.txst_logo {margin: 4rem auto;}
 }
 
 /* (1024px and up) */
@@ -154,8 +151,7 @@ p, ul, ol, table {line-height: 1.5rem;}
 /* Banner */
 
 .banner {background: #D1C7B7; background: -moz-linear-gradient(top, #D1C7B7 0%, #BBAB92 100%);
-background: -webkit-gradient(left top, left bottom, color-stop(0%, #D1C7B7), color-stop(100%, #BBAB92)); background: -webkit-linear-gradient(top, #D1C7B7 0%, #BBAB92 100%); background: -o-linear-gradient(top, #D1C7B7 0%, #BBAB92 100%); background: -ms-linear-gradient(top, #D1C7B7 0%, #BBAB92 100%); background: linear-gradient(to bottom, #D1C7B7 0%, #BBAB92 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D1C7B7', endColorstr='#BBAB92', GradientType=0 ); border-bottom: 3px solid #6A5638;}
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #D1C7B7), color-stop(100%, #BBAB92)); background: -webkit-linear-gradient(top, #D1C7B7 0%, #BBAB92 100%); background: -o-linear-gradient(top, #D1C7B7 0%, #BBAB92 100%); background: -ms-linear-gradient(top, #D1C7B7 0%, #BBAB92 100%); background: linear-gradient(to bottom, #D1C7B7 0%, #BBAB92 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D1C7B7', endColorstr='#BBAB92', GradientType=0 ); border-bottom: 3px solid #6A5638;}
 .banner_content {max-width: 1000px; margin: auto;}
 .banner_logo {float: left;}
 .txst_search {float: right; margin-top: 18px; position: relative;}
@@ -263,14 +259,14 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .footer_content {max-width: 1000px; margin: auto; text-align: left; padding: 1.75rem 0 2rem 0; letter-spacing: 1px; position: relative; overflow: hidden;}
 .footer_content a {text-decoration: underline; color: #DDDDDD;}
 .footer_content a:hover {text-decoration: underline; color: #FFFFFF;}
-.dept_info {position: relative; line-height: 1.2rem;}
+.dept_info {position: relative; line-height: 1.2rem; margin-left: 1.2rem; padding-left: 0.6rem;}
 .office_contact_2 i {position: absolute; left: -16px; top: 0px; font-size: 24px;}
-.dept_email i {font-size: 18px; top: 4px; -20px;}
+.dept_email i {font-size: 18px; top: 4px; left: -20px;}
 .footer_2 a {padding: 5px; margin: -5px;}
 .footer_2 a:hover, ul.font_icons a:hover {background: #111111; background: rgba(0, 0, 0, 0.4);}
 a.image_link {opacity: .8; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out}
 a.image_link:hover {background: transparent; opacity: 1;}
-.txst_logo {max-width: 250px;}
+.txst_logo {max-width: 250px; margin: 4rem auto;}
 .txst_logo img {width: 100%; height: auto;}
 .contact_us {font-family: 'Adobe Garamond W01'; font-weight: 500; line-height: 1.5rem; margin: .5rem auto 1rem auto;}
 .foot_linkage {padding: 0; list-style: none;}
