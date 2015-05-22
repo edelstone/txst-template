@@ -398,12 +398,14 @@ ul.foot_linkage {
   font-weight: 400;
   font-size: .7rem;
   padding: 0 !important;
-  margin: 0 !important;
+  margin: 0 auto !important;
+  text-decoration: none !important;
+  position: relative;
+  top: -20px;transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; max-width: 5rem;
 }
-  .btt:hover {color: #fff; background: transparent !important;}
-  .footer_btt {
-  
-}  
+  .btt:hover {color: #fff !important; background: transparent !important;}
+  .btt i {font-size: 130%;}
+  .footer_btt {height: 0;}
   
   
   
