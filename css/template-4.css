@@ -22,7 +22,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .menu_title {margin: auto 8px; text-transform: uppercase; vertical-align: middle;}
 .global_footer_main {padding: 1rem 0;}
 .global_footer:after {background: url('../images/old-main-footer-2.jpg');}
-.txst_logo {margin: 2rem auto 3rem auto;}
+.txst_logo {margin: 3rem auto;}
 .tsus_logo {margin: 1.5rem auto auto auto;}
 .footer_logo.third, .footer_links.third {width: 100% !important;}
 .side_nav {margin: -1rem -1rem 1.5rem -1rem;}
@@ -39,8 +39,13 @@ h2 {margin: .5rem auto; color: #363534;}
 .mobile_left {text-align: right; padding: 0 0.6rem 0 0.2rem;}
 .txst_address p {margin-top: 20px;}
 .mobile_nav {display: block;}
+.footer_column_1 {margin-top: 3rem; text-align: center;}
+.dept_info {padding-left: 0; margin-left: 0;}
+.dept_info i {display: none;}
+.foot_linkage {text-align: center; margin-bottom: 2rem;}
+.apply_now {display: block; text-align: center; margin: 1rem auto 0 auto!important; max-width: 200px;}
 
- /* (Handheld) */
+/* (Handheld) */
 
 @media handheld {
 .bg_video {display: none !important;}
@@ -49,9 +54,9 @@ h2 {margin: .5rem auto; color: #363534;}
 .bg_image, .bg_image_2, .bg_image_3 {display: block !important;}
 }
 
-/* (640px and up) */
+/* (768px and up) */
 
-@media (min-width: 40rem) {
+@media (min-width: 48rem) {
 html {font-size: 110%;}
 .column {float: left;}
 .column.full {width: 100%;}
@@ -78,18 +83,13 @@ h2 {margin-top: 1rem;}
 .side_nav_list a, .side_nav_header {margin-bottom: 8px; padding: 0.3rem 0.7rem; font-size: 85%;}
 .main_text, .nav {font-size: 95%;}
 .breadcrumbs {text-align: right; font-size: 12px; margin: 0 auto;}
-}
-
-/* (800px and up) */
-
-@media (min-width: 50rem) {
 h1 {font-size: 2.2rem;}
 .dept_name {margin-top: 0;}
 .hide, .top_nav, .super_user, .txst_search {display: block;}
 .hamburger {display: none;}
 .global_footer_main {padding: 3rem 0 0 0;}
 .global_footer:after {background: url('../images/panorama.jpg');}
-.txst_logo {margin: 1.5rem auto auto auto;}
+.txst_logo {margin: 4rem auto;}
 .tsus_logo {margin: 0.5rem auto auto auto;}
 .footer_logo.third, .footer_links.third {width: 33% !important;}
 .nav a {padding: .4rem .5rem; margin: auto 0; text-align: left; min-width: 0; font-size: 70%;}
@@ -102,6 +102,11 @@ h1 {font-size: 2.2rem;}
 .align_2 {border-left: 1px solid #636363; border-right: none; text-align: left; padding: 0 0.2rem 0 0.6rem;}
 .txst_address p {margin-top: 12px;}
 .mobile_nav {display: none;}
+.footer_column_1 {margin-top: auto; text-align: left;}
+.dept_info {margin-left: 1.2rem; padding-left: 0.6rem;}
+.dept_info i {display: initial;}
+.foot_linkage {text-align: right; margin-bottom: 0.7rem;;}
+.apply_now {display: inline; max-width: 200px; float: right;}
 }
 
 /* (960px and up) */
@@ -250,7 +255,7 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 
 /* Body */
 
-.page_content {max-width: 1000px; margin: auto; padding: 1rem 0 2.5rem 0; overflow: hidden; min-height: 32rem; background-color: #FFFFFF;}
+.page_content {max-width: 1000px; margin: auto; padding: 1rem 0 1.5rem 0; overflow: hidden; min-height: 32rem; background-color: #FFFFFF;}
 .breadcrumbs a {color: #015E8F; text-decoration: none;}
 .breadcrumbs a:hover {text-decoration: underline;}
 .breadcrumbs .separator {margin: auto 5px auto 7px;}
@@ -351,9 +356,7 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
   position: relative; overflow: hidden;}
 .footer_content a {text-decoration: underline; color: #DDDDDD;}
 .footer_content a:hover {text-decoration: underline; color: #FFFFFF;}
-.dept_info {position: relative;
-  margin-left: 1.2rem;
-  padding-left: 0.6rem; line-height: 1.2rem;}
+.dept_info {position: relative; line-height: 1.2rem;}
 .office_contact_2 i {position: absolute;
   left: -16px;
   top: 0px;
@@ -363,18 +366,19 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .footer_2 a:hover, ul.font_icons a:hover {background: #111111; background: rgba(0, 0, 0, 0.4);}
 a.image_link {opacity: .8; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out}
 a.image_link:hover {background: transparent; opacity: 1;}
-.txst_logo {max-width: 250px; margin: 4rem auto;}
+.txst_logo {max-width: 250px;}
 .tsus_logo {padding: 0 .25rem;}  
 ul.foot_linkage {
   font-size: .65rem;
-  text-align: right;
+  padding: 0;
   list-style: none; line-height: 1.4rem;}
-  .apply_now { background: #111111; background: rgba(0, 0, 0, 0.3); text-decoration: none !important;
+  
+.apply_now { background: #111111; background: rgba(0, 0, 0, 0.3); text-decoration: none !important;
   text-transform: uppercase;
   font-weight: 400;
   padding: 0.7rem 2.4rem !important;
   border: 2px solid #DDD;
-  border-radius: 3px; float: right; font-size: 0.75rem; margin-top: 1rem !important; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;}
+  border-radius: 3px; font-size: 0.75rem; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;}
   .apply_now:hover {background-color: #6A5638 !important;}
 #backToTop {  display: block;
   margin: 1.5em 0;
