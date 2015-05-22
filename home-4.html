@@ -14,17 +14,6 @@
 <link rel="stylesheet" type="text/css" href="css/lightbox.css">
 <link rel="stylesheet" type="text/css" href="css/navigation.css">
 <link rel="stylesheet" type="text/css" href="css/template-4.css">
-<script src="//code.jquery.com/jquery-latest.min.js"></script>
-<script src="//bigspotteddog.github.io/ScrollToFixed/jquery-scrolltofixed-min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
-<script src="//api.html5media.info/1.1.8/html5media.min.js"></script>
-<script src="js/lightbox.js"></script>
-<script src="js/core.js"></script>
-<script src="js/navigation.js"></script>
-<script src="js/mediaquery.js"></script>
-<script src="js/swap.js"></script>
-<script src="js/touch.js"></script>
 </head>
 
 <body class="umktg_primary">
@@ -138,9 +127,6 @@
 	
 	<div class="top_nav">
 	
-		<nav class="condensed_nav">
-			<a href="#nowhere"><i class="fa fa-bars fa-lg"></i> <span class="menu_title medium_em">Menu</span></a>
-		</nav>
 		<nav class="nav">
 			<ul class="primary_nav">
 				<li><a href="#nowhere">About Us <i class="fa fa-caret-down"></i></a>
@@ -269,11 +255,11 @@
 			<div class="column third footer_column footer_column_3">
 			
 				<ul class="foot_linkage">
-					<li><a href="#nowhere">Texas State A-Z</a></li>
-					<li><a href="#nowhere">Emergency Info</a></li>
-					<li><a href="#nowhere">Bobcat Shuttle Schedule</a></li>
-					<li><a href="#nowhere">Job Opportunities</a></li>
-					<li><a href="#nowhere">Research at Texas State</a></li>
+					<li><a href="http://www.txstate.edu/about/siteindex.html">Texas State A-Z</a></li>
+					<li><a href="http://www.emergencyinfo.txstate.edu/">Emergency Info</a></li>
+					<li><a href="http://txstate.doublemap.com/map/">Bobcat Shuttle Tracker</a></li>
+					<li><a href="https://jobs.hr.txstate.edu/">Job Opportunities</a></li>
+					<li><a href="http://www.txstate.edu/discover">Research at Texas State</a></li>
 				</ul>
 				
 				<a class="apply_now" href="https://www.applytexas.org">Apply Now</a>
@@ -286,49 +272,18 @@
 	
 </div> <!-- end container -->
 
-<script type='text/javascript'>
-
-$(function() {
-    $(".nav_mob").navigation({
-        maxWidth: "768px",
-        labels: false,
-        gravity: "right",
-        type: "push"
-    });
-});
-
-$(window).load(function() {
-    $(".bg_image_3").delay(200).animate({
-        opacity: "1"
-    }, 500);
-});
-
-function parallax() {
-    var scrolled = $(window).scrollTop();
-    $(".bg_image_3").css("top", (scrolled * .6) + "px");
-}
-
-$(window).scroll(function(e) {
-    parallax();
-});
-
-/*$(document).ready(function() {
-    $('.banner').scrollToFixed({
-        maxWidth: 799
-    });
-});*/
-
-$(document).ready(function() {
-    $('.top_nav').scrollToFixed();
-});
-
-$('.btt').on("click", function() {
-    $('html,body').animate({
-        scrollTop: 0
-    }, 500)
-});
-
-</script>
+<script src="//code.jquery.com/jquery-latest.min.js"></script>
+<script src="//bigspotteddog.github.io/ScrollToFixed/jquery-scrolltofixed-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.min.js"></script>
+<script src="//api.html5media.info/1.1.8/html5media.min.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/core.js"></script>
+<script src="js/navigation.js"></script>
+<script src="js/mediaquery.js"></script>
+<script src="js/swap.js"></script>
+<script src="js/touch.js"></script>
 
 </body>
 
