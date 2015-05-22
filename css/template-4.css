@@ -32,8 +32,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .txst_address p {margin-top: 20px;}
 .mobile_nav {display: block;}
 .footer_column_1 {margin-top: 3rem; text-align: left;}
-.dept_info {padding-left: 0; margin-left: 0;}
-.dept_info i {display: none;}
+.dept_info {margin-left: 1.2rem; padding-left: 0.6rem;}
 .foot_linkage {text-align: left; margin-bottom: 2rem;}
 .apply_now {display: block; text-align: center; margin: 1rem 0 !important; max-width: 200px;}
 .contact_us {font-size: 1.4rem;}
