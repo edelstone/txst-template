@@ -39,6 +39,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .contact_us {font-size: 1.4rem;}
 .office_contact_2, .foot_linkage, .office_contact_2 p {font-size: .8rem; line-height: 1.5rem;}
 .apply_now {background: #6A5638;}
+.page_content {font-size: 100%;}
 
 /* (Handheld) */
 
@@ -94,6 +95,7 @@ h2 {margin-top: 1rem;}
 .office_contact_2, .foot_linkage {font-size: .65rem; line-height: 1.4rem;}
 .office_contact_2 p {font-size: .65rem; line-height: 1.2rem;}
 .apply_now {background: #111111; background: rgba(0, 0, 0, 0.3);}
+.page_content {font-size: 95%;}
 }
 
 /* (1024px and up) */
@@ -236,7 +238,7 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 
 /* Body */
 
-.page_content {max-width: 1000px; margin: auto; padding: 1rem 0 1.5rem 0; overflow: hidden; min-height: 32rem; background-color: #FFFFFF; font-size: 95%;}
+.page_content {max-width: 1000px; margin: auto; padding: 1rem 0 1.5rem 0; overflow: hidden; min-height: 32rem; background-color: #FFFFFF;}
 .page_content .row {margin-bottom: 1.5rem;}
 .page_content a {padding: 1px 3px; margin: -1px -3px; color: #015E8F; text-decoration: underline;}
 .page_content a:hover {background: #E8E3DB;}
