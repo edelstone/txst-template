@@ -1,3 +1,9 @@
+// No delay on mobile tapping
+
+window.addEventListener('load', function() {
+	FastClick.attach(document.body);
+}, false);
+
 // Background image delay and fade 
 
 $(window).load(function() {
@@ -37,9 +43,9 @@ var slideout = new Slideout({
     'panel': document.getElementById('panel'),
 	'menu': document.getElementById('menu'),
 	'padding': 300,
-	'tolerance': 70,
+	'tolerance': 500000,
 	'side': 'right',
-	'duration': 400,
+	'duration': 300,
 	'touch': 'false'
 });
 
