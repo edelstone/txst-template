@@ -43,7 +43,7 @@ var slideout = new Slideout({
     'panel': document.getElementById('panel'),
 	'menu': document.getElementById('menu'),
 	'padding': 300,
-	'tolerance': 500000,
+	'tolerance': 70,
 	'side': 'right',
 	'duration': 300,
 	'touch': 'false'
