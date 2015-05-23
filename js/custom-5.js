@@ -45,12 +45,10 @@ var slideout = new Slideout({
 	'padding': 280,
 	'tolerance': 70,
 	'side': 'right',
-	'duration': 500,
+	'duration': 300,
 	'touch': false
 });
 
-// Hamburger button toggle
-
-  document.querySelector('.toggle-button').addEventListener('click', function() {
-	slideout.toggle();
-  });
+document.querySelector('.toggle-button').addEventListener('click', function() {
+    slideout.toggle();
+});
