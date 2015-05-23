@@ -46,7 +46,7 @@ var slideout = new Slideout({
 	'tolerance': 70,
 	'side': 'right',
 	'duration': 300,
-	'touch': 'false'
+	'touch': false
 });
 
 // Hamburger button toggle
