@@ -192,7 +192,7 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 
 .hamburger {float: right;}
 .hamburger a {color: #222; font-size: 22px; position: relative; padding: 10px 15px; display: block; top: 3px; right: -15px;}
-.slideout-menu {position: fixed; left: auto; top: 0; bottom: 0; right: 0; z-index: 0; width: 300px; overflow-y: auto; -webkit-overflow-scrolling: touch; display: none;}
+.slideout-menu {position: fixed; left: auto; top: 0; bottom: 0; right: 0; z-index: 0; width: 280px; overflow-y: auto; -webkit-overflow-scrolling: touch; display: none;}
 .slideout-panel {position:relative; z-index: 1;}
 .slideout-open, .slideout-open body, .slideout-open .slideout-panel {overflow: hidden;}
 .slideout-open .slideout-menu {display: block;}

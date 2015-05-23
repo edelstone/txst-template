@@ -42,10 +42,10 @@ $('.btt').on("click", function() {
 var slideout = new Slideout({
     'panel': document.getElementById('panel'),
 	'menu': document.getElementById('menu'),
-	'padding': 300,
+	'padding': 280,
 	'tolerance': 70,
 	'side': 'right',
-	'duration': 300,
+	'duration': 500,
 	'touch': false
 });
 
