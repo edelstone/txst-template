@@ -34,7 +34,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .footer_column_1 {margin-top: 3rem; text-align: left;}
 .foot_linkage {text-align: left; margin-bottom: 2rem;}
 .apply_now {display: block; text-align: center; margin: 1rem 0 !important; background: #6A5638; border: none; max-width: 100%; padding: 1rem 0 !important; font-size: 1rem;}
-.contact_us {font-size: 1.6rem; line-height: 2rem; margin: .5rem auto 1.2rem auto;}
+.contact_us {font-size: 1.5rem; margin: .5rem auto 1.2rem auto;}
 .office_contact_2, .foot_linkage, .office_contact_2 p {font-size: .8rem; line-height: 1.5rem;}
 .page_content {font-size: 100%;}
 
@@ -87,7 +87,7 @@ h2 {margin-top: 1rem;}
 .dept_info {margin-left: 1.2rem; padding-left: 0.6rem;}
 .dept_info i {display: initial;}
 .foot_linkage {text-align: right; margin-bottom: 0.7rem;;}
-.contact_us {font-size: 1.2rem; line-height: 1.5rem; margin: .5rem auto 1rem auto;}
+.contact_us {font-size: 1.2rem; margin: .5rem auto 1rem auto;}
 .office_contact_2, .foot_linkage {font-size: .65rem; line-height: 1.4rem;}
 .office_contact_2 p {font-size: .65rem; line-height: 1.2rem;}
 .apply_now {display: inline; max-width: 200px; float: right; background: #111111; background: rgba(0, 0, 0, 0.3); padding: 0.7rem 2.4rem !important; border: 2px solid #FFFFFF; font-size: .75rem;}
@@ -248,6 +248,8 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .service_2 {background: url('../images/camera.jpg') no-repeat; background-size: cover; border-radius: 4px;}
 .service_3 {background: url('../images/bobcat.jpg') no-repeat; background-size: cover; background-position: 100% 60%; border-radius: 4px;}
 .display_icon {font-size: 5rem; color: #501214;}
+.display_icon a {color: #501214; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;}
+.display_icon a:hover {background-color: transparent; opacity: 0.8;}
 .infographic p {max-width: 250px; text-align: center; margin: 1rem auto;}
 
 /* Footer */
@@ -266,7 +268,7 @@ a.image_link {opacity: .8; transition: all 0.2s ease-in-out; -webkit-transition:
 a.image_link:hover {background: transparent; opacity: 1;}
 .txst_logo {max-width: 250px; margin: 4rem auto;}
 .txst_logo img {width: 100%; height: auto;}
-.contact_us {font-family: 'Adobe Garamond W01'; font-weight: 500;}
+.contact_us {font-family: 'Adobe Garamond W01'; font-weight: 500; line-height: 1.5rem;}
 .foot_linkage {padding: 0; list-style: none;}
 .apply_now {text-decoration: none !important; text-transform: uppercase; font-weight: 400; border-radius: 3px; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;}
 .apply_now:hover {background-color: #6A5638 !important;}
