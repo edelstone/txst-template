@@ -24,7 +24,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .side_nav_list a, .side_nav_header {margin-bottom: 0; padding: 0.5rem 0.7rem; font-size: 95%;}
 .banner {padding: 0 1rem; width: 100% !important; height: 60px;}
 .banner_logo {width: 190px;}
-.banner_logo img {max-width: 100%; margin-top: 12px;}
+.banner_logo img {max-width: 100%; margin-top: 11px;}
 .breadcrumbs {text-align: left; font-weight: 400; font-size: 11px; margin: -5px auto 15px auto; line-height: 16px;}
 .back_to_top a, .back_to_top a:hover {bottom: -6px; padding-bottom: 10px;}
 .list_header {margin-bottom: .8rem; font-size: .9rem;}
