@@ -151,7 +151,7 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #D1C7B7), col
 .banner_content {max-width: 1000px; margin: auto;}
 .banner_logo {float: left;}
 .txst_search {float: right; margin-top: 18px; position: relative;}
-.search_bar .search{position: absolute; right: 0; width: 280px; height: 30px; background: #FFFFFF; border: 2px solid #6A5638; font-size: .75rem; padding-left: 10px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+.search_bar .search {position: absolute; right: 0; width: 280px; height: 30px; background: #FFFFFF; border: 2px solid #6A5638; font-size: .75rem; padding-left: 10px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
 .search_bar .search::-webkit-input-placeholder {color: #777777;}
 .search_bar .search:-moz-placeholder {color: #777777;}
 .search_bar .search::-moz-placeholder {color: #777777;}
@@ -196,6 +196,25 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 .slideout-panel {position:relative; z-index: 1;}
 .slideout-open, .slideout-open body, .slideout-open .slideout-panel {overflow: hidden;}
 .slideout-open .slideout-menu {display: block;}
+.mobile_nav {background: #363534;}
+.mobile_nav ul {list-style: none; padding: 0; margin: 0;}
+.mobile_nav_container {padding: 1rem;}
+.txst_mobile_search {height: 35px;}
+.search.mobile_search {width: 261px; border-radius: 0; border: 4px solid #4A4948; background: #727271;}
+.icon.mobile_icon, .icon.mobile_icon:hover  {border-radius: 0; background: #4A4948; color: #CCCCCC; height: 40px; font-size: 1rem;}
+.search_bar .search.mobile_search::-webkit-input-placeholder {color: #CCCCCC;}
+.search_bar .search.mobile_search:-moz-placeholder {color: #CCCCCC;}
+.search_bar .search.mobile_search::-moz-placeholder {color: #CCCCCC;}
+.search_bar .search.mobile_search:-ms-input-placeholder {color: #CCCCCC;}
+.contact_us.mobile_dept a {color: #CCCCCC; line-height: 1.8rem;}
+.mobile_primary_nav a {text-transform: uppercase; font-weight: 400; color: #CCCCCC; margin-bottom: 5px; display: block; font-size: 85%;}
+.mobile_primary_nav li {margin-bottom: 20px;}
+.mobile_secondary_nav a {text-transform: none; font-weight: 100; margin-bottom: 0; margin-bottom: 5px; font-size: 75%;}
+.mobile_secondary_nav li {margin-bottom: 0;}
+.mobile_secondary_nav {background-color: #4A4948; padding: .5rem .5rem .2rem .5rem !important;}
+
+
+
 
 /* Primary */
 
