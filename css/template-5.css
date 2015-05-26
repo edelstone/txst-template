@@ -203,7 +203,7 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 .txst_mobile_search {height: 40px; width: 280px;}
 .search.mobile_search {width: 100%; border-radius: 0; border: 4px solid #4A4948; background: #727271; box-sizing: border-box; height: 40px;}
 .search_bar.mobile_search_bar {width: 100%; height: 40px;}
-.icon.mobile_icon, .icon.mobile_icon:hover  {border-radius: 0; background: #4A4948; color: #E3E3E3; height: 40px; font-size: 1rem;}
+.icon.mobile_icon, .icon.mobile_icon:hover  {border-radius: 0; background: #4A4948; color: #E3E3E3; height: 40px; font-size: 1rem; padding-right: 10px;}
 .search_bar .search.mobile_search::-webkit-input-placeholder {color: #E3E3E3;}
 .search_bar .search.mobile_search:-moz-placeholder {color: #E3E3E3;}
 .search_bar .search.mobile_search::-moz-placeholder {color: #E3E3E3;}
@@ -214,9 +214,6 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 .mobile_secondary_nav a {text-transform: none; font-weight: 100; margin-bottom: 0; margin-bottom: 5px; font-size: 75%;}
 .mobile_secondary_nav li {margin-bottom: 0;}
 .mobile_secondary_nav {background-color: #4A4948; padding: .5rem .5rem .2rem .5rem !important;}
-
-
-
 
 /* Primary */
 
