@@ -200,15 +200,16 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 .mobile_nav {background: #363534;}
 .mobile_nav ul {list-style: none; padding: 0; margin: 0;}
 .mobile_nav_container {padding: 1rem;}
-.txst_mobile_search {height: 35px;}
-.search.mobile_search {width: 261px; border-radius: 0; border: 4px solid #4A4948; background: #727271;}
-.icon.mobile_icon, .icon.mobile_icon:hover  {border-radius: 0; background: #4A4948; color: #CCCCCC; height: 40px; font-size: 1rem;}
-.search_bar .search.mobile_search::-webkit-input-placeholder {color: #CCCCCC;}
-.search_bar .search.mobile_search:-moz-placeholder {color: #CCCCCC;}
-.search_bar .search.mobile_search::-moz-placeholder {color: #CCCCCC;}
-.search_bar .search.mobile_search:-ms-input-placeholder {color: #CCCCCC;}
-.contact_us.mobile_dept a {color: #CCCCCC; line-height: 1.8rem;}
-.mobile_primary_nav a {text-transform: uppercase; font-weight: 400; color: #CCCCCC; margin-bottom: 5px; display: block; font-size: 85%;}
+.txst_mobile_search {height: 40px; width: 280px;}
+.search.mobile_search {width: 100%; border-radius: 0; border: 4px solid #4A4948; background: #727271; box-sizing: border-box; height: 40px;}
+.search_bar.mobile_search_bar {width: 100%; height: 40px;}
+.icon.mobile_icon, .icon.mobile_icon:hover  {border-radius: 0; background: #4A4948; color: #E3E3E3; height: 40px; font-size: 1rem;}
+.search_bar .search.mobile_search::-webkit-input-placeholder {color: #E3E3E3;}
+.search_bar .search.mobile_search:-moz-placeholder {color: #E3E3E3;}
+.search_bar .search.mobile_search::-moz-placeholder {color: #E3E3E3;}
+.search_bar .search.mobile_search:-ms-input-placeholder {color: #E3E3E3;}
+.contact_us.mobile_dept a {color: #E3E3E3; line-height: 1.8rem;}
+.mobile_primary_nav a {text-transform: uppercase; font-weight: 400; color: #E3E3E3; margin-bottom: 5px; display: block; font-size: 85%;}
 .mobile_primary_nav li {margin-bottom: 20px;}
 .mobile_secondary_nav a {text-transform: none; font-weight: 100; margin-bottom: 0; margin-bottom: 5px; font-size: 75%;}
 .mobile_secondary_nav li {margin-bottom: 0;}
