@@ -31,8 +31,8 @@ h2 {margin: .5rem auto; color: #363534; font-size: 1.4rem;}
 .list_header {margin-bottom: .8rem; font-size: .9rem;}
 .txst_address p {margin-top: 20px;}
 .mobile_nav {display: block;}
-.footer_column_1 {margin-top: 3rem; text-align: left;}
-.foot_linkage {text-align: left; margin-bottom: 2rem;}
+.footer_column_1 {margin-top: 3rem; text-align: center;}
+.foot_linkage {text-align: center; margin-bottom: 2rem;}
 .apply_now {display: block; text-align: center; margin: 1rem 0 !important; background: #6A5638; border: none; max-width: 100%; padding: 1rem 0 !important; font-size: 1rem;}
 .contact_us {font-size: 1.5rem; margin: .5rem auto 1.2rem auto;}
 .office_contact_2, .foot_linkage, .office_contact_2 p {font-size: .8rem; line-height: 1.5rem;}
@@ -277,7 +277,7 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .button_press:hover {background: #79674C !important;}
 .button_press:active {position: relative; top: 4px; box-shadow: 0 0 #4A3C27;}
 .service_1 {background: url('../images/pencils.jpg') no-repeat; background-size: cover; border-radius: 3px;}
-.service_1 a {padding: 1.8rem 1rem;}
+.service_1 a {padding: 1.6rem 1rem;}
 .service_2 a {border: 3px solid #6A5638; background: none; color: #6A5638; font-weight: 700; box-shadow: none;}
 .service_2 a:hover {background: #6A5638; color: #FFFFFF;}
 .service_3 {background: url('../images/bobcat.jpg') no-repeat; background-size: cover; background-position: 100% 60%; border-radius: 3px;}
