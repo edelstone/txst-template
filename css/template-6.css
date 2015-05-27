@@ -10,7 +10,7 @@ html {font-size: 100%; position: relative; min-height: 100%;}
 body {height: auto; min-height: 100%;}
 input {-webkit-appearance: none !important;}
 h1 {font-size: 1.8rem; line-height: 38px; padding: 1rem;}
-h2 {margin: .5rem auto; color: #363534; font-size: 1.4rem;}
+h2 {margin: .5rem auto; color: #363534; font-size: 1.5rem;}
 .column {padding-left: 1rem; padding-right: 1rem;}
 .main_section {padding-bottom: 1rem;}
 .float_left {float: left;}
