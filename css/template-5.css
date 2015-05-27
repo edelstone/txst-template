@@ -9,8 +9,8 @@ edelstone@txstate.edu or michael.edelstone@gmail.com
 html {font-size: 100%; position: relative; min-height: 100%;}
 body {height: auto; min-height: 100%;}
 input {-webkit-appearance: none !important;}
-h1 {font-size: 2rem; line-height: 42px; padding: 1rem;}
-h2 {margin: .5rem auto; color: #363534;}
+h1 {font-size: 1.8rem; line-height: 38px; padding: 1rem;}
+h2 {margin: .5rem auto; color: #363534; font-size: 1.4rem;}
 .column {padding-left: 1rem; padding-right: 1rem;}
 .main_section {padding-bottom: 1rem;}
 .float_left {float: left;}
@@ -24,7 +24,7 @@ h2 {margin: .5rem auto; color: #363534;}
 .side_nav {margin: -1rem -1rem 1.5rem -1rem;}
 .side_nav_list a, .side_nav_header {margin-bottom: 0; padding: 0.5rem 0.7rem; font-size: 95%;}
 .banner {padding: 0 1rem; width: 100% !important; height: 60px;}
-.banner_logo {width: 200px;}
+.banner_logo {width: 195px;}
 .banner_logo img {max-width: 100%; margin-top: 11px;}
 .breadcrumbs {text-align: left; font-weight: 400; font-size: 11px; margin: -5px auto 15px auto; line-height: 16px;}
 .back_to_top a, .back_to_top a:hover {bottom: -6px; padding-bottom: 10px;}
@@ -64,7 +64,7 @@ html {font-size: 110%;}
 .header_3 {min-height: 280px; padding: 0;}
 .header_4 {min-height: 120px; padding: 0;}
 h1 {font-size: 2.2rem; line-height: 60px; padding: 15px 15px 5px 18px;}
-h2 {margin-top: 1rem;}
+h2 {margin-top: 1rem; font-size: 1.6rem;}
 .dept_name, .title {position: absolute;}
 .nav {margin: auto; display: block;}
 .nav a {width: auto; border: none; padding: .4rem .5rem; margin: auto 0; text-align: left; min-width: 0; font-size: 70%;}
@@ -80,7 +80,7 @@ h2 {margin-top: 1rem;}
 .footer_2:after {background: url('../images/panorama.jpg');}
 .nav a {padding: .4rem .5rem; margin: auto 0; text-align: left; min-width: 0; font-size: 70%;}
 .banner {height: 75px;}
-.banner_logo {width: 230px;}
+.banner_logo {width: 225px;}
 .banner_logo img {max-width: 100%; margin-top: 16px;}
 .footer_column_1 {margin-top: auto; text-align: left;}
 .dept_info {margin-left: 1.2rem; padding-left: 0.6rem;}
@@ -134,7 +134,7 @@ hr {margin-bottom: 2em;}
 img {max-width: 100%;}
 h1, .office_name {font-family: 'Adobe Garamond W01'; font-weight: 400; letter-spacing: 1px;}
 h1 a {color: #FFFFFF !important;}
-h2 {font-size: 1.6rem; text-transform: uppercase; font-weight: 700;}
+h2 {text-transform: uppercase; font-weight: 700;}
 .tight_header {margin-bottom: 0;}
 p, ul, ol, table {line-height: 1.5rem;}
 .medium_em {font-weight: 400;}
@@ -271,13 +271,14 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .breadcrumbs .separator {margin: auto 5px auto 7px;}
 .top_services {margin: 0; font-weight: 100; text-transform: uppercase; line-height: 1.5rem;}
 .top_services div {margin: 1.2rem 0;}
-.top_services a {margin: auto; text-decoration: none; color: #FFFFFF; padding: 1.4rem .75rem 1.2rem .75rem; background: #6A5638; display: block; text-align: center; border-radius: 3px; box-shadow: 0 3px #55452C; font-size: 90%;}
+.top_services a {margin: auto; text-decoration: none; color: #FFFFFF; padding: 1.4rem .75rem; background: #6A5638; display: block; text-align: center; border-radius: 3px; font-size: 90%;}
 .top_services a:hover {background: #7A6742; background: rgba(107, 86, 49, 0.85);}
-.button_press {position: relative; transition: none !important; -webkit-transition: none !important; -moz-transition: none !important; -o-transition: none !important;}
-.button_press:hover {bottom: 2px; box-shadow: 0 5px #55452C; background: #6A5638 !important;}
-.button_press:active {position: relative; top: 3px; box-shadow: 0 0 #55452C;}
+.button_press {position: relative; transition: background .2s ease-in-out, box-shadow 0s !important; -webkit-transition: background .2s ease-in-out, box-shadow 0s !important; -moz-transition: background .2s ease-in-out, box-shadow 0s !important; -o-transition: background .2s ease-in-out, box-shadow 0s !important; box-shadow: 0 4px #4A3C27;}
+.button_press:hover {background: #79674C !important;}
+.button_press:active {position: relative; top: 4px; box-shadow: 0 0 #4A3C27;}
 .service_1 {background: url('../images/pencils.jpg') no-repeat; background-size: cover; border-radius: 3px;}
-.service_2 {background: url('../images/camera.jpg') no-repeat; background-size: cover; border-radius: 3px;}
+.service_2 a {border: 3px solid #6A5638; background: none; color: #6A5638; font-weight: 700; box-shadow: none; transition: none !important; -webkit-transition: none !important; -moz-transition: none !important; -o-transition: none !important;}
+.service_2 a:hover {background: #6A5638; color: #FFFFFF;}
 .service_3 {background: url('../images/bobcat.jpg') no-repeat; background-size: cover; background-position: 100% 60%; border-radius: 3px;}
 .service_4 {background: none; background-size: cover; border-radius: 3px;}
 .display_icon {font-size: 5rem; color: #501214;}
