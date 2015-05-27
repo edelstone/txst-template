@@ -97,7 +97,6 @@ h2 {margin-top: 1rem;}
 
 @media (min-width: 64rem) {
 html {font-size: 120%;}
-h1 {font-size: 2.4rem;}
 .header, .header_3 {min-height: 320px;}
 .bg_image {display: none;}
 .bg_video {display: inline-block; margin-top: -125px;}
