@@ -88,7 +88,7 @@ h2 {margin-top: 1rem;}
 .foot_linkage {text-align: right; margin-bottom: 0.7rem;;}
 .contact_us {font-size: 1.2rem; margin: .5rem auto 1rem auto;}
 .office_contact_2, .foot_linkage {font-size: .65rem; line-height: 1.4rem;}
-.office_contact_2 p {font-size: .65rem; line-height: 1.2rem;}
+.office_contact_2 p {font-size: .65rem; line-height: 1.1rem;}
 .apply_now {display: inline; max-width: 200px; float: right; background: transparent; padding: 0.7rem 2.4rem !important; border: 2px solid #FFFFFF; font-size: .75rem; background: #111111; background: rgba(0, 0, 0, 0.3);}
 .page_content {font-size: 95%;}
 }
@@ -271,8 +271,11 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .breadcrumbs .separator {margin: auto 5px auto 7px;}
 .top_services {margin: 0; font-weight: 100; text-transform: uppercase; line-height: 1.5rem;}
 .top_services div {margin: 1.2rem 0;}
-.top_services a {margin: auto; text-decoration: none; color: #FFFFFF; padding: 1.4rem .75rem 1.2rem .75rem; background: #6A5638; display: block; text-align: center; border-radius: 3px; box-shadow: 0 4px #55452C; font-size: 90%;}
+.top_services a {margin: auto; text-decoration: none; color: #FFFFFF; padding: 1.4rem .75rem 1.2rem .75rem; background: #6A5638; display: block; text-align: center; border-radius: 3px; box-shadow: 0 3px #55452C; font-size: 90%;}
 .top_services a:hover {background: #7A6742; background: rgba(107, 86, 49, 0.85);}
+.button_press {position: relative; transition: none !important; -webkit-transition: none !important; -moz-transition: none !important; -o-transition: none !important;}
+.button_press:hover {bottom: 2px; box-shadow: 0 5px #55452C; background: #6A5638 !important;}
+.button_press:active {position: relative; top: 3px; box-shadow: 0 0 #55452C;}
 .service_1 {background: url('../images/pencils.jpg') no-repeat; background-size: cover; border-radius: 3px;}
 .service_2 {background: url('../images/camera.jpg') no-repeat; background-size: cover; border-radius: 3px;}
 .service_3 {background: url('../images/bobcat.jpg') no-repeat; background-size: cover; background-position: 100% 60%; border-radius: 3px;}
@@ -287,8 +290,8 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .footer_2 {background: #2E2A26; background: rgba(22, 17, 13, 0.8); width: 100%; color: #DDDDDD; position: relative;}
 .footer_2:after {background-repeat: no-repeat; background-size: cover; opacity: 0.8; top: 0; bottom: 0; left: 0; right: 0; position: absolute; z-index: -1; content: ""; background-position: 80% 20%;}
 .footer_content {max-width: 1000px; margin: auto; text-align: left; padding: 1.75rem 0 2rem 0; letter-spacing: 1px; position: relative; overflow: hidden;}
-.footer_content a {text-decoration: underline; color: #DDDDDD;}
-.footer_content a:hover {text-decoration: underline; color: #FFFFFF;}
+.footer_content a {text-decoration: none; color: #DDDDDD;}
+.footer_content a:hover {text-decoration: none; color: #FFFFFF;}
 .dept_info {position: relative; line-height: 1.2rem; margin-left: 0; padding-left: 0;}
 .office_contact_2 i {display: none; position: absolute; left: -16px; top: 0px; font-size: 24px;}
 .dept_email i {font-size: 18px; top: 4px; left: -20px;}
