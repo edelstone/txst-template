@@ -276,6 +276,7 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .service_1 {background: url('../images/pencils.jpg') no-repeat; background-size: cover; border-radius: 3px;}
 .service_2 {background: url('../images/camera.jpg') no-repeat; background-size: cover; border-radius: 3px;}
 .service_3 {background: url('../images/bobcat.jpg') no-repeat; background-size: cover; background-position: 100% 60%; border-radius: 3px;}
+.service_4 {background: none; background-size: cover; border-radius: 3px;}
 .display_icon {font-size: 5rem; color: #501214;}
 .display_icon a {color: #501214; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;}
 .display_icon a:hover {background-color: transparent; opacity: 0.8;}
