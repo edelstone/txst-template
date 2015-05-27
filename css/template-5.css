@@ -277,7 +277,8 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .button_press:hover {background: #79674C !important;}
 .button_press:active {position: relative; top: 4px; box-shadow: 0 0 #4A3C27;}
 .service_1 {background: url('../images/pencils.jpg') no-repeat; background-size: cover; border-radius: 3px;}
-.service_2 a {border: 3px solid #6A5638; background: none; color: #6A5638; font-weight: 700; box-shadow: none; transition: none !important; -webkit-transition: none !important; -moz-transition: none !important; -o-transition: none !important;}
+.service_1 a {padding: 1.8rem 1rem;}
+.service_2 a {border: 3px solid #6A5638; background: none; color: #6A5638; font-weight: 700; box-shadow: none;}
 .service_2 a:hover {background: #6A5638; color: #FFFFFF;}
 .service_3 {background: url('../images/bobcat.jpg') no-repeat; background-size: cover; background-position: 100% 60%; border-radius: 3px;}
 .service_4 {background: none; background-size: cover; border-radius: 3px;}
