@@ -206,14 +206,14 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 .txst_mobile_search {height: 60px; width: 300px;}
 .search.mobile_search {width: 100%; border-radius: 0; border: 10px solid #262524; background: #EBEBEB; box-sizing: border-box; height: 60px; font-size: 90%;}
 .search_bar.mobile_search_bar {width: 100%; height: 60px;}
-.icon.mobile_icon, .icon.mobile_icon:hover  {border-radius: 0; background: #262524; color: #D7D7D7; height: 60px; font-size: 1rem; padding-right: 15px;}
+.icon.mobile_icon, .icon.mobile_icon:hover  {border-radius: 0; background: #262524; color: #D7D7D7; height: 60px; font-size: 1rem; right: 10px;}
 .search_bar .search.mobile_search::-webkit-input-placeholder {color: #484848;}
 .search_bar .search.mobile_search:-moz-placeholder {color: #484848;}
 .search_bar .search.mobile_search::-moz-placeholder {color: #484848;}
 .search_bar .search.mobile_search:-ms-input-placeholder {color: #484848;}
 .contact_us.mobile_dept a {color: #D7D7D7; line-height: 1.8rem;}
 .mobile_primary_nav a:hover {color: #FFFFFF; background: #31302F;}
-.mobile_primary_nav a {text-transform: uppercase; font-weight: 400; color: #D7D7D7; display: block; font-size: 100%; border-bottom: 1px solid #31302F; margin: 0 -1rem; padding: 2rem 1rem .5rem 1rem;}
+.mobile_primary_nav a, .side_nav_mobile {text-transform: uppercase; font-weight: 400; color: #D7D7D7; display: block; font-size: 100%; border-bottom: 1px solid #31302F; margin: 0 -1rem; padding: 2rem 1rem .5rem 1rem;}
 .mobile_secondary_nav a {text-transform: none; font-weight: 100; margin: 0 -1rem; padding: 0.25rem 1rem; font-size: 85%;}
 .mobile_secondary_nav li {margin-bottom: 0;}
 .mobile_super_user {background-color: #262524;}
@@ -221,6 +221,7 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 .mobile_super_list li {display: block;}
 .mobile_super_list a {color: #D7D7D7; padding: .5rem 1rem; font-size: 75%; border: none; margin: 0 -1rem;}
 .mobile_super_list a:hover {background: transparent; color: #FFFFFF; background: #363534;}
+.solo_nav {border-bottom: 0px solid #31302F !important; }
 
 /* Primary */
 
