@@ -188,7 +188,7 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #D1C7B7), col
 .header, .header_2, .header_3, .header_4 {position: relative; overflow: hidden !important; background: #501214;}
 .title {min-height: 70px; width: 100%; bottom: 0; margin: auto;}
 .dept_name {left: 0; bottom: 0; right: 0;}
-h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; background: #501214; background: rgba(80, 18, 20, 1);}
+h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; background: #501214; background: rgba(80, 18, 20, .95);}
 
 /* Top Navigation */
 
