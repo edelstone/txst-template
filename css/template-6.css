@@ -65,7 +65,7 @@ html {font-size: 110%;}
 .header_2 {min-height: 180px; padding: 0;}
 .header_3 {min-height: 280px; padding: 0;}
 .header_4 {min-height: 120px; padding: 0;}
-h1 {font-size: 2.2rem; line-height: 60px; padding: 15px 15px 5px 18px;}
+h1 {font-size: 2.2rem; line-height: 54px; padding: 14px 18px 8px 18px;}
 h2 {margin-top: 0; font-size: 1.4rem;}
 .dept_name, .title {position: absolute;}
 .bg_overlay, .bg_image, .bg_image_2, .bg_image_3 {display: block;}
@@ -266,7 +266,7 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #E8E3DB), col
 .side_nav {background-color: #F4F1ED; padding: 0 0 .6rem 0;}
 .side_nav_list {list-style-type: none; padding-left: 0; margin: 0;}
 .side_nav_header {background: #501214; font-size: 90%; color: #FFFFFF; margin: 0; margin-bottom: .4rem; padding: 0 1rem; font-weight: 400; line-height: 1.5rem; padding: .3rem 1rem;}
-.side_nav_list a {font-size: 80%; display: block; padding: 0.3rem 0.7rem;}
+.side_nav_list a {font-size: 80%; display: block; padding: 0.3rem 0.7rem; color: #501214 !important;}
 .side_nav_list a {margin: 0 !important; padding: .2rem 1rem !important; text-decoration: underline !important; line-height: 22px;}
 
 /* Body */
