@@ -12,6 +12,12 @@ $(window).load(function() {
     }, 500);
 });
 
+$(window).load(function() {
+    $(".bg_image_2").delay(0).animate({
+        opacity: "1"
+    }, 500);
+});
+
 // Parallax scrolling effect
 
 $(window).scroll(function(e) {
@@ -20,7 +26,7 @@ $(window).scroll(function(e) {
 
 function parallax() {
     var scrolled = $(window).scrollTop();
-    $(".bg_image_3").css("top", (scrolled * .6) + "px");
+    $(".bg_image_3, .bg_image_2").css("top", (scrolled * .6) + "px");
 }
 
 // Fixed desktop navigation
