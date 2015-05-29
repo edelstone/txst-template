@@ -25,7 +25,7 @@ h2 {margin: 0 auto .5rem auto; font-size: 1.5rem;}
 .banner {padding: 0 1rem; width: 100% !important; height: 60px;}
 .banner_logo {width: 195px;}
 .banner_logo img {max-width: 100%; margin-top: 11px;}
-.breadcrumbs {text-align: left; font-weight: 400; font-size: 11px; margin: -5px auto 0 auto;}
+.breadcrumbs {text-align: left; font-weight: 400; font-size: 65%; margin: -5px auto 0 auto;}
 .back_to_top a, .back_to_top a:hover {bottom: -6px; padding-bottom: 10px;}
 .list_header {margin-bottom: .8rem; font-size: .9rem;}
 .txst_address p {margin-top: 20px;}
