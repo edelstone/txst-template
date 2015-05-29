@@ -17,7 +17,7 @@ h2 {margin: 0 auto .5rem auto; font-size: 1.5rem;}
 .float_right {float: right;}
 .header, .header_2, .header_3, .header_4 {min-height: 70px; padding: 0;}
 .dept_name, .title {position: relative;}
-.hide, .bg_overlay, .bg_video, .bg_image, .bg_image_2,.bg_image_3, .messaging, .nav, .gallery_link, .top_nav, .super_user, .txst_search {display: none;}
+.hide, .bg_overlay, .bg_video, .bg_image, .bg_image_2, .bg_image_3, .bg_image_5, .messaging, .nav, .gallery_link, .top_nav, .super_user, .txst_search {display: none;}
 .nav a {padding: .4rem .5rem;}
 .menu_title {margin: auto 8px; text-transform: uppercase; vertical-align: middle;}
 .footer_2:after {background: url('../images/old-main-footer-2.jpg');}
@@ -45,7 +45,7 @@ h2 {margin: 0 auto .5rem auto; font-size: 1.5rem;}
 .bg_video {display: none !important;}
 }
 @media handheld and (min-width: 64rem) {
-.bg_image, .bg_image_2, .bg_image_3 {display: block !important;}
+.bg_image, .bg_image_2, .bg_image_3, .bg_image_5 {display: block !important;}
 }
 
 /* (640px and up) */
@@ -65,9 +65,10 @@ html {font-size: 110%;}
 .header_2 {min-height: 180px; padding: 0;}
 .header_3 {min-height: 280px; padding: 0;}
 .header_4 {min-height: 100px; padding: 0;}
+.header_5 {min-height: 220px; padding: 0;}
 h1 {font-size: 2.2rem; line-height: 46px; padding: 18px 16px 12px 16px;}
 h2 {margin-top: 0; font-size: 1.4rem;}
-.bg_overlay, .bg_image, .bg_image_2, .bg_image_3 {display: block;}
+.bg_overlay, .bg_image, .bg_image_2, .bg_image_3, .bg_image_5 {display: block;}
 .side_nav {display: block;}
 .breadcrumbs {text-align: right; font-size: 12px; margin: 0 auto;}
 .footer_2:after {background: url('../images/panorama.jpg');}
@@ -81,12 +82,12 @@ h2 {margin-top: 0; font-size: 1.4rem;}
 .page_content {font-size: 95%;}
 .parent_org a {bottom: .7rem;}
 .sidebar_active {padding-left: 2rem;}
+.dept_name, .title {position: absolute;}
 }
 
 /* (768px and up) */
 
 @media (min-width: 48rem) {
-.dept_name, .title {position: absolute;}
 .nav {margin: auto; display: block;}
 .nav a {padding: .4rem .5rem; margin: auto 0; text-align: left; min-width: 0; font-size: 70%;}
 .hamburger, .hamburger_2, .mobile_nav {display: none;}
@@ -178,6 +179,7 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #D1C7B7), col
 .bg_image_2 {opacity: 0; position: absolute; margin-top: -70px;height: 150%; width: 100%; background: #501214 url("../images/wildrice.jpg") no-repeat 50% 55%; background-size: cover;}
 .bg_image_3 {opacity: 0; position: absolute; margin-top: -70px; height: 150%; width: 100%; background: #501214 url("../images/arch.jpg") no-repeat 50% 67%; background-size: cover;}
 .bg_image_4 {opacity: 0; position: absolute; margin-top: -70px; height: 150%; width: 100%; background: #501214 url("../images/old-main-night.jpg") no-repeat 50% 40%; background-size: cover;}
+.bg_image_5 {opacity: 0; position: absolute; margin-top: -70px; height: 150%; width: 100%; background: #501214 url("../images/emm.jpg") no-repeat 50% 30%; background-size: cover;}
 .bg_video_container {position: absolute; height: 100%; width: 100%;}
 .bg_video {opacity: 0; position: absolute; left: 0; top: 0; min-height: 100%; width: 100%; height: auto; z-index: -1;}
 .overlay {position: absolute; height: 100%; width: 100%;}
@@ -188,7 +190,7 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #D1C7B7), col
 .messaging_btn a {color: #FFFFFF; letter-spacing: 5px; border: 2px solid #FFFFFF; padding: 13px 10px 10px 20px;}
 .messaging_btn a:hover {background: #6A5638;}
 .play {font-size: 65%; margin-left: 7px; vertical-align: top;} 
-.header, .header_2, .header_3, .header_4 {position: relative; overflow: hidden !important; background: #501214;}
+.header, .header_2, .header_3, .header_4, .header_5 {position: relative; overflow: hidden !important; background: #501214;}
 .title {min-height: 70px; width: 100%; bottom: 0; margin: auto;}
 .dept_name {left: 0; bottom: 0; right: 0;}
 h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; background: #501214; background: rgba(80, 18, 20, .98);}

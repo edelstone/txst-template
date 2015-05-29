@@ -13,7 +13,7 @@ $(window).load(function() {
 });
 
 $(window).load(function() {
-    $(".bg_image_2").delay(0).animate({
+    $(".bg_image_2, .bg_image_5").delay(0).animate({
         opacity: "1"
     }, 500);
 });
@@ -26,7 +26,7 @@ $(window).scroll(function(e) {
 
 function parallax() {
     var scrolled = $(window).scrollTop();
-    $(".bg_image_3, .bg_image_2").css("top", (scrolled * .6) + "px");
+    $(".bg_image_2, .bg_image_3, .bg_image_5").css("top", (scrolled * .6) + "px");
 }
 
 // Fixed desktop navigation
