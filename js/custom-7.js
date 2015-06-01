@@ -63,6 +63,8 @@ document.querySelector('.toggle-button').addEventListener('click', function() {
 
 $(document).ready(function(){
   $('.slider').slick({
+  	autoplay: true,
+  	autoplaySpeed: 7000,
     arrows: true,
     infinite: true,
 	slidesToShow: 1,
