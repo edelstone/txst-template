@@ -65,10 +65,10 @@
 .slick-next:before
 {
     font-family: 'slick';
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 1;
 
-    opacity: .6;
+    opacity: .5;
     color: white;
 
     -webkit-font-smoothing: antialiased;
