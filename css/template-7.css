@@ -299,6 +299,7 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 .display_icon a {color: #501214; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;}
 .display_icon a:hover {background-color: transparent; opacity: 0.8;}
 .infographic p {max-width: 250px; text-align: center; margin: 1rem auto;}
+.slider {margin-bottom: 4rem !important;}
 
 /* Footer */
 
