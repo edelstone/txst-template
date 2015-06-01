@@ -39,6 +39,9 @@ h2 {margin: 0 auto .5rem auto; font-size: 1.5rem;}
 .sidebar_active {padding-left: 1rem;}
 .parent_org a {bottom: -.7rem;}
 .slide_caption {font-size: 85%;}
+.override_padding {padding: 0;}
+.override_padding .slick-prev {left: 0;}
+.override_padding .slick-next {right: 0;}
 
 /* (Handheld) */
 
@@ -85,6 +88,9 @@ h2 {margin-top: 0; font-size: 1.4rem;}
 .sidebar_active {padding-left: 2rem;}
 .dept_name, .title {position: absolute;}
 .slide_caption {font-size: 100%;}
+.override_padding {padding-left: 1rem; padding-right: 1rem;}
+.override_padding .slick-prev {left: 1.5rem;}
+.override_padding .slick-next {right: 1.5rem;}
 }
 
 /* (768px and up) */
@@ -301,12 +307,17 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 .display_icon a {color: #501214; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;}
 .display_icon a:hover {background-color: transparent; opacity: 0.8;}
 .infographic p {max-width: 250px; text-align: center; margin: 1rem auto;}
-.slider {margin-bottom: 4rem !important;}
+.slider, .slider_2 {margin-bottom: 4rem !important;}
 .has_caption {position: relative;}
-.slide_caption {position: absolute; bottom: 0; color: #FFFFFF; padding: 0 1.5rem .5rem 1.5rem; background-color: #363534; background: rgba(54, 53, 52, .9);}
+.slide_caption {position: absolute; bottom: 0; color: #FFFFFF; padding: 0 1.5rem .5rem 1.5rem; background-color: #262524; background: rgba(38, 37, 36, .9); min-width: 100%}
+.slide_caption_reverse {color: #222222;}
 .caption_color_2 {background: #005481; background: rgba(0, 84, 128, 0.9);}
 .caption_color_3 {background: #501214; background: rgba(80, 18, 20, 0.9);}
+.caption_color_4 {background: #6A5638; background: rgba(106, 86, 56, 0.9);}
+.caption_color_5 {background: #DEB407; background: rgba(222, 180, 7, 0.9);}
+.caption_color_6 {background: #8BAEA1; background: rgba(139, 174, 161, 0.9);}
 .slide_caption a {color: #FFFFFF !important;}
+.slide_caption_reverse a {color: #222222 !important;}
 .slide_caption a:hover {background: #363534; background: rgba(255, 255, 255, 0.2);}
 .slider_image_link {margin: 0 !important; padding: 0 !important; opacity: 1; transition: opacity 0.2s ease-in-out; -webkit-transition: opacity 0.2s ease-in-out; -moz-transition: opacity 0.2s ease-in-out; -o-transition: opacity 0.2s ease-in-out; display: block;}
 .slider_image_link:hover {opacity: .95;}

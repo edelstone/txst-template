@@ -63,8 +63,21 @@ document.querySelector('.toggle-button').addEventListener('click', function() {
 
 $(document).ready(function(){
   $('.slider').slick({
+  	adaptiveHeight: true,
+  	cssEase: 'ease-in-out',
+    arrows: true,
+    infinite: true,
+	slidesToShow: 1,
+  	slidesToScroll: 1,
+  	dots: true,
+  	speed: 500
+  });
+  $('.slider_2').slick({
+   	fade: true,
+  	cssEase: 'ease-in-out',
   	autoplay: true,
-  	autoplaySpeed: 7000,
+  	autoplaySpeed: 2000,
+  	adaptiveHeight: true,
     arrows: true,
     infinite: true,
 	slidesToShow: 1,
@@ -72,3 +85,4 @@ $(document).ready(function(){
   	dots: true
   });
 });
+
