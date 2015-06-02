@@ -199,7 +199,7 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #D1C7B7), col
 .bg_container {background: #501214; position: absolute; z-index: 0; width: 100%; height: 100%;}
 .bg_image {opacity: 0; position: absolute; margin-top: -70px; height: 150%; width: 100%; background: #501214 url("../images/poster_shepard.jpg") no-repeat 50% 0; background-size: cover;}
 .bg_image_2 {opacity: 0; position: absolute; margin-top: -70px;height: 150%; width: 100%; background: #501214 url("../images/wildrice.jpg") no-repeat 50% 55%; background-size: cover;}
-.bg_image_3 {opacity: 0; position: absolute; margin-top: -70px; height: 150%; width: 100%; background: #501214 url("../images/arch.jpg") no-repeat 50% 67%; background-size: cover;}
+.bg_image_3 {opacity: 0; position: absolute; margin-top: -70px; height: 150%; width: 100%; background: #501214 url("../images/poster_granger.jpg") no-repeat 50% 35%; background-size: cover;}
 .bg_image_4 {opacity: 0; position: absolute; margin-top: -70px; height: 150%; width: 100%; background: #501214 url("../images/old-main-night.jpg") no-repeat 50% 40%; background-size: cover;}
 .bg_image_5 {opacity: 0; position: absolute; margin-top: -70px; height: 150%; width: 100%; background: #501214 url("../images/emm.jpg") no-repeat 50% 30%; background-size: cover;}
 .bg_video_container {position: absolute; height: 100%; width: 100%;}
