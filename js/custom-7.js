@@ -63,8 +63,6 @@ document.querySelector('.toggle-button').addEventListener('click', function() {
 
 $(document).ready(function(){
   $('.slider').slick({
-  	adaptiveHeight: true,
-  	cssEase: 'ease-in-out',
     arrows: true,
     infinite: true,
 	slidesToShow: 1,
@@ -77,12 +75,26 @@ $(document).ready(function(){
   	cssEase: 'ease-in-out',
   	autoplay: true,
   	autoplaySpeed: 2000,
-  	adaptiveHeight: true,
-    arrows: true,
+  	arrows: true,
     infinite: true,
 	slidesToShow: 1,
   	slidesToScroll: 1,
   	dots: true
   });
+  $('.slider_3').slick({
+        centerMode: true,
+        infinite: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        speed: 500,
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+            }
+        }]
+        });
 });
-
