@@ -102,8 +102,8 @@ h2 {margin-top: 0; font-size: 1.4rem;}
 .caption_color_5 {background: #DEB407; background: rgba(222, 180, 7, 0.9);}
 .caption_color_6 {background: #8BAEA1; background: rgba(139, 174, 161, 0.9);}
 .caption_color_7 {background: #D1C7B7; background: rgba(209, 199, 183, 0.9);}
-.override_padding .slick-prev {left: 1.5rem;}
-.override_padding .slick-next {right: 1.5rem;}
+.slick-prev {left: 1.5rem;}
+.slick-next {right: 1.5rem;}
 }
 
 /* (768px and up) */
@@ -163,7 +163,7 @@ a:hover, a:active {text-decoration: none;}
 hr {margin-bottom: 2em;}
 img {max-width: 100%;}
 h1, .office_name {font-family: 'Adobe Garamond W01', Garamond, 'Goudy Old Style', 'Times New Roman', serif; font-weight: 400; letter-spacing: 1px;}
-h1 a {color: #FFFFFF !important;}
+h1 a {color: #FFFFFF !important; padding: 5px 0;}
 h2 {font-weight: 700;}
 .tight_header {margin-bottom: 0;}
 p, ul, ol, table {line-height: 1.5rem;}
@@ -329,6 +329,7 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 .slide_caption_reverse a {color: #222222 !important;}
 .slide_caption a:hover {background: #363534; background: rgba(255, 255, 255, 0.2);}
 .slider_image_link {margin: 0 !important; padding: 0 !important; opacity: 1; transition: opacity 0.2s ease-in-out; -webkit-transition: opacity 0.2s ease-in-out; -moz-transition: opacity 0.2s ease-in-out; -o-transition: opacity 0.2s ease-in-out; display: block;}
+.slider_image_link:hover {opacity: .9;}
 .slider_3 .slide_caption {position: initial; font-size: 90%; padding: .1rem 1rem;}
 .slider_3 .has_caption {margin: 8px;}
 .slider_3 .slick-slide {opacity: 0.7; transition: all 300ms ease;}
@@ -346,8 +347,7 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 .office_contact_2 i {display: none;}
 .footer_2 a {padding: 5px; margin: -5px;}
 .footer_2 a:hover, ul.font_icons a:hover {background: #501214;}
-a.image_link {opacity: 1; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out}
-a.image_link:hover {background: transparent; opacity: 1;}
+a.image_link:hover, .footer_2 h3 a:hover {background: transparent; opacity: 1;}
 .txst_logo {max-width: 250px; margin: 4rem auto;}
 .txst_logo img {width: 100%; height: auto;}
 .contact_us {font-family: 'Adobe Garamond W01', Garamond, 'Goudy Old Style', 'Times New Roman', serif; font-weight: 500; line-height: 1.6rem;}
