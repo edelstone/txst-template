@@ -7,7 +7,7 @@ window.addEventListener('load', function() {
 // Background image delay and fade 
 
 $(window).load(function() {
-    $(".bg_image_3").delay(200).animate({
+    $(".bg_image_3, .bg_image_6").delay(200).animate({
         opacity: "1"
     }, 500);
 });
@@ -26,7 +26,7 @@ $(window).scroll(function(e) {
 
 function parallax() {
     var scrolled = $(window).scrollTop();
-    $(".bg_image_2, .bg_image_3, .bg_image_5").css("top", (scrolled * .6) + "px");
+    $(".bg_image_2, .bg_image_3, .bg_image_5, .bg_image_6").css("top", (scrolled * .6) + "px");
 }
 
 // Fixed desktop navigation
