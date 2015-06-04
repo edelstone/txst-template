@@ -74,7 +74,7 @@ $(document).ready(function(){
    	fade: true,
   	cssEase: 'ease-in-out',
   	autoplay: true,
-  	autoplaySpeed: 2000,
+  	autoplaySpeed: 6000,
   	arrows: true,
     infinite: true,
 	slidesToShow: 1,
@@ -82,6 +82,8 @@ $(document).ready(function(){
   	dots: true
   });
   $('.slider_3').slick({
+  		autoplay: true,
+  		autoplaySpeed: 6000,
         centerMode: true,
         infinite: true,
         centerPadding: '60px',
