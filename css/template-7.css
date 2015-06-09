@@ -11,6 +11,7 @@ body {height: auto; min-height: 100%;}
 input {-webkit-appearance: none !important;}
 h1 {font-size: 1.8rem; line-height: 38px; padding: 1rem;}
 h2 {margin: 0 auto .5rem auto; font-size: 1.5rem;}
+figcaption {font-size: 85%;}
 .column {padding-left: 1rem; padding-right: 1rem;}
 .main_section {padding-bottom: 1rem;}
 .float_left {float: left;}
@@ -63,6 +64,7 @@ h2 {margin: 0 auto .5rem auto; font-size: 1.5rem;}
 
 @media (min-width: 40rem) {
 html {font-size: 110%;}
+figcaption {font-size: 75%;}
 .column {float: left;}
 .main_section {padding-bottom: 0;}
 .column.full {width: 100%;}
@@ -154,6 +156,9 @@ html {font-size: 120%;}
 .clearfix:after {clear: both;}
 .clearfix {*zoom: 1;}
 body {font-family: 'Univers W01', Helvetica, Calibri, Arial, sans-serif; font-weight: 100; text-rendering: optimizeLegibility; background-color: #6A5638;}
+figure {margin: 0;}
+figcaption {padding: 12px 15px; background-color: #E8E3DB;}
+figcaption a:hover {background-color: #F4F1ED !important; background: rgba(255, 255, 255, 0.4) !important;}
 .container {background-color: #FFFFFF;}
 a, a:link, a:visited {color: #501214; text-decoration: none;}
 a:hover, a:active {text-decoration: none;}
