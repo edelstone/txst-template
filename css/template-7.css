@@ -308,7 +308,7 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 .nav_head_4 {background: #363534;}
 .side_nav_list a {font-size: 80%; display: block; padding: 0.3rem 0.7rem; color: #501214 !important;}
 .side_nav_list a {margin: 0 !important; padding: .2rem 1rem !important; text-decoration: underline !important; line-height: 22px;}
-.side_nav_list i {margin-right: 10px; font-size: 120%; vertical-align: middle;}
+.side_nav_list i, .mobile_secondary_nav i {margin-right: 10px; font-size: 120%; vertical-align: middle;}
 
 /* Body */
 
