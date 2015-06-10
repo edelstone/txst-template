@@ -38,6 +38,7 @@ figcaption {font-size: 85%;}
 .office_contact_2, .foot_linkage, .office_contact_2 p {font-size: .8rem; line-height: 1.5rem;}
 .page_content {font-size: 100%;}
 .sidebar_active {padding-left: 1rem;}
+.sidebar_active_reverse {padding-right: 1rem;}
 .parent_org a {bottom: -.7rem;}
 .slide_caption {font-size: 85%; bottom: auto; position: initial;}
 .caption_color_1 {background: #262524;}
@@ -95,6 +96,7 @@ h2 {margin-top: 0; font-size: 1.4rem;}
 .page_content {font-size: 95%;}
 .parent_org a {bottom: .7rem;}
 .sidebar_active {padding-left: 2rem;}
+.sidebar_active_reverse {padding-right: 3rem;}
 .dept_name, .title {position: absolute;}
 .slide_caption {font-size: 100%; position: absolute; bottom: 0;}
 .caption_color_1 {background: #262524; background: rgba(38, 37, 36, .9);}
@@ -152,6 +154,7 @@ html {font-size: 120%;}
 /* General */
 
 *, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+.remove_padding {padding: 0 !important;}
 .clearfix:before, .clearfix:after {content: " "; display: table;}
 .clearfix:after {clear: both;}
 .clearfix {*zoom: 1;}
@@ -226,7 +229,7 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 .parent_org a {position: relative; font-size: 65%; letter-spacing: 1px; color: #FFFFFF; background: #501214; background: rgba(80, 18, 20, .98); padding: 0.4rem 1rem; line-height: 20px;}
 .header_4 .parent_org a {bottom: -0.7rem;}
 
-/* Top Navigation */
+/* Navigation */
 
 /* Mobile */
 
@@ -277,6 +280,7 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 .nav-home-container {position: relative; display: none;}
 .nav-home-logo {margin: 0; padding: 0; width: 25px; position: absolute; left: -45px; top: 2px;}
 .scroll-to-fixed-fixed .nav-home-container {display: block;}
+
 /* Secondary */
 
 .primary_nav li:hover .secondary_nav {display: block; opacity: 1; visibility: visible;}
@@ -292,13 +296,19 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 .secondary_nav a:hover {background: #D1C7B7; text-decoration: underline;}
 .selected-internal {background: none;}
 
-/* Side Navigation */
+/* Sidebar */
 
-.side_nav {background-color: #F4F1ED; padding: 0 0 .6rem 0;}
+.side_nav {background-color: #F4F1ED; padding: 0 0 .6rem 0; margin-bottom: 1.2rem;}
+.side_nav_reverse {margin-top: 10px;}
 .side_nav_list {list-style-type: none; padding-left: 0; margin: 0;}
-.side_nav_header {background: #501214; font-size: 90%; color: #FFFFFF; margin: 0; margin-bottom: .4rem; padding: 0 1rem; font-weight: 400; line-height: 1.5rem; padding: .3rem 1rem;}
+.side_nav_header {font-size: 90%; color: #FFFFFF; margin: 0; margin-bottom: .4rem; padding: 0 1rem; font-weight: 400; line-height: 1.5rem; padding: .3rem 1rem;}
+.nav_head_1 {background: #501214;}
+.nav_head_2 {background: #6A5638;}
+.nav_head_3 {background: #005481;}
+.nav_head_4 {background: #363534;}
 .side_nav_list a {font-size: 80%; display: block; padding: 0.3rem 0.7rem; color: #501214 !important;}
 .side_nav_list a {margin: 0 !important; padding: .2rem 1rem !important; text-decoration: underline !important; line-height: 22px;}
+.side_nav_list i {margin-right: 10px; font-size: 120%; vertical-align: middle;}
 
 /* Body */
 
@@ -327,7 +337,7 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 .display_icon a {color: #501214; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;}
 .display_icon a:hover {background-color: transparent; opacity: 0.8;}
 .infographic p {max-width: 250px; text-align: center; margin: 1rem auto;}
-.slider, .slider_2 {margin-bottom: 4rem !important;}
+.slider, .slider_2 {margin-bottom: 4rem !important; margin-top: 2rem;}
 .has_caption {position: relative;}
 .slide_caption {color: #FFFFFF; padding: .1rem 1.5rem .5rem 1.5rem; min-width: 100%}
 .slide_caption_reverse {color: #222222;}
