@@ -316,7 +316,7 @@ h1 {max-width: 1000px; margin: auto; color: #FFFFFF; min-height: 60px; backgroun
 .page_content .row {margin-bottom: 1.5rem;}
 .page_content a {padding: 1px 3px; margin: -1px -3px; color: #005481; text-decoration: underline;}
 .page_content a:hover {background: #E8E3DB;}
-.breadcrumbs {line-height: 16px;}
+.breadcrumbs {line-height: 18px;}
 .breadcrumbs a {color: #005481; text-decoration: none;}
 .breadcrumbs a:hover {text-decoration: underline; background: transparent;}
 .breadcrumbs .separator {margin: auto 5px auto 7px;}
