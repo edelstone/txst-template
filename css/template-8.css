@@ -57,6 +57,7 @@ figcaption {font-size: 85%;}
 .trail {display: none;}
 .page_content {margin-top: .5rem;}
 .super_list, .banner_content, .parent_org, h1, .nav, .page_content, .footer_content {max-width: 1000px;}
+.txst_logo {max-width: 250px;}
 
 /* (Handheld) */
 
@@ -163,6 +164,7 @@ html {font-size: 120%;}
 .header, .header_3 {min-height: 360px;}
 .super_list, .banner_content, .parent_org, h1, .nav, .page_content, .footer_content {max-width: 1200px;}
 .header_2 {min-height: 220px; padding: 0;}
+.txst_logo {max-width: 280px;}
 }
 
 /* General */
@@ -367,7 +369,6 @@ h1 {margin: auto; color: #FFFFFF; min-height: 60px; background: #501214; backgro
 .slider_3 .slick-slide {opacity: 0.7; transition: all 300ms ease;}
 .slider_3 .slick-center {opacity: 1;}
 
-
 /* Footer */
 
 .footer_2 {background: #6A5638; width: 100%; color: #FFFFFF; position: relative;}
@@ -380,7 +381,7 @@ h1 {margin: auto; color: #FFFFFF; min-height: 60px; background: #501214; backgro
 .footer_2 a {padding: 5px; margin: -5px;}
 .footer_2 a:hover, ul.font_icons a:hover {background: #501214;}
 a.image_link:hover, .footer_2 h3 a:hover {background: transparent; opacity: 1;}
-.txst_logo {max-width: 250px; margin: 4rem auto;}
+.txst_logo {margin: 4rem auto;}
 .txst_logo img {width: 100%; height: auto;}
 .contact_us {font-family: 'Adobe Garamond W01', Garamond, 'Goudy Old Style', 'Times New Roman', serif; font-weight: 500; line-height: 1.6rem;}
 .foot_linkage {padding: 0; list-style: none;}
