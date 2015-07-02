@@ -357,6 +357,7 @@ h1 {margin: auto; color: #FFFFFF; min-height: 60px; background: #501214; backgro
 .infographic p {max-width: 250px; text-align: center; margin: 1rem auto;}
 .slider, .slider_2 {margin-bottom: 4rem !important; margin-top: 2rem;}
 .has_caption {position: relative;}
+.slider_image_link img {width: 100%;}
 .slide_caption {color: #FFFFFF; padding: .1rem 1.5rem .5rem 1.5rem; min-width: 100%}
 .slide_caption_reverse {color: #222222;}
 .slide_caption a {color: #FFFFFF !important;}
