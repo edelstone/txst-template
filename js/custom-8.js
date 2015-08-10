@@ -83,13 +83,13 @@ $(document).ready(function(){
   });
   $('.slider_3').slick({
   		autoplay: true,
-  		autoplaySpeed: 3000,
+  		autoplaySpeed: 2000,
         centerMode: true,
         infinite: true,
         centerPadding: '60px',
         slidesToShow: 3,
         speed: 500,
-        focusOnSelect: true,
+        focusOnSelect: false,
         swipeToSlide: true,
         responsive: [{
             breakpoint: 768,
