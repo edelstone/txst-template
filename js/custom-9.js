@@ -82,23 +82,32 @@ $(document).ready(function(){
   	dots: true
   });
   $('.slider_3').slick({
-  		autoplay: true,
-  		autoplaySpeed: 3000,
-        centerMode: true,
-        infinite: true,
-        centerPadding: '60px',
-        slidesToShow: 3,
-        speed: 500,
-        focusOnSelect: true,
-        swipeToSlide: true,
-        responsive: [{
-            breakpoint: 768,
-            settings: {
-                arrows: false,
-                centerMode: true,
-                centerPadding: '40px',
-                slidesToShow: 1
-            }
-        }]
-        });
+	autoplay: true,
+	autoplaySpeed: 4000,
+	centerMode: true,
+	infinite: true,
+	centerPadding: '60px',
+	slidesToShow: 3,
+	speed: 500,
+	focusOnSelect: true,
+	swipeToSlide: true,
+	responsive: [{
+		breakpoint: 768,
+		settings: {
+			arrows: false,
+			centerMode: true,
+			centerPadding: '40px',
+			slidesToShow: 1
+		}
+	}]
+	});
+  $('.slider_4').slick({
+	centerMode: true,
+	infinite: true,
+	centerPadding: '60px',
+	slidesToShow: 1,
+	speed: 500,
+	focusOnSelect: true,
+	swipeToSlide: true,
+	});
 });

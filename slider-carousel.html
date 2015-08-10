@@ -230,29 +230,43 @@
 		
 		<div class="row main_section clearfix">
 		
-			<div class="column two-thirds main_text">
+			<div class="column full main_text">
 			
-				<h2>Page Headline</h2>
+				<h2>Feature (Slider and Carousel)</h2>
 					
-				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis <b>this is bold text</b>, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
-			
-				<p><a href="#nowhere">This is a hyperlink</a>. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. <span class="slant_em">This is italicized text.</span> Aenean vulputate eleifend tellus. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi.</p>
-			
-				<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. <a href="#nowhere">This is a much longer link that may span two lines of a paragraph</a>. Cras dapibus. Vivamus semper nisi. Aenean vulputate eleifend tellus.</p>
-			
-			</div>
-		
-			<div class="column third top_services">
-				<div class="service_1"><a href="#nowhere">Submit Your Application</a></div>
-				<div class="service_2"><a href="#nowhere">Get Started</a></div>
-				<!-- <div class="service_3"><a href="#nowhere">Texas State Logos</a></div> -->
-				<div class="service_4"><a class="button_press" href="#nowhere">Call to Action</a></div>
+				<p><b>User interface options:</b></p>
+				
+				<ul>
+					<li>User can choose between "slider" (one slide viewable at a time) vs. "carousel" (multiple slides viewable at a single time). I've also been calling this standard mode (slider) vs. center mode (carousel). We can also split these out into separate components if that makes more sense.</li>
+					<li>Color of caption area</li>
+					<li>Autoplay yes or no</li>
+					<li>Photo and link</li>
+					<li>Paragraph text</li>
+					<li>Speed of autoplay (if autoplay selected). Ideally a dropdown with choices ranging from 4-8 seconds, but could also be a text area that accepts any digit. Probably better to force a limit.</li>
+					<li>We should probably limit the max number of slides to 10, if possible.</li>
+				</ul>
+				
+				<p><b>Notes:</b></p>
+				
+				<ul>
+					<li>Entire block is the link
+					<li>Carousel should only be permitted in a full-width column.</li>
+					<li>Carousel requires at least 3 slides minimum.</li>
+					<li>Slider in &#8531; or &#188; column configuration gets the <code>mini-slide</code>  styles to optimize display</li>
+					<li>Slick slider plugin: <a href="http://kenwheeler.github.io/slick/">http://kenwheeler.github.io/slick/</a>
+				</ul>
 			</div>
 			
 		</div> <!-- row -->
 		
 		<div class="row clearfix">
-		
+			
+			<div class="column full">
+			
+				<h2>Carousel (autoplay, 4s)</h2>
+				
+			</div>
+			
 			<div class="slider_3 column override_padding full">
 				<div class="has_caption">
 					<a class="slider_image_link" href="#nowhere">
@@ -323,55 +337,75 @@
 		
 		<div class="row clearfix">
 		
+			<div class="column full">
+		
+				<h2>Slider (manual advance, full-width)</h2>
+				
+			</div>
+			
 			<div class="slider column override_padding full">
 				<div class="has_caption">
-					<a class="slider_image_link" href="#nowhere"><img src="images/slide-1.jpg"></a>
+					<a class="slider_image_link" href="#nowhere">
+					<img src="images/slide-1.jpg">
 					<div class="slide_caption caption_color_1">
 						<h3>Something Important</h3>
-						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. <a href="#nowhere">Learn more</a>.</p>
+						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
 					</div>
+					</a>
 				</div>
 				<div class="has_caption">
-					<a class="slider_image_link" href="#nowhere"><img src="images/slide-2.jpg"></a>
+					<a class="slider_image_link" href="#nowhere">
+					<img src="images/slide-2.jpg">
 					<div class="slide_caption caption_color_2">
 						<h3>Graduation Info</h3>
-						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. <a href="#nowhere">Learn more</a>.</p>
+						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
 					</div>
+					</a>
 				</div>
 				<div class="has_caption">
-					<a class="slider_image_link" href="#nowhere"><img src="images/slide-3.jpg"></a>
+					<a class="slider_image_link" href="#nowhere">
+					<img src="images/slide-3.jpg">
 					<div class="slide_caption caption_color_3">
 						<h3>Be a Part of Something</h3>
-						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. <a href="#nowhere">Learn more</a>.</p>
+						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
 					</div>
+					</a>
 				</div>
 				<div class="has_caption">
-					<a class="slider_image_link" href="#nowhere"><img src="images/slide-4.jpg"></a>
+					<a class="slider_image_link" href="#nowhere">
+					<img src="images/slide-4.jpg">
 					<div class="slide_caption caption_color_4">
 						<h3>Group Activity Information</h3>
-						<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. <a href="#nowhere">Donec pede justo, fringilla vel, aliquet nec, vulputate eget</a>.</p>
+						<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.</p>
 					</div>
+					</a>
 				</div>
 				<div class="has_caption">
-					<a class="slider_image_link" href="#nowhere"><img src="images/slide-5.jpg"></a>
+					<a class="slider_image_link" href="#nowhere">
+					<img src="images/slide-5.jpg">
 					<div class="slide_caption slide_caption_reverse caption_color_5">
 						<h3>Don't Miss the Next Gathering</h3>
-						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, venenatis vitae, justo. <a href="#nowhere">Learn more</a>.</p>
+						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, venenatis vitae, just.</p>
 					</div>
+					</a>
 				</div>
 				<div class="has_caption">
-					<a class="slider_image_link" href="#nowhere"><img src="images/slide-6.jpg"></a>
+					<a class="slider_image_link" href="#nowhere">
+					<img src="images/slide-6.jpg">
 					<div class="slide_caption slide_caption_reverse caption_color_6">
 						<h3>Submit Your Essay for Review</h3>
-						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo <a href="#nowhere">venenatis vitae, justor honcus ut</a>.</p>
+						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo venenatis vitae, justor honcus ut.</p>
 					</div>
+					</a>
 				</div>
 				<div class="has_caption">
-					<a class="slider_image_link" href="#nowhere"><img src="images/slide-7.jpg"></a>
+					<a class="slider_image_link" href="#nowhere">
+					<img src="images/slide-7.jpg">
 					<div class="slide_caption slide_caption_reverse caption_color_7">
 						<h3>Submit Your Essay for Review</h3>
-						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo <a href="#nowhere">venenatis vitae, justor honcus ut</a>.</p>
+						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo venenatis vitae, justor honcus ut.</p>
 					</div>
+					</a>
 				</div>
 			</div>
 		
@@ -379,31 +413,142 @@
 		
 		<div class="row clearfix">
 		
-			<div class="slider column third">
-				<div><img src="images/slide-1.jpg"></div>
-				<div><img src="images/slide-2.jpg"></div>
-				<div><img src="images/slide-3.jpg"></div>
-			</div>
+			<div class="column full">
+		
+				<h2>Slider (manual advance, mini and &#8532;-width)</h2>
 			
-			<div class="slider_2 column two-thirds">
-				<div><img src="images/slide-1.jpg"></div>
-				<div><img src="images/slide-2.jpg"></div>
-				<div><img src="images/slide-3.jpg"></div>
 			</div>
 		
-		</div> <!-- row -->
-		
-		<div class="row main_section photos clearfix">
-			
-			<div class="column third main_section">
-				<figure>
-					<img src="images/body-image-1.jpg" />
-					<figcaption>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. <a href="#nowhere">Learn more</a>.</figcaption>
-				</figure>
+			<div class="slider column override_padding third mini-slider">
+				<div class="has_caption">
+					<a class="slider_image_link" href="#nowhere">
+					<img src="images/slide-1.jpg">
+					<div class="slide_caption caption_color_1">
+						<h3>Something Important</h3>
+						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+					</div>
+					</a>
+				</div>
+				<div class="has_caption">
+					<a class="slider_image_link" href="#nowhere">
+					<img src="images/slide-2.jpg">
+					<div class="slide_caption caption_color_2">
+						<h3>Graduation Info</h3>
+						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+					</div>
+					</a>
+				</div>
+				<div class="has_caption">
+					<a class="slider_image_link" href="#nowhere">
+					<img src="images/slide-3.jpg">
+					<div class="slide_caption caption_color_3">
+						<h3>Be a Part of Something</h3>
+						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+					</div>
+					</a>
+				</div>
+				<div class="has_caption">
+					<a class="slider_image_link" href="#nowhere">
+					<img src="images/slide-4.jpg">
+					<div class="slide_caption caption_color_4">
+						<h3>Group Activity Information</h3>
+						<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.</p>
+					</div>
+					</a>
+				</div>
+				<div class="has_caption">
+					<a class="slider_image_link" href="#nowhere">
+					<img src="images/slide-5.jpg">
+					<div class="slide_caption slide_caption_reverse caption_color_5">
+						<h3>Don't Miss the Next Gathering</h3>
+						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, venenatis vitae, justo.</p>
+					</div>
+					</a>
+				</div>
+				<div class="has_caption">
+					<a class="slider_image_link" href="#nowhere">
+					<img src="images/slide-6.jpg">
+					<div class="slide_caption slide_caption_reverse caption_color_6">
+						<h3>Submit Your Essay for Review</h3>
+						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo venenatis vitae, justor honcus ut.</p>
+					</div>
+					</a>
+				</div>
+				<div class="has_caption">
+					<a class="slider_image_link" href="#nowhere">
+					<img src="images/slide-7.jpg">
+					<div class="slide_caption slide_caption_reverse caption_color_7">
+						<h3>Submit Your Essay for Review</h3>
+						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo venenatis vitae, justor honcus ut.</p>
+					</div>
+					</a>
+				</div>
 			</div>
 			
-			<div class="column two-thirds">
-				<img src="images/body-image-2.jpg" />
+			<div class="slider column override_padding two-thirds not-full">
+				<div class="has_caption">
+					<a class="slider_image_link" href="#nowhere">
+					<img src="images/slide-1.jpg">
+					<div class="slide_caption caption_color_1">
+						<h3>Something Important</h3>
+						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+					</div>
+					</a>
+				</div>
+				<div class="has_caption">
+					<a class="slider_image_link" href="#nowhere">
+					<img src="images/slide-2.jpg">
+					<div class="slide_caption caption_color_2">
+						<h3>Graduation Info</h3>
+						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
+					</div>
+					</a>
+				</div>
+				<div class="has_caption">
+					<a class="slider_image_link" href="#nowhere">
+					<img src="images/slide-3.jpg">
+					<div class="slide_caption caption_color_3">
+						<h3>Be a Part of Something</h3>
+						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+					</div>
+					</a>
+				</div>
+				<div class="has_caption">
+					<a class="slider_image_link" href="#nowhere">
+					<img src="images/slide-4.jpg">
+					<div class="slide_caption caption_color_4">
+						<h3>Group Activity Information</h3>
+						<p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.</p>
+					</div>
+					</a>
+				</div>
+				<div class="has_caption">
+					<a class="slider_image_link" href="#nowhere">
+					<img src="images/slide-5.jpg">
+					<div class="slide_caption slide_caption_reverse caption_color_5">
+						<h3>Don't Miss the Next Gathering</h3>
+						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, venenatis vitae, justo.</p>
+					</div>
+					</a>
+				</div>
+				<div class="has_caption">
+					<a class="slider_image_link" href="#nowhere">
+					<img src="images/slide-6.jpg">
+					<div class="slide_caption slide_caption_reverse caption_color_6">
+						<h3>Submit Your Essay for Review</h3>
+						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo venenatis vitae, justor honcus ut.</p>
+					</div>
+					</a>
+				</div>
+				<div class="has_caption">
+					<a class="slider_image_link" href="#nowhere">
+					<img src="images/slide-7.jpg">
+					<div class="slide_caption slide_caption_reverse caption_color_7">
+						<h3>Submit Your Essay for Review</h3>
+						<p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo venenatis vitae, justor honcus ut.</p>
+					</div>
+					</a>
+				</div>
 			</div>
 		
 		</div> <!-- row -->
@@ -498,7 +643,7 @@
 <script type="text/javascript" src="//api.html5media.info/1.1.8/html5media.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
 <script type="text/javascript" src="js/slideout.js"></script>
-<script src="js/custom-8.js"></script>
+<script src="js/custom-9.js"></script>
 
 </body>
 
