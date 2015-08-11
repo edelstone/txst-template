@@ -367,7 +367,7 @@ h1 {margin: auto; color: #FFFFFF; min-height: 60px; background: #501214; backgro
 .slide_caption a {color: #FFFFFF !important;}
 .slide_caption_reverse a {color: #222222 !important;}
 .slide_caption a:hover {background: #363534; background: rgba(255, 255, 255, 0.2);}
-.slider_image_link {margin: 0 !important; padding: 0 !important; opacity: 1; transition: opacity 0.2s ease-in-out; -webkit-transition: opacity 0.2s ease-in-out; -moz-transition: opacity 0.2s ease-in-out; -o-transition: opacity 0.2s ease-in-out; display: block; text-decoration: none !important;}
+.slider_image_link {margin: 0 !important; padding: 0 !important; opacity: 1; display: block; text-decoration: none !important;}
 .slider_image_link:hover {opacity: .9;}
 .slider_3 .slide_caption, .slider_4 .slide_caption {position: initial; font-size: 90%; padding: .1rem 1rem;}
 .slider_3 .has_caption, .slider_4 .has_caption {margin: 8px;}
