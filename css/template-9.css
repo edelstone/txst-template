@@ -367,11 +367,11 @@ h1 {margin: auto; color: #FFFFFF; min-height: 60px; background: #501214; backgro
 .slide_caption a {color: #FFFFFF !important;}
 .slide_caption_reverse a {color: #222222 !important;}
 .slide_caption a:hover {background: #363534; background: rgba(255, 255, 255, 0.2);}
-.slider_image_link {margin: 0 !important; padding: 0 !important; opacity: 1; display: block; text-decoration: none !important;}
+.slider_image_link {margin: 0 !important; padding: 0 !important; opacity: 1; display: block; text-decoration: none !important; transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out;}
 .slider_image_link:hover {opacity: .9;}
 .slider_3 .slide_caption, .slider_4 .slide_caption {position: initial; font-size: 90%; padding: .1rem 1rem;}
 .slider_3 .has_caption, .slider_4 .has_caption {margin: 8px;}
-.slider_3 .slick-slide, .slider_4 .slick-slide {opacity: 0.7; transition: all 300ms ease;}
+.slider_3 .slick-slide, .slider_4 .slick-slide {opacity: 0.65; transition: all 300ms ease;}
 .slider_3 .slick-center, .slider_4 .slick-center {opacity: 1;}
 .mini-slider .slide_caption {position: initial; font-size: 85%;}
 
