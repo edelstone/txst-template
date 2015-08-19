@@ -60,8 +60,8 @@ figcaption {font-size: 85%;}
 .super_list, .banner_content, .parent_org, h1, .nav, .page_content, .footer_content {max-width: 1000px;}
 .txst_logo {max-width: 250px;}
 .calendar {font-size: 80%; border: none; padding: 1rem .7rem .7rem .7rem;}
-.cal-face {width: 35%; max-width: 90px;}
-.cal-text {width: 65%;}
+.cal-face {width: 25%; max-width: 90px;}
+.cal-text {width: 75%;}
 .cal-full {width: 100%; margin: 0;}
 .cal-row {border: 1px solid #D1C7B7; overflow: auto; padding: 0px; margin: 0 1rem 1rem 1rem;}
 }
@@ -127,9 +127,10 @@ h2 {margin-top: 0; font-size: 1.4rem;}
 .side_nav_list a {font-size: 80%;}
 .side_nav_header {font-size: 90%;}
 .calendar {border-bottom: 3px solid #BBAB92; border: 1px solid #D1C7B7; padding: .7rem .7rem .2rem .7rem;}
-.cal-full {width: 32%; margin: 0 0.66%;}
+.cal-full {width: 32%; margin: 0 1.33% 0 0;}
 .cal-row {border: none; margin: 0;}
-.cal-face {max-width: 110px;}
+.cal-face {max-width: 110px; width: 35%;}
+.cal-text {width: 65%;}
 }
 
 /* (768px and up) */
@@ -179,7 +180,7 @@ html {font-size: 120%;}
 .super_list, .banner_content, .parent_org, h1, .nav, .page_content, .footer_content {max-width: 1200px;}
 .header_2 {min-height: 220px; padding: 0;}
 .txst_logo {max-width: 280px;}
-.calendar {font-size: 90%;}
+.calendar {font-size: 85%;}
 .cal-face {width: 30%;}
 .cal-text {width: 70%;}
 }
@@ -387,6 +388,7 @@ h1 {margin: auto; color: #FFFFFF; min-height: 60px; background: #501214; backgro
 .slider_3 .slick-center, .slider_4 .slick-center {opacity: 1;}
 .mini-slider .slide_caption {position: initial; font-size: 85%;}
 .calendar {background-color: #FAF8F6; float: left;}
+.cal-default .cal-day {background-color: #B30E1B; color: #FFFFFF;}
 .cal-maroon .cal-day {background-color: #501214; color: #FFFFFF;}
 .cal-gold .cal-day {background-color: #6A5638; color: #FFFFFF;}
 .cal-river .cal-day {background-color: #8BAEA1; color: #111111;}
