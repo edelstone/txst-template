@@ -59,6 +59,12 @@ figcaption {font-size: 85%;}
 .page_content .row {margin-bottom: 0;}
 .super_list, .banner_content, .parent_org, h1, .nav, .page_content, .footer_content {max-width: 1000px;}
 .txst_logo {max-width: 250px;}
+.calendar {font-size: 80%; border: none; padding: 1rem .7rem .7rem .7rem;}
+.cal-face {width: 35%; max-width: 90px;}
+.cal-text {width: 65%;}
+.cal-full {width: 100%; margin: 0;}
+.cal-row {border: 1px solid #D1C7B7; overflow: auto; padding: 0px; margin: 0 1rem 1rem 1rem;}
+}
 
 
 /* (Handheld) */
@@ -120,7 +126,10 @@ h2 {margin-top: 0; font-size: 1.4rem;}
 .breadcrumbs {line-height: 18px;}
 .side_nav_list a {font-size: 80%;}
 .side_nav_header {font-size: 90%;}
-
+.calendar {border-bottom: 3px solid #BBAB92; border: 1px solid #D1C7B7; padding: .7rem .7rem .2rem .7rem;}
+.cal-full {width: 32%; margin: 0 0.66%;}
+.cal-row {border: none; margin: 0;}
+.cal-face {max-width: 110px;}
 }
 
 /* (768px and up) */
@@ -170,6 +179,9 @@ html {font-size: 120%;}
 .super_list, .banner_content, .parent_org, h1, .nav, .page_content, .footer_content {max-width: 1200px;}
 .header_2 {min-height: 220px; padding: 0;}
 .txst_logo {max-width: 280px;}
+.calendar {font-size: 90%;}
+.cal-face {width: 30%;}
+.cal-text {width: 70%;}
 }
 
 /* General */
@@ -374,6 +386,21 @@ h1 {margin: auto; color: #FFFFFF; min-height: 60px; background: #501214; backgro
 .slider_3 .slick-slide, .slider_4 .slick-slide {opacity: 0.65; transition: all 300ms ease;}
 .slider_3 .slick-center, .slider_4 .slick-center {opacity: 1;}
 .mini-slider .slide_caption {position: initial; font-size: 85%;}
+.calendar {background-color: #FAF8F6; float: left;}
+.cal-maroon .cal-day {background-color: #501214; color: #FFFFFF;}
+.cal-gold .cal-day {background-color: #6A5638; color: #FFFFFF;}
+.cal-river .cal-day {background-color: #8BAEA1; color: #111111;}
+.cal-charcoal .cal-day {background-color: #363534; color: #FFFFFF;}
+.cal-blue .cal-day {background-color: #005481; color: #FFFFFF;}
+.cal-oldgold .cal-day {background-color: #DEB407; color: #111111;}
+.cal-sandstone .cal-day {background-color: #E8E3DB; color: #111111; border: 1px solid #D1C7B9;}
+.cal-face {float: left; font-weight: 400;}
+.cal-day {text-align: center; border-radius: 3px 3px 0 0;}
+.cal-day p {margin: 0; padding: 0.4rem;}
+.cal-date p {background-color: #FFFFFF; padding: 1rem; margin: 0; border-bottom: 1px solid #D1C7B9; border-left: 1px solid #D1C7B9; border-right: 1px solid #D1C7B9; color: #4a4948; border-radius: 0 0 3px 3px; text-align: center; line-height: 1.1rem;}
+.cal-text {float: left; padding-left: 1rem;}
+.cal-text p {margin: 0 0 .7rem 0; line-height: 1.3rem;}
+.cal-text a {font-weight: 400;}
 
 /* Footer */
 
