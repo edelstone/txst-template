@@ -60,13 +60,13 @@ figcaption {font-size: 85%;}
 .super_list, .banner_content, .parent_org, h1, .nav, .page_content, .footer_content {max-width: 1000px;}
 .txst_logo {max-width: 250px;}
 .calendar {font-size: 80%; border: none; padding: 1rem .7rem .7rem .7rem;}
+.calendar-2 {min-height: 300px; width: 95%; float: none; margin: 1rem auto;}
 .cal-view-all {font-size: 80%;}
 .cal-face {width: 25%; max-width: 90px;}
 .cal-text {width: 75%;}
 .cal-full {width: 100%; margin: 0;}
 .cal-row {background-color: #FAF8F6; border: 1px solid #D1C7B7; overflow: auto; padding: 0px; margin: 0 1rem 1rem 1rem;}
 }
-
 
 /* (Handheld) */
 
@@ -127,11 +127,13 @@ h2 {margin-top: 0; font-size: 1.4rem;}
 .breadcrumbs {line-height: 18px;}
 .side_nav_list a {font-size: 80%;}
 .side_nav_header {font-size: 90%;}
-.calendar {border-bottom: 3px solid #BBAB92; border: 1px solid #D1C7B7; padding: .7rem .7rem .2rem .7rem;}
+.calendar {border: 1px solid #D1C7B7; border-bottom: 3px solid #BBAB92; padding: .7rem .7rem .2rem .7rem;}
 .cal-full {width: 32%; margin: 0 1.33% 0 0;}
 .cal-row {border: none; margin: 0; background-color: transparent;}
 .cal-face {max-width: 110px; width: 35%;}
 .cal-text {width: 65%;}
+.calendar-2 {width: 23%; float: left; margin: 1%; min-height: 380px;}
+.cal-view-all-2 p {text-align: right;}
 }
 
 /* (768px and up) */
@@ -153,6 +155,7 @@ h2 {margin-top: 0; font-size: 1.4rem;}
 .slider_3 .slide_caption, .slider_4 .slide_caption {min-height: 260px;}
 .trail {display: block;}
 .page_content {margin: auto;}
+.calendar-2 {width: 22%; margin: 1.5%;}
 }
 
 /* (1024px and up) */
@@ -167,6 +170,7 @@ html {font-size: 120%;}
 .side_nav {margin-left: 0;}
 .nav a {padding: .4rem .6rem;}
 .primary_nav a, .seconday_nav a {font-size: 80%;}
+.calendar-2 {width: 21%; margin: 2%; min-height: 350px;}
 }
 
 /* (1280px and up) */
@@ -185,6 +189,7 @@ html {font-size: 120%;}
 .cal-view-all {font-size: 85%;}
 .cal-face {width: 30%;}
 .cal-text {width: 70%;}
+.calendar-2 {width: 20%; margin: 2.5%}
 }
 
 /* General */
@@ -406,6 +411,15 @@ h1 {margin: auto; color: #FFFFFF; min-height: 60px; background: #501214; backgro
 .cal-text p {margin: 0 0 .7rem 0; line-height: 1.3rem;}
 .cal-text a {font-weight: 400;}
 .cal-view-all p {text-align: right; padding: 0; margin: 0; margin-top: .5rem;}
+.cal-view-all-2 p {text-align: center;}
+.cal-view-all a {text-transform: uppercase; font-weight: 700; text-decoration: none;}
+.calendar-2 {max-width: 235px; padding: 1rem; background-color: #FAF8F6; border: 1px solid #D1C7B7; border-bottom: 3px solid #BBAB92; font-size: 85%;}
+.cal-face-2 {margin: -1rem -1rem 1rem -1rem; padding: .3rem; text-align: center;}
+.cal-maroon-2 .cal-face-2 {background-color: #501214; color: #FFFFFF;}
+.cal-month-2 {text-transform: uppercase;}
+.cal-date-2 {font-size: 2.5rem; margin: -2rem 0 -1.2rem 0;}
+.cal-view-all-2 a {text-transform: uppercase; font-weight: 700; text-decoration: none;}
+.cal-chev {margin-left: 10px;}
 
 /* Footer */
 
