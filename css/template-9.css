@@ -410,7 +410,7 @@ h1 {margin: auto; color: #FFFFFF; min-height: 60px; background: #501214; backgro
 .cal-date p {background-color: #FFFFFF; padding: 1rem; margin: 0; border-bottom: 1px solid #D1C7B9; border-left: 1px solid #D1C7B9; border-right: 1px solid #D1C7B9; color: #4a4948; text-align: center; line-height: 1.1rem;}
 .cal-text {float: left; padding-left: 1rem;}
 .cal-text p {margin: 0 0 .7rem 0; line-height: 1.3rem;}
-.cal-text a {font-weight: 400;}
+.cal-text a, .cal-text-2 a {font-weight: 400;}
 .cal-view-all p {text-align: right; padding: 0; margin: 0; margin-top: 1rem;}
 .cal-view-all-2 p {text-align: center;}
 .cal-view-all a {text-transform: uppercase; font-weight: 700; text-decoration: none;}
