@@ -190,6 +190,7 @@ html {font-size: 120%;}
 .cal-face {width: 30%;}
 .cal-text {width: 70%;}
 .calendar-2 {width: 20%; margin: 2.5%}
+.cal-view-all-2 {margin-top: -.5rem;}
 }
 
 /* General */
@@ -416,6 +417,12 @@ h1 {margin: auto; color: #FFFFFF; min-height: 60px; background: #501214; backgro
 .calendar-2 {max-width: 235px; padding: 1rem; background-color: #FAF8F6; border: 1px solid #D1C7B7; border-bottom: 3px solid #BBAB92; font-size: 85%;}
 .cal-face-2 {margin: -1rem -1rem 1rem -1rem; padding: .3rem; text-align: center;}
 .cal-maroon-2 .cal-face-2 {background-color: #501214; color: #FFFFFF;}
+.cal-gold-2 .cal-face-2 {background-color: #6A5638; color: #FFFFFF;}
+.cal-river-2 .cal-face-2 {background-color: #8BAEA1; color: #111111;}
+.cal-oldgold-2 .cal-face-2 {background-color: #DEB407; color: #111111;}
+.cal-charcoal-2 .cal-face-2 {background-color: #363534; color: #FFFFFF;}
+.cal-blue-2 .cal-face-2 {background-color: #005481; color: #FFFFFF;}
+.cal-sandstone-2 .cal-face-2 {background-color: #E8E3DB; color: #111111;}
 .cal-month-2 {text-transform: uppercase;}
 .cal-date-2 {font-size: 2.5rem; margin: -2rem 0 -1.2rem 0;}
 .cal-view-all-2 a {text-transform: uppercase; font-weight: 700; text-decoration: none;}
