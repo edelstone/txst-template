@@ -89,7 +89,6 @@ $(document).ready(function(){
 	centerPadding: '60px',
 	slidesToShow: 3,
 	speed: 500,
-	focusOnSelect: true,
 	swipeToSlide: true,
 	responsive: [{
 		breakpoint: 768,
