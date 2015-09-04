@@ -294,8 +294,7 @@ h1 {margin: auto; color: #FFFFFF; min-height: 60px; background: #501214; backgro
 .search_bar .search.mobile_search:-ms-input-placeholder {color: #484848;}
 .contact_us.mobile_dept a {color: #D7D7D7; line-height: 1.8rem;}
 .mobile_primary_nav a:hover {color: #FFFFFF; background: #262524;}
-.mobile_primary_nav a, .side_nav_mobile {text-transform: uppercase; font-weight: 400; color: #D7D7D7; display: block; font-size: 100%; border-bottom: 1px solid #262524; margin: 1.5rem -1rem 0 -1rem; padding: 0.7rem 1rem .5rem 1rem;}
-.mobile_primary_nav a {font-size: 90%;}
+.mobile_primary_nav a, .side_nav_mobile {text-transform: uppercase; font-weight: 400; color: #D7D7D7; display: block; font-size: 90%; border-bottom: 1px solid #262524; margin: 1.5rem -1rem 0 -1rem; padding: 0.7rem 1rem .5rem 1rem;}
 .mobile_secondary_nav a {text-transform: none; font-weight: 100; margin: 0 -1rem; padding: 0.25rem 1rem; font-size: 85%;}
 .mobile_secondary_nav li {margin-bottom: 0;}
 .mobile_super_user {background-color: #262524;}
