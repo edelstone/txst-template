@@ -66,6 +66,8 @@ figcaption {font-size: 85%;}
 .cal-text {width: 75%;}
 .cal-full {width: 100%; margin: 0;}
 .cal-row {background-color: #F4F1ED; border: 1px solid #D1C7B7; overflow: auto; padding: 0px; margin: .5rem 1rem;}
+.search_bar .search {padding-left: 10px; font-weight: 100; box-shadow: none;}
+.search_bar .icon {right: 0; color: #ffffff;}
 }
 
 /* (Handheld) */
@@ -89,7 +91,7 @@ figcaption {font-size: 75%;}
 .column.two-thirds {width: 66.7%;}
 .column.half {width: 50%;}
 .column.third {width: 33.3%;}
-.column.fourth {width: 50%;}
+.column.fourth {width: 25%;}
 .column.flow-opposite {float: right;}
 .header {min-height: 350px; padding: 0;}
 .header_2 {min-height: 180px; padding: 0;}
@@ -157,6 +159,9 @@ h2 {margin-top: 0; font-size: 1.4rem;}
 .page_content {margin: auto;}
 .calendar-2 {width: 22%; margin: 1.5%;}
 .cal-view-all-2 {margin-top: -1rem;}
+::-webkit-input-placeholder {color: #6a5638 !important; font-weight: 100;}
+.search_bar .search {padding-left: 0; font-weight: 400; box-shadow: inset 0 -2px #6a5638;}
+.search_bar .icon {right: -10px; color: #6a5638;}
 }
 
 /* (1024px and up) */
@@ -230,18 +235,23 @@ background: -webkit-gradient(left top, left bottom, color-stop(0%, #D1C7B7), col
 .banner_content {margin: auto;}
 .banner_logo {float: left;}
 .txst_search {float: right; margin-top: 18px; position: relative;}
-.search_bar .search {position: absolute; right: 0; width: 250px; height: 30px; background: #F4F1ED; border: 0px solid #6A5638; font-size: .75rem; padding-left: 10px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+.search_bar .search {position: absolute; right: 0; width: 250px; height: 30px; background: #F4F1ED; border: 0px solid #6A5638; font-size: .75rem; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
 .search_bar .search::-webkit-input-placeholder {color: #484848;}
 .search_bar .search:-moz-placeholder {color: #484848;}
 .search_bar .search::-moz-placeholder {color: #484848;}
 .search_bar .search:-ms-input-placeholder {color: #484848;}
-.search_bar .icon {-webkit-border-top-right-radius: 3px; -webkit-border-bottom-right-radius: 3px; -moz-border-radius-topright: 3px; -moz-border-radius-bottomright: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border: none; background: #6A5638; height: 32px; width: 38px; color: #FFFFFF; font-size: .9rem; position: absolute; right: 0;}
+.search_bar .icon {-webkit-border-top-right-radius: 3px; -webkit-border-bottom-right-radius: 3px; -moz-border-radius-topright: 3px; -moz-border-radius-bottomright: 3px; border-top-right-radius: 3px; border-bottom-right-radius: 3px; border: none; background: #6A5638; height: 32px; width: 38px; font-size: .9rem; position: absolute;}
 .search_bar .icon:hover {background: #79674C;}
 .super_user {background: #6A5638;}
 .super_list {font-size: 0; margin: 0 auto; padding: 0; text-align: right;}
 .super_list li {display: inline-block; font-size: 1rem;}
 .super_list a {border-right: 1px solid #79674C; color: #FFFFFF; text-transform: uppercase; font-size: 55%; font-weight: 400; letter-spacing: 1px; display: block; padding: 4px 12px 3px 12px;}
 .super_list a:hover {background: #79674C;}
+/* Updated search bar for desktop view (9/8/15) */
+.search_bar .search {width: 250px; background: transparent; border: none; font-size: 0.8rem; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; color: #363534;}
+.search_bar .icon {background: transparent;}
+.search_bar .icon:hover {background: transparent; color: #887860;}
+input[type="search"]:focus {outline: none;}
 
 /* Header */
 
