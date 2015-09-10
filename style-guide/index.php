@@ -30,7 +30,7 @@
         <span class="sg-logo-initials">TX STATE</span>
         <span class="sg-logo-full">TEXAS STATE UNIVERSITY</span> <em>STYLE GUIDE</em>
       </h1>
-      <button type="button" class="sg-nav-toggle">Menu</button>
+      <button type="button" class="sg-nav-toggle"><i class="fa fa-bars"></i></button>
     </div>
   </div><!--/.sg-header-->
 
