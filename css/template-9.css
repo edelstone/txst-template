@@ -214,7 +214,7 @@ a:hover, a:active {text-decoration: none;}
 .top_services a {transition: all 0.1s ease-in-out; -webkit-transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; -o-transition: all 0.1s ease-in-out;}
 /* a, li, .std_transition, .fast_transition, a:after, a:before {transition: all 0.1s ease-in-out; -webkit-transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; -o-transition: all 0.1s ease-in-out;} */
 .no_transition {transition: none; -webkit-transition: none; -moz-transition: none; -o-transition: none;}
-hr {margin-bottom: 2em;}
+hr {margin-bottom: 2em; border-color: #D1C7B7;}
 img {max-width: 100%;}
 h1, .office_name {font-family: 'Adobe Garamond W01', Garamond, 'Goudy Old Style', 'Times New Roman', serif; font-weight: 400; letter-spacing: 1px;}
 h1 a {color: #FFFFFF !important; padding: 5px 0;}
