@@ -437,6 +437,7 @@ h1 {margin: auto; color: #FFFFFF; min-height: 60px; background: #501214; backgro
 .cal-date-2 {font-size: 2.5rem; margin: -2rem 0 -1.2rem 0;}
 .cal-view-all-2 a {text-transform: uppercase; font-weight: 700; text-decoration: none;}
 .cal-chev {margin-left: 10px;}
+.faq {margin-top: 30px !important;}
 
 /* Footer */
 
@@ -465,6 +466,7 @@ a.image_link:hover, .footer_2 h3 a:hover {background: transparent; opacity: 1;}
 
 /* Sub footer */
 .sub-footer {background: #E8E3DB;}
+
 
 
 

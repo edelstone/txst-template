@@ -1,12 +1,12 @@
 // Initialize accordion
 
-$(function() {
-	$( "#accordion" ).accordion({
-		collapsible: true,
-		heightStyle: "content",
-		alwaysOpen: false,
-		active: false
-	});
+$(".accordion").accordion({
+	collapsible: true,
+	active: false,
+	animate: 150,
+	heightStyle: "content",
+	alwaysOpen: false,
+	active: false
 });
 
 // No delay on mobile tapping
