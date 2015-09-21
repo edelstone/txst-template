@@ -100,7 +100,6 @@ $(document).ready(function(){
   	autoplay: true,
   	autoplaySpeed: 7000,
   	speed: 500,
-  	fade: true
   });
   $('.slider_2').slick({
    	fade: true,
