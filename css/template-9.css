@@ -437,7 +437,13 @@ h1 {margin: auto; color: #FFFFFF; min-height: 60px; background: #501214; backgro
 .cal-date-2 {font-size: 2.5rem; margin: -2rem 0 -1.2rem 0;}
 .cal-view-all-2 a {text-transform: uppercase; font-weight: 700; text-decoration: none;}
 .cal-chev {margin-left: 10px;}
-.faq {margin: 30px auto !important;}
+.faq {margin-bottom: 40px;}
+.accordion, .accordion-2, .accordion-3 {margin-bottom: -2px !important;}
+.accordion h3, .accordion-2 h3, .accordion-3 h3 {background: #e8e3db; border-bottom: 1px solid #DDD5C9; border-top: 1px solid #F4F1ED; padding: 0.9rem 1.3rem 0.7rem 1.3rem !important; font-weight: 400; transition: all 0.1s ease-in-out; -webkit-transition: all 0.1s ease-in-out; -moz-transition: all 0.1s ease-in-out; -o-transition: all 0.1s ease-in-out;}
+.accordion h3:focus, .accordion-2 h3:focus, .accordion-3 h3:focus {outline: none;}
+.accordion h3:hover, .accordion-2 h3:hover, .accordion-3 h3:hover {background: #D1C7B7;}
+.ui-accordion-content {padding: 0.8rem 1.2rem !important;}
+.ui-accordion-header-active {background: #D1C7B7 !important;}
 
 /* Footer */
 
@@ -466,7 +472,6 @@ a.image_link:hover, .footer_2 h3 a:hover {background: transparent; opacity: 1;}
 
 /* Sub footer */
 .sub-footer {background: #E8E3DB;}
-
 
 
 
