@@ -413,11 +413,11 @@ h1 {margin: auto; color: #FFFFFF; min-height: 60px; background: #501214; backgro
 .cal-charcoal .cal-day {background-color: #363534; color: #FFFFFF;}
 .cal-blue .cal-day {background-color: #005481; color: #FFFFFF;}
 .cal-oldgold .cal-day {background-color: #DEB407; color: #111111;}
-.cal-sandstone .cal-day {background-color: #E8E3DB; color: #111111; border: 1px solid #D1C7B9;}
+.cal-sandstone .cal-day {background-color: #E8E3DB; color: #111111; border: 1px solid #d1c7b7;}
 .cal-face {float: left; font-weight: 400;}
 .cal-day {text-align: center;}
 .cal-day p {margin: 0; padding: 0.4rem;}
-.cal-date p {background-color: #FFFFFF; padding: 1rem; margin: 0; border-bottom: 1px solid #D1C7B9; border-left: 1px solid #D1C7B9; border-right: 1px solid #D1C7B9; color: #4a4948; text-align: center; line-height: 1.1rem;}
+.cal-date p {background-color: #FFFFFF; padding: 1rem; margin: 0; border-bottom: 1px solid #d1c7b7; border-left: 1px solid #d1c7b7; border-right: 1px solid #d1c7b7; color: #4a4948; text-align: center; line-height: 1.1rem;}
 .cal-text {float: left; padding-left: 1rem;}
 .cal-text p {margin: 0 0 .7rem 0; line-height: 1.3rem;}
 .cal-text a, .cal-text-2 a {font-weight: 400;}
