@@ -442,7 +442,7 @@ h1 {margin: auto; color: #FFFFFF; min-height: 60px; background: #501214; backgro
 .accordion h3, .accordion-2 h3, .accordion-3 h3 {background: #e8e3db; border-bottom: 1px solid #DDD5C9; border-top: 1px solid #F4F1ED; padding: 0.9rem 1.3rem 0.7rem 1.3rem !important; font-weight: 400; transition: background 0.1s ease-in-out; -webkit-transition: background 0.1s ease-in-out; -moz-transition: background 0.1s ease-in-out; -o-transition: background 0.1s ease-in-out;}
 .accordion h3:focus, .accordion-2 h3:focus, .accordion-3 h3:focus {outline: none;}
 .accordion h3:hover, .accordion-2 h3:hover, .accordion-3 h3:hover {background: #D1C7B7;}
-.accordion .ui-accordion-content, .accordion-2 .ui-accordion-content, .accordion-3 .ui-accordion-content {border-left: 1px solid #e8e3db; border-right: 1px solid #e8e3db;}
+.accordion .ui-accordion-content, .accordion-2 .ui-accordion-content, .accordion-3 .ui-accordion-content {border-left: 1px solid #e8e3db; border-bottom: 1px solid #e8e3db; border-right: 1px solid #e8e3db;}
 .ui-accordion-header-active {background: #D1C7B7 !important;}
 
 /* Footer */
