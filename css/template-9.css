@@ -444,6 +444,7 @@ h1 {margin: auto; color: #FFFFFF; min-height: 60px; background: #501214; backgro
 .accordion h3:hover, .accordion-2 h3:hover, .accordion-3 h3:hover {background: #D1C7B7;}
 .accordion .ui-accordion-content, .accordion-2 .ui-accordion-content, .accordion-3 .ui-accordion-content {border-left: 1px solid #e8e3db; border-bottom: 1px solid #e8e3db; border-right: 1px solid #e8e3db;}
 .ui-accordion-header-active {background: #D1C7B7 !important;}
+.alerts {color: #B30E1B;}
 
 /* Footer */
 
