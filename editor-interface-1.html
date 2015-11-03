@@ -17,11 +17,12 @@
 <style>
 .bg_image_2 {background: #501214 url("images/s-2.jpg") no-repeat 50% 40%; background-size: cover;}
 .gato-bar {margin-top: 1rem;}
-.gato-bar-content {border: 1px dashed #87B800; color: #4A5F0D; font-size: 0.8rem; font-weight: 400; padding: .2rem .8rem; transition: all .1s ease;}
-.gato-bar-content:hover {cursor: pointer; background: #87B800; color: #111;}
+.gato-bar-add, .gato-bar-edit {border: 1px dashed #87B800; color: #4A5F0D; font-size: 0.8rem; font-weight: 400; padding: .2rem .8rem; transition: all .1s ease;}
+.gato-bar-add:hover {cursor: pointer; background: #87B800; color: #111;}
+.gato-bar-edit:hover {cursor: move; background: #87B800; color: #111;}
 .gato-bar-left {}
 .gato-bar-right {float: right; font-size: 1.2rem;}
-.fa:hover {color: #fff;}
+.fa:hover {color: #fff; cursor: pointer;}
 .fa-plus {margin-top: .2rem;}
 .fa-arrows {font-size: 1.1rem; margin-right: 1rem;}
 </style>
@@ -281,9 +282,25 @@
 			
 				<div class="gato-bar">
 				
-					<p class="gato-bar-content">
+					<p class="gato-bar-add">
 						<span class="gato-bar-left">Add a Section</span>
-						<span class="gato-bar-right"><i class="fa fa-arrows"></i><i class="fa fa-plus"></i></span>
+						<span class="gato-bar-right"><i class="fa fa-plus"></i></span>
+					</p>
+				
+				</div>
+		
+			</div>
+
+		</div>
+		<div class="row clearfix">
+		
+			<div class="column full">
+			
+				<div class="gato-bar">
+				
+					<p class="gato-bar-edit">
+						<span class="gato-bar-left">Edit Section</span>
+						<span class="gato-bar-right"><i class="fa fa-arrows"></i><i class="fa fa-pencil"></i></i></span>
 					</p>
 				
 				</div>
