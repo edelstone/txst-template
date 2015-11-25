@@ -107,6 +107,88 @@ $(document).ready(function(){
 	slidesToShow: 1,
 	speed: 500,
 	focusOnSelect: true,
-	swipeToSlide: true,
+	swipeToSlide: true
+	});
+$('.slider_5').slick({
+	autoplay: true,
+	autoplaySpeed: 5000,
+	infinite: true,
+	slidesToShow: 1,
+	speed: 500,
+	pauseOnHover: false,
+	swipeToSlide: true
+	});
+$('.slider_6').slick({
+	autoplay: true,
+	autoplaySpeed: 6000,
+	infinite: true,
+	slidesToShow: 1,
+	speed: 500,
+	pauseOnHover: false,
+	swipeToSlide: true
+	});
+$('.slider_7').slick({
+	autoplay: true,
+	autoplaySpeed: 7000,
+	infinite: true,
+	slidesToShow: 1,
+	speed: 500,
+	pauseOnHover: false,
+	swipeToSlide: true
+	});
+$('.slider_8').slick({
+	autoplay: true,
+	autoplaySpeed: 8000,
+	infinite: true,
+	slidesToShow: 1,
+	speed: 500,
+	pauseOnHover: false,
+	swipeToSlide: true
+	});
+$('.slider_9').slick({
+	autoplay: true,
+	autoplaySpeed: 9000,
+	infinite: true,
+	slidesToShow: 1,
+	speed: 500,
+	pauseOnHover: false,
+	swipeToSlide: true
+	});
+$('.slider_10').slick({
+	autoplay: true,
+	autoplaySpeed: 10000,
+	infinite: true,
+	slidesToShow: 1,
+	speed: 500,
+	pauseOnHover: false,
+	swipeToSlide: true
+	});
+$('.slider_11').slick({
+	autoplay: true,
+	autoplaySpeed: 11000,
+	infinite: true,
+	slidesToShow: 1,
+	speed: 500,
+	pauseOnHover: false,
+	swipeToSlide: true
+	});
+$('.slider_12').slick({
+	autoplay: true,
+	autoplaySpeed: 12000,
+	infinite: true,
+	slidesToShow: 1,
+	speed: 500,
+	pauseOnHover: false,
+	swipeToSlide: true
+	});
+$('.slider_13').slick({
+	autoplay: true,
+	autoplaySpeed: 4000,
+	infinite: true,
+	slidesToShow: 1,
+	speed: 500,
+	pauseOnHover: false,
+	swipeToSlide: true
+	
 	});
 });
