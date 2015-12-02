@@ -187,6 +187,7 @@ $('.slider_13').slick({
 	infinite: true,
 	slidesToShow: 1,
 	speed: 500,
+	adaptiveHeight: true,
 	pauseOnHover: false,
 	swipeToSlide: true
 	
