@@ -15,3 +15,4 @@ This is the source code for the 2016 update to the front end of the Texas State 
 - [Meadows Center for Water and the Environment](http://meadowscenter.txstate.edu)
 - [Housing and Residential Life](http://reslife.txstate.edu)
 - [Department of Biology](http://bio.txstate.edu)
+- [Human Resources](http://www.hr.txstate.edu/performance-management.html)
