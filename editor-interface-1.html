@@ -10,14 +10,15 @@
 <link rel="stylesheet" type="text/css" href="css/normalize.min.css">
 <link rel="stylesheet" type="text/css" href="css/boilerplate.min.css">
 <link rel="stylesheet" type="text/css" href="//fast.fonts.net/cssapi/959b8b5d-6e60-4d5a-bd8f-497d6e2a1825.css">
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
 <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 <link rel="stylesheet" type="text/css" href="css/template-9.css">
 <style>
+.page_content .row {margin-bottom: 1rem;}
 .bg_image_2 {background: #501214 url("images/s-2.jpg") no-repeat 50% 40%; background-size: cover;}
 .gato-bar {margin-top: 1rem;}
-.gato-bar-add, .gato-bar-edit {border: 1px dashed #87B800; color: #4A5F0D; font-size: 0.8rem; font-weight: 400; padding: .2rem .8rem; transition: all .1s ease;}
+.gato-bar-add, .gato-bar-edit {border: 2px dashed #87B800; color: #4A5F0D; font-size: 0.8rem; font-weight: 400; padding: .2rem .8rem; transition: all .1s ease; margin: 0;}
 .gato-bar-add:hover {cursor: pointer;}
 .gato-bar-edit:hover {cursor: move;}
 .gato-bar-active .gato-bar-add, .gato-bar-active .gato-bar-edit {background: #87B800;
@@ -25,9 +26,10 @@
 .gato-bar-active-2 .gato-bar-add, .gato-bar-active-2 .gato-bar-edit {border: 2px solid #87B800;}
 .gato-bar-right {float: right; font-size: 1.2rem;}
 .fa:hover {cursor: pointer;}
-.fa-plus {margin-top: .2rem;}
-.fa-arrows {font-size: 1.1rem; margin-right: 1rem;}
-.container h2 {margin-bottom: 1rem;}
+.gato-bar .fa {margin-right: 0.8rem; font-size: 1rem; bottom: 0.05rem; position: relative;}
+.gato-bar .fa-arrows {font-size: 0.9rem;}
+.gato-bar .fa-trash, .gato-bar .fa-plus {margin-right: 0;}
+.container h2 {margin-bottom: 1rem; font-weight: 400; font-size: 1.2rem;}
 .constrain-width {max-width: 400px;}
 </style>
 </head>
@@ -286,7 +288,7 @@
 			
 				<div class="gato-bar">
 				
-					<h2>ADD content</h2>
+					<h2>Section or content area is EMPTY</h2>
 				
 					<p class="gato-bar-add">
 						<span class="gato-bar-left">Add Section</span>
@@ -315,10 +317,10 @@
 			<div class="column full">
 			
 				<div class="gato-bar gato-bar-active-2">
-				<h2>Section/area is EDITABLE</h2>
+				<h2>Section or content area is EDITABLE</h2>
 					<p class="gato-bar-edit">
-						<span class="gato-bar-left">Edit Section</span>
-						<span class="gato-bar-right"><i class="fa fa-arrows"></i><i class="fa fa-pencil"></i></i></span>
+						<span class="gato-bar-left">Section</span>
+						<span class="gato-bar-right"><i class="fa fa-arrows"></i><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></span>
 					</p>
 				
 				</div>
@@ -329,8 +331,8 @@
 				<div class="gato-bar gato-bar-active-2">
 				
 					<p class="gato-bar-edit constrain-width">
-						<span class="gato-bar-left">Edit Content</span>
-						<span class="gato-bar-right"><i class="fa fa-arrows"></i><i class="fa fa-pencil"></i></i></span>
+						<span class="gato-bar-left">Content</span>
+						<span class="gato-bar-right"><i class="fa fa-arrows"></i><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></span>
 					</p>
 				
 				</div>
@@ -344,11 +346,11 @@
 			
 				<div class="gato-bar gato-bar-active">
 				
-					<h2>Section/area is ACTIVE</h2>
+					<h2>Section or content area is ACTIVE</h2>
 				
 					<p class="gato-bar-edit">
-						<span class="gato-bar-left">Edit Section</span>
-						<span class="gato-bar-right"><i class="fa fa-plus"></i></span>
+						<span class="gato-bar-left">Section</span>
+						<span class="gato-bar-right"><i class="fa fa-arrows"></i><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></span>
 					</p>
 				
 				</div>
@@ -359,8 +361,8 @@
 				<div class="gato-bar gato-bar-active">
 				
 					<p class="gato-bar-edit constrain-width">
-						<span class="gato-bar-left">Edit Content</span>
-						<span class="gato-bar-right"><i class="fa fa-arrows"></i><i class="fa fa-pencil"></i></i></span>
+						<span class="gato-bar-left">Content</span>
+						<span class="gato-bar-right"><i class="fa fa-arrows"></i><i class="fa fa-pencil"></i><i class="fa fa-trash"></i></span>
 					</p>
 				
 				</div>
