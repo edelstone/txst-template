@@ -1,0 +1,18 @@
+/*
+Texas State University Style Guide
+Author: Michael Edelstone
+edelstone@txstate.edu or michael.edelstone@gmail.com
+*/
+
+body {font-family: 'Univers W01', Helvetica, Calibri, Arial, sans-serif;}
+::-moz-selection{background: #E8E3DB; text-shadow: none;}
+::selection{background: #E8E3DB; text-shadow: none;}
+.sg-font1, .sg-logo, .sg-about p, .sg-color-value {font-weight: 100; font-family: 'Univers W01', Helvetica, Calibri, Arial, sans-serif;}
+.sg-font2, .sg-logo em, .sg-nav-toggle, .sg-h1, .sg-h2, .sg-h3, .sg-color-name, .sg-font-list dt {font-weight: 700; font-family: 'Univers W01', Helvetica, Calibri, Arial, sans-serif;}
+.sg-header {background: #6a5638;}
+.sg-sidebar {background: #363534;}
+.sg-nav-group a:hover {background: #262524; border-left: 2px solid #000;}
+a {padding: 1px 3px; margin: -1px -3px; color: #005481; text-decoration: underline;}
+a:hover {background-color: #e8e3db;}
+.sg-nav-toggle {background-color: #6a5638; border: 2px solid #fff; font-weight: 100;}
+.sg-nav-toggle:hover {border-color: #FFFFFF; cursor: pointer;}
