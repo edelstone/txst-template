@@ -10,9 +10,10 @@ This is the source code for the 2016 update to the front end of the Texas State 
 - HTML/CSS color and text solutions
 
 **Live examples:**
-- [University Marketing](http://umarketing.txstate.edu)
-- [Common Experience](http://www.txstate.edu/commonexperience)
-- [Meadows Center for Water and the Environment](http://meadowscenter.txstate.edu)
-- [Housing and Residential Life](http://reslife.txstate.edu)
-- [Department of Biology](http://bio.txstate.edu)
-- [Human Resources](http://www.hr.txstate.edu/performance-management.html)
+- [University Marketing](https://umarketing.txstate.edu)
+- [Newsroom](https://news.txstate.edu/)
+- [Common Experience](https://txstate.edu/commonexperience)
+- [Meadows Center for Water and the Environment](https://meadowscenter.txstate.edu)
+- [Housing and Residential Life](https://reslife.txstate.edu)
+- [Department of Biology](https://bio.txstate.edu)
+- [Human Resources](https://hr.txstate.edu/performance-management.html)
